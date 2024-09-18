@@ -1,3 +1,12 @@
 [submodule "sitefolder/themes/beautifulhugo"]
 	path = sitefolder/themes/beautifulhugo
 	url = https://github.com/halogenica/beautifulhugo.git
+[submodule "sitefolder/themes/paper"]
+	path = sitefolder/themes/paper
+	url = https://github.com/nanxiaobei/hugo-paper
+[submodule "sitefolder/themes/mini"]
+	path = sitefolder/themes/mini
+	url = https://github.com/nodejh/hugo-theme-mini.git
+[submodule "sitefolder/themes/hugo-code"]
+	path = sitefolder/themes/hugo-code
+	url = https://github.com/luizdepra/hugo-coder.git
