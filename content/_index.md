@@ -1,5 +1,5 @@
 ---
-title: "Welcome"
+title: "Sudeepthi's Site"
 date: 2024-11-12
 draft: false
 ---
@@ -8,9 +8,4 @@ draft: false
 
 I'm a software developer and current MS CS student at Indiana University Bloomington. Here you can find more information about my projects and resume.
 
-- [Download my Resume](./Sudeepthi_CV_2024_Q3.pdf)
-
-## Projects
-
-- [Project 1](./projects/project-1)
-- [Project 2](./projects/project-2)
+[Download my Resume](./Sudeepthi_CV_2024_Q3.pdf)
