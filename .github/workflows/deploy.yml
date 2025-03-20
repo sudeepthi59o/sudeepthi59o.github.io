@@ -25,6 +25,11 @@ jobs:
         run: |
           hugo --minify  # Generate static files
           ls -la public/  # Verify output
+      
+      - name: Set Git Identity
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
 
       - name: Ensure gh-pages Branch Exists
         run: |
