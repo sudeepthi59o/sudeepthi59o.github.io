@@ -52,8 +52,8 @@ jobs:
           git rm -rf .  # Clear the branch
 
           # Ensure public folder exists before copying
-          if [ -d "$GITHUB_WORKSPACE/public" ]; then
-            cp -R $GITHUB_WORKSPACE/public/* .  # Copy new files
+          if [ -d "public" ]; then
+            cp -R public/* .  # Copy new files from public
           else
             echo "Error: public/ directory does not exist!"
             exit 1  # Stop the workflow
