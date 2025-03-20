@@ -36,6 +36,15 @@ jobs:
         run: |
           git worktree add public gh-pages || echo "Worktree for gh-pages already exists"
 
+      - name: Debug Directory Structure
+        run: |
+          echo "Current working directory:"
+          pwd
+          echo "Contents of the parent directory:"
+          ls -la ..
+          echo "Contents of the public directory:"
+          ls -la public  # List contents of the public directory
+
       - name: Deploy to GitHub Pages
         run: |
           cd public  # Change directory to the gh-pages worktree
@@ -43,9 +52,10 @@ jobs:
 
           # Ensure public folder exists before copying
           if [ -d "../public" ]; then
+            echo "Copying files from ../public to the gh-pages branch..."
             cp -R ../public/* .  # Copy new files from the main public directory
           else
-            echo "Error: public/ directory does not exist!"
+            echo "Error: ../public directory does not exist!"
             exit 1  # Stop the workflow
           fi
 
