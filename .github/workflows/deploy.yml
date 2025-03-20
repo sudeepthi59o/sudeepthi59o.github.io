@@ -31,17 +31,17 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
+      
+      - name: Prepare Temporary Directory
+        run: |
+            mkdir temp_public  # Create a temporary directory
+            cp -R public/* temp_public/  # Copy files to the temporary directory
+            echo "Contents of temporary directory:"
+            ls -la temp_public/  # List contents for debugging
 
       - name: Create gh-pages Worktree
         run: |
           git worktree add public gh-pages || echo "Worktree for gh-pages already exists"
-
-      - name: Prepare Temporary Directory
-        run: |
-          mkdir temp_public  # Create a temporary directory
-          cp -R public/* temp_public/  # Copy files to the temporary directory
-          echo "Contents of temporary directory:"
-          ls -la temp_public/  # List contents for debugging
 
       - name: Deploy to GitHub Pages
         run: |
