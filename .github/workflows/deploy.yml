@@ -50,7 +50,7 @@ jobs:
           git checkout gh-pages  # Ensure you are on the gh-pages branch
           git rm -rf .  # Clear the branch
           cp -R public/* .  # Copy new files from public
-          git add .
+          git add .  # Stage all changes
           git commit -m "Deploy updated site" || echo "No changes to commit"
           git push origin gh-pages  # Push the changes
 
