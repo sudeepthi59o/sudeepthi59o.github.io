@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sam Robbins&#39; Website on Sudeepthi Rebbalapalli</title>
+    <link>https://sudeepthi59o.github.io/</link>
+    <description>Recent content in Sam Robbins&#39; Website on Sudeepthi Rebbalapalli</description>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 19 Jun 2020 23:00:00 +0000</lastBuildDate>
+    <atom:link href="https://sudeepthi59o.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo Portfolio Website</title>
+      <link>https://sudeepthi59o.github.io/portfolio/hugo-portfolio-website/</link>
+      <pubDate>Fri, 19 Jun 2020 23:00:00 +0000</pubDate>
+      <guid>https://sudeepthi59o.github.io/portfolio/hugo-portfolio-website/</guid>
+      <description>&lt;p&gt;I created my portfolio website using Hugo and UIKit, it serves as an online resume containing all my work.&lt;/p&gt;&#xA;&lt;p&gt;This has been created as a theme so that others can use and adapt it.&lt;/p&gt;&#xA;&lt;h2 id=&#34;sections&#34;&gt;Sections&lt;/h2&gt;&#xA;&lt;h3 id=&#34;homepage&#34;&gt;Homepage&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1591885280/screenshot_aexm2m.png&#34; alt=&#34;Homepage Screenshot&#34; title=&#34;Homepage Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The homepage provides the basic information about you, including links to social media, skills you have, things you&amp;rsquo;ve done and your education. This page makes good use of UIKit grid and cards for organising all the information and ensuring it is responsive to work on mobile devices. The hackathon section of this page uses code from &lt;a href=&#34;https://github.com/web-tiki/responsive-grid-of-hexagons&#34; title=&#34;https://github.com/web-tiki/responsive-grid-of-hexagons&#34;&gt;https://github.com/web-tiki/responsive-grid-of-hexagons&lt;/a&gt; to ensure that the hexagons tile correctly.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Team project without GitHub</title>
+      <link>https://sudeepthi59o.github.io/portfolio/example-team-no-github/</link>
+      <pubDate>Fri, 19 Jun 2020 23:00:00 +0000</pubDate>
+      <guid>https://sudeepthi59o.github.io/portfolio/example-team-no-github/</guid>
+      <description>&lt;p&gt;This is some content&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Making a new Website</title>
+      <link>https://sudeepthi59o.github.io/blog/first-blog/</link>
+      <pubDate>Tue, 31 Dec 2019 12:14:34 +0600</pubDate>
+      <guid>https://sudeepthi59o.github.io/blog/first-blog/</guid>
+      <description>&lt;p&gt;For a long time this website has had a couple of links to contact me, but those days are over.&lt;/p&gt;&#xA;&lt;p&gt;Now I have a brand new Hugo website with a custom written theme complete with&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;A homepage with more social links, and description of my skills&lt;/li&gt;&#xA;&lt;li&gt;An about page with description of who I am&lt;/li&gt;&#xA;&lt;li&gt;A portfolio page to showcase all my projects&lt;/li&gt;&#xA;&lt;li&gt;A blog&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;why-hugo&#34;&gt;Why Hugo?&lt;/h3&gt;&#xA;&lt;p&gt;The first question is why a &lt;em&gt;site builder&lt;/em&gt;? I&amp;rsquo;m competent at web development, why not just write it all myself? The markdown processing makes it much easier to just write words, not having to think about the formatting, and if I&amp;rsquo;m going to blog often, then I&amp;rsquo;ll need that.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
