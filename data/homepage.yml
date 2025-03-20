@@ -36,7 +36,7 @@ hackathons:
       image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793405/stickers/Hack_Cambridge_101_ozoq5d.png
       url: none
 certifications:
-  enable: false
+  enable: true
   item:
     - title: Microsoft Azure Fundamentals
       image: https://res.cloudinary.com/samrobbins/image/upload/v1592501459/microsoft-certified-fundamentals-badge_cpcgyn.svg
@@ -46,7 +46,7 @@ education:
   item:
     - title: MSc Computer Science
       year: 2023 - Present
-      academy: Indiana University Bloomington
+      academy: Indiana University Bloomington 
       image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793268/logos/logos_Durham_fc2sae.svg
 leadership:
   enable: false
