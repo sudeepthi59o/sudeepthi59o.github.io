@@ -25,7 +25,7 @@ jobs:
         run: |
           hugo --minify  # Generate static files
           ls -la public/  # Verify output
-      
+
       - name: Set Git Identity
         run: |
           git config --global user.name "github-actions"
@@ -40,16 +40,19 @@ jobs:
             echo "# Placeholder for gh-pages" > README.md
             git add README.md
             git commit -m "Initial gh-pages branch"
-            git push origin gh-pages
+            git push origin gh-pages --force  # Force push to create the branch
+          else
+            git checkout gh-pages  # Checkout if it exists
           fi
 
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public  # Deploy the 'public' folder 2
-          publish_branch: gh-pages
-          force_orphan: true  # Clears gh-pages to avoid stale files
+        run: |
+          git checkout gh-pages  # Ensure you are on the gh-pages branch
+          git rm -rf .  # Clear the branch
+          cp -R public/* .  # Copy new files from public
+          git add .
+          git commit -m "Deploy updated site" || echo "No changes to commit"
+          git push origin gh-pages  # Push the changes
 
       - name: Debug Git State (If Deployment Fails)
         if: failure()
