@@ -26,6 +26,18 @@ jobs:
           hugo --minify  # Generate static files
           ls -la public/  # Verify output
 
+      - name: Ensure gh-pages Branch Exists
+        run: |
+          git fetch origin gh-pages || echo "gh-pages branch does not exist yet"
+          if ! git show-ref --quiet refs/heads/gh-pages; then
+            git checkout --orphan gh-pages
+            git rm -rf .
+            echo "# Placeholder for gh-pages" > README.md
+            git add README.md
+            git commit -m "Initial gh-pages branch"
+            git push origin gh-pages
+          fi
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
@@ -33,3 +45,10 @@ jobs:
           publish_dir: ./public  # Deploy the 'public' folder
           publish_branch: gh-pages
           force_orphan: true  # Clears gh-pages to avoid stale files
+
+      - name: Debug Git State (If Deployment Fails)
+        if: failure()
+        run: |
+          git status
+          git branch -a
+          git log --oneline -5
