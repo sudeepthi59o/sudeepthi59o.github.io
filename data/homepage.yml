@@ -49,7 +49,7 @@ education:
       academy: Durham University
       image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793268/logos/logos_Durham_fc2sae.svg
 leadership:
-  enable: true
+  enable: false
   item:
     - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793280/logos/logos_yl_qozav6.webp
       title: Young Leader
