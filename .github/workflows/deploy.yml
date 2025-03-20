@@ -24,12 +24,21 @@ jobs:
       - name: Build Site
         run: |
           hugo --minify  # Generate static files
+          echo "Checking if 'public/' directory exists after Hugo build..."
+          ls -la public/ || echo "Error: 'public/' directory is missing!"
           ls -la public/  # Verify output
 
       - name: Set Git Identity
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
+
+      - name: Check Working Directory
+        run: |
+          echo "Current directory:"
+          pwd
+          echo "Contents of workspace:"
+          ls -la
 
       - name: Ensure gh-pages Branch Exists
         run: |
@@ -47,20 +56,26 @@ jobs:
 
       - name: Deploy to GitHub Pages
         run: |
-              git checkout gh-pages  # Ensure you are on the gh-pages branch
-              git rm -rf .  # Clear the branch
-  
-              # Ensure public folder exists before copying
-              if [ -d "$GITHUB_WORKSPACE/public" ]; then
-                cp -R $GITHUB_WORKSPACE/public/* .  # Copy new files from public
-              else
-                echo "Error: public/ directory does not exist!"
-                exit 1  # Stop the workflow
-              fi
-  
-              git add .  # Stage all changes
-              git commit -m "Deploy updated site" || echo "No changes to commit"
-              git push origin gh-pages  # Push the changes
+          git checkout gh-pages  # Ensure you are on the gh-pages branch
+          git rm -rf .  # Clear the branch
+
+          # Debug: Show contents before copying
+          echo "Contents before copying:"
+          ls -la
+
+          # Ensure public folder exists before copying
+          if [ -d "$GITHUB_WORKSPACE/public" ]; then
+            cp -R $GITHUB_WORKSPACE/public/* $GITHUB_WORKSPACE/gh-pages/  # Copy new files
+          else
+            echo "Error: public/ directory does not exist!"
+            exit 1  # Stop the workflow
+          fi
+
+          cd $GITHUB_WORKSPACE/gh-pages
+          git add .  # Stage all changes
+          git commit -m "Deploy updated site" || echo "No changes to commit"
+          git push origin gh-pages  # Push the changes
+
 
       - name: Debug Git State (If Deployment Fails)
         if: failure()
