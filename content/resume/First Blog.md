@@ -1,11 +1,9 @@
 ---
-title: "Making a new Website"
+title: "My latest resume below!"
 date: 2019-12-31T12:14:34+06:00
 description: "My Resume"
-author: "Sam Robbins"
+author: "Sudeepthi Rebbalapalli"
 type: "post"
 ---
 
-View my resume below!
-
-[Download Resume](Sudeepthi_2025_Final.pdf)
+[Download Resume](/Sudeepthi_2025_Final.pdf)
