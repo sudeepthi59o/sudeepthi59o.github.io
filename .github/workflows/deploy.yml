@@ -63,12 +63,20 @@ jobs:
           git add .  # Stage all changes
           echo "Checking staged files in gh-pages:"
           git status  # Show status of the working tree
-          git commit -m "Deploy updated site" || echo "No changes to commit"
+          
+          # Commit to gh-pages and push
+          if git commit -m "Deploy updated site"; then
+            echo "Changes committed successfully."
+          else
+            echo "No changes to commit."
+          fi
+
           git push origin gh-pages  # Push the changes
 
       - name: Debug Git State (If Deployment Fails)
         if: failure()
         run: |
+          echo "Debugging failed deployment..."
           git status
           git branch -a
           git log --oneline -5
