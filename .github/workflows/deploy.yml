@@ -41,7 +41,13 @@ jobs:
 
       - name: Create gh-pages Worktree
         run: |
-          git worktree add public gh-pages || echo "Worktree for gh-pages already exists"
+              if [ -d "public" ]; then
+                echo "Removing existing 'public' worktree..."
+                git worktree remove public --force
+              fi
+              echo "Adding new worktree for gh-pages..."
+              git worktree add -B gh-pages public origin/gh-pages
+          
 
       - name: Deploy to GitHub Pages
         run: |
