@@ -51,8 +51,8 @@ theme = "hugo-developer-portfolio"
 [params]
 home = "Home"
 # Meta data
-description = "The website of Sam Robbins, 2nd Year Computer Science Student at Durham University"
-author = "Sam Robbins"
+description = "The website of Sudeepthi Rebbalapalli, 2nd Year Masters Computer Science Student at Indiana University"
+author = "Sudeepthi Rebbalapalli"
 
 
   [params.contact]
@@ -60,8 +60,8 @@ author = "Sam Robbins"
   formAction = "" #contact form works with formspree.io
 
   [params.footer]
-  email = "samrobbinsgb@gmail.com"
-  address = "Durham, UK"
+  email = "sudeepthi59o@gmail.com"
+  address = "Bloomington, IN, USA"
   googlemaps = "https://www.google.com/maps/embed/v1/place?q=place_id:ChIJwbHYJaUqfEgRK0Ui9dVGimc&key=AIzaSyAE_4rVAKux_DSPcb_OdSRDaovtPOSk_3U"
 
 [markup]
