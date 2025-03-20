@@ -1,17 +1,17 @@
 ---
 banner:
-  title: Hi! I’m Sam
+  title: Hi! I’m Sudeepthi
 social:
   twitter: ""
-  linkedin: sam-robbins-gb
-  github: samrobbins85
+  linkedin: rsudeepthi
+  github: sudeepthi59o
   gitlab: ""
   facebook: ""
   instagram: ""
-  gmail: samrobbinsgb
+  gmail: sudeepthi59o
 about:
   enable: true
-  content: 2nd Year Durham Computer Science Student
+  content: 2nd Year Computer Science Master's Student at Indiana Bloomington
   button:
     btnText: Find out more
     URL: "/about"
@@ -29,14 +29,14 @@ experience:
       company: Google
       duration: November 2019
 hackathons:
-  enable: true
+  enable: false
   item:
     - title: Hack Cambridge 2019
       description: Climate change simulator
       image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793405/stickers/Hack_Cambridge_101_ozoq5d.png
       url: none
 certifications:
-  enable: true
+  enable: false
   item:
     - title: Microsoft Azure Fundamentals
       image: https://res.cloudinary.com/samrobbins/image/upload/v1592501459/microsoft-certified-fundamentals-badge_cpcgyn.svg
