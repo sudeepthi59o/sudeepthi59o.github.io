@@ -28,7 +28,6 @@ experience:
       title: Associate Consultant
       company: Capgemini
       duration: June 2021 - July 2023
-  item:
     - logo: https://ik.imagekit.io/ys4gkaixy/CAP.PA.svg?updatedAt=1744334791043
       title: Big Data Intern
       company: Capgemini
@@ -53,7 +52,6 @@ education:
       year: August 2023 - May 2025
       academy: Indiana University Bloomington 
       image: https://ik.imagekit.io/ys4gkaixy/Indiana_Hoosiers_logo.svg?updatedAt=1744334076533
-  item:
     - title: Bachelor of Technology in Computer Science Engineering
       year: July 2017 - Sep 2021
       academy: Vellore Institute of Technology
