@@ -9,4 +9,3 @@ images:
 - home-cover.png
 ---
 
-[Download Resume](Sudeepthi_2025_Final.pdf){:download}

@@ -6,4 +6,4 @@ author: "Sudeepthi Rebbalapalli"
 type: "post"
 ---
 
-[Download Resume](/Sudeepthi_2025_Final.pdf)
+[Download Resume](/Sudeepthi_2025_Q2.pdf)

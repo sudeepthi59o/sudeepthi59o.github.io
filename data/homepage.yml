@@ -24,8 +24,8 @@ skill:
 experience:
   enable: true
   item:
-    - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793271/logos/logos_google_id6v9a.svg
-      title: init.g
+    - logo: https://ik.imagekit.io/ys4gkaixy/Capgemini_201x_logo.svg?updatedAt=1744334131599
+      title: Associate Consultant
       company: Capgemini
       duration: November 2019
 hackathons:
@@ -45,10 +45,9 @@ education:
   enable: true
   item:
     - title: MSc Computer Science
-      year: 2023 - Present
+      year: August 2023 - May 2025
       academy: Indiana University Bloomington 
-      image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793268/logos/logos_Durham_fc2sae.svg
-leadership:
+      image: https://ik.imagekit.io/ys4gkaixy/Indiana_Hoosiers_logo.svg?updatedAt=1744334076533
   enable: false
   item:
     - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793280/logos/logos_yl_qozav6.webp
