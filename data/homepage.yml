@@ -27,7 +27,12 @@ experience:
     - logo: https://ik.imagekit.io/ys4gkaixy/CAP.PA.svg?updatedAt=1744334791043
       title: Associate Consultant
       company: Capgemini
-      duration: November 2019
+      duration: June 2021 - July 2023
+  item:
+    - logo: https://ik.imagekit.io/ys4gkaixy/CAP.PA.svg?updatedAt=1744334791043
+      title: Big Data Intern
+      company: Capgemini
+      duration: Jan 2021 - May 2021
 hackathons:
   enable: false
   item:
@@ -36,7 +41,7 @@ hackathons:
       image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793405/stickers/Hack_Cambridge_101_ozoq5d.png
       url: none
 certifications:
-  enable: true
+  enable: false
   item:
     - title: Microsoft Azure Fundamentals
       image: https://res.cloudinary.com/samrobbins/image/upload/v1592501459/microsoft-certified-fundamentals-badge_cpcgyn.svg
@@ -44,10 +49,15 @@ certifications:
 education:
   enable: true
   item:
-    - title: MSc Computer Science
+    - title: Master of Science in Computer Science
       year: August 2023 - May 2025
       academy: Indiana University Bloomington 
       image: https://ik.imagekit.io/ys4gkaixy/Indiana_Hoosiers_logo.svg?updatedAt=1744334076533
+  item:
+    - title: Bachelor of Technology in Computer Science Engineering
+      year: July 2017 - Sep 2021
+      academy: Vellore Institute of Technology
+      image: https://ik.imagekit.io/ys4gkaixy/VIT%20Logo.svg?updatedAt=1744335314471
 leadership:
   enable: false
   item:
