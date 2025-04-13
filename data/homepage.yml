@@ -37,31 +37,28 @@ skill:
       logo: https://ik.imagekit.io/ys4gkaixy/Skills/java-14.svg?updatedAt=1744511053098
       description: Details coming soon, contact me if you want to know more
     - title: SQL
-      logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
+      logo: https://ik.imagekit.io/ys4gkaixy/Skills/sql-database-generic-svgrepo-com.svg?updatedAt=1744515840267
       description: Details coming soon, contact me if you want to know more
-    - title: Shell Scripting
-      logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
+    - title: Shell Scripts
+      logo: https://ik.imagekit.io/ys4gkaixy/Skills/bash-2.svg?updatedAt=1744515840208
       description: Details coming soon, contact me if you want to know more
     - title: Hadoop
-      logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
+      logo: https://ik.imagekit.io/ys4gkaixy/Skills/Hadoop_logo.svg?updatedAt=1744515841004
       description: Details coming soon, contact me if you want to know more
     - title: Hive
-      logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
+      logo: https://ik.imagekit.io/ys4gkaixy/Skills/Apache_Hive_logo.svg?updatedAt=1744515840837
       description: Details coming soon, contact me if you want to know more
     - title: Sqoop
-      logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
+      logo: https://ik.imagekit.io/ys4gkaixy/Skills/Apache_Sqoop_logo.svg?updatedAt=1744516638076
       description: Details coming soon, contact me if you want to know more
     - title: Spark
-      logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
+      logo: https://ik.imagekit.io/ys4gkaixy/Skills/Apache_Spark_logo.svg?updatedAt=1744515840188
       description: Details coming soon, contact me if you want to know more
     - title: Linux
-      logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
+      logo: https://ik.imagekit.io/ys4gkaixy/Skills/Tux.svg?updatedAt=1744515840674
       description: Details coming soon, contact me if you want to know more
     - title: Talend
-      logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
-      description: Details coming soon, contact me if you want to know more
-    - title: Bash
-      logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
+      logo: https://ik.imagekit.io/ys4gkaixy/Skills/Talend_logo.svg?updatedAt=1744515840184
       description: Details coming soon, contact me if you want to know more
     - title: Machine Learning
       logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
@@ -73,31 +70,37 @@ skill:
       logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
       description: Details coming soon, contact me if you want to know more
     - title: Amazon Web Services
-      logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
+      logo: https://ik.imagekit.io/ys4gkaixy/Skills/Amazon_Web_Services_Logo.svg?updatedAt=1744515846258
       description: Details coming soon, contact me if you want to know more
     - title: Google Cloud Platform
-      logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
+      logo: https://ik.imagekit.io/ys4gkaixy/Skills/google-cloud-svgrepo-com.svg?updatedAt=1744515840191
       description: Details coming soon, contact me if you want to know more
     - title: Tableau
-      logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
+      logo: https://ik.imagekit.io/ys4gkaixy/Skills/tableau-svgrepo-com.svg?updatedAt=1744515840720
       description: Details coming soon, contact me if you want to know more
     - title: Docker
-      logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
+      logo: https://ik.imagekit.io/ys4gkaixy/Skills/docker-svgrepo-com.svg?updatedAt=1744516637779
       description: Details coming soon, contact me if you want to know more
     - title: Git
-      logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
+      logo: https://ik.imagekit.io/ys4gkaixy/Skills/Git_icon.svg?updatedAt=1744516639108
       description: Details coming soon, contact me if you want to know more
-    - title: Android Studio/ Kotlin
-      logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
+    - title: Android Studio
+      logo: https://ik.imagekit.io/ys4gkaixy/Skills/Android_Studio_Logo_2024.svg?updatedAt=1744516638440
       description: Details coming soon, contact me if you want to know more
-    - title: Xcode/ Swift
-      logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
+    - title: Kotlin
+      logo: https://ik.imagekit.io/ys4gkaixy/Skills/Kotlin_Icon.svg?updatedAt=1744516638766
+      description: Details coming soon, contact me if you want to know more
+    - title: Xcode
+      logo: https://ik.imagekit.io/ys4gkaixy/Skills/Xcode.svg?updatedAt=1744516638307
+      description: Details coming soon, contact me if you want to know more
+    - title: Swift
+      logo: https://ik.imagekit.io/ys4gkaixy/Skills/swift-svgrepo-com.svg?updatedAt=1744516638040
       description: Details coming soon, contact me if you want to know more
     - title: HTML
-      logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
+      logo: https://ik.imagekit.io/ys4gkaixy/Skills/HTML5_Badge.svg?updatedAt=1744516638340
       description: Details coming soon, contact me if you want to know more
     - title: CSS
-      logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
+      logo: https://ik.imagekit.io/ys4gkaixy/Skills/CSS3_logo.svg?updatedAt=1744516637979
       description: Details coming soon, contact me if you want to know more
     - title: Cybersecurity
       logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
