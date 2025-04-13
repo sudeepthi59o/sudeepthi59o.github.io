@@ -3,3 +3,7 @@ filter:
     value: web-dev
   - label: AI
     value: ai
+  - label: Cloud
+    value: cloud
+  - label: Networks
+    value: networks
