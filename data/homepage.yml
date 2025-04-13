@@ -11,13 +11,13 @@ social:
   gmail: sudeepthi59o
 about:
   enable: true
-  button:
-    btnText: Find out more about me!
-    URL: "/about"
   content: Graduate student in Computer Science at Indiana University Bloomington, with 2+ years of experience in software development, big data and AI/ML.
-  button:
-    btnText: Take a look at some of my projects
-    URL: "/portfolio"
+  buttons:
+    - btnText: Find out more about me
+      URL: "/about"
+    - btnText: Take a look at some of my projects
+      URL: "/portfolio"
+
 skill:
   enable: true
   item:
