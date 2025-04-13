@@ -1,15 +1,15 @@
 +++
 categories = ["ai"]
 coders = ["surebbal","prvs"]
-<!-- date = 2025-04-12T23:00:00Z -->
+date = 2025-04-12T23:00:00Z
 description = "AI-powered automation in the classic Acquire board game"
 image = "https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1591793276/logos/logos_hugo_h2xbne.svg"
 title = "Automated Acquire Game"
 type = "post"
 [[tech]]
-logo = "https://res.cloudinary.com/samrobbins/image/upload/v1591793276/logos/logos_hugo_h2xbne.svg"
-name = "Hugo"
-url = "https://gohugo.io/"
+logo = "https://ik.imagekit.io/ys4gkaixy/Skills/Python_logo_01.svg?updatedAt=1744511052787"
+name = "Python"
+url = "https://www.python.org/"
 +++
 
 ## Project Overview
@@ -34,4 +34,4 @@ The project brings an AI-driven dimension to traditional board games, making it 
 
 - This project is part of coursework and hosted in a private repository. Code available upon request.
 
-<!-- ![Game Screenshot](https://path-to-your-screenshot.png) -->
+![Game Screenshot](https://path-to-your-screenshot.png)
