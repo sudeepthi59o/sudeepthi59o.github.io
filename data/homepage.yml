@@ -39,7 +39,7 @@ skill:
     - title: SQL
       logo: https://ik.imagekit.io/ys4gkaixy/Skills/sql-database-generic-svgrepo-com.svg?updatedAt=1744515840267
       description: Details coming soon, contact me if you want to know more
-    - title: Shell Scripts
+    - title: Shell Scripting
       logo: https://ik.imagekit.io/ys4gkaixy/Skills/bash-2.svg?updatedAt=1744515840208
       description: Details coming soon, contact me if you want to know more
     - title: Hadoop
@@ -61,13 +61,10 @@ skill:
       logo: https://ik.imagekit.io/ys4gkaixy/Skills/Talend_logo.svg?updatedAt=1744515840184
       description: Details coming soon, contact me if you want to know more
     - title: Machine Learning
-      logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
+      logo: https://ik.imagekit.io/ys4gkaixy/Skills/machine-learning-06-svgrepo-com.svg?updatedAt=1744517329830
       description: Details coming soon, contact me if you want to know more
     - title: Artificial Intelligence
-      logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
-      description: Details coming soon, contact me if you want to know more
-    - title: Deep Learning
-      logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
+      logo: https://ik.imagekit.io/ys4gkaixy/Skills/artificial-intelligence-ai-icon.svg?updatedAt=1744517766812
       description: Details coming soon, contact me if you want to know more
     - title: Amazon Web Services
       logo: https://ik.imagekit.io/ys4gkaixy/Skills/Amazon_Web_Services_Logo.svg?updatedAt=1744515846258
@@ -103,10 +100,10 @@ skill:
       logo: https://ik.imagekit.io/ys4gkaixy/Skills/CSS3_logo.svg?updatedAt=1744516637979
       description: Details coming soon, contact me if you want to know more
     - title: Cybersecurity
-      logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
+      logo: https://ik.imagekit.io/ys4gkaixy/Skills/cybersecurity-two-tone-svgrepo-com.svg?updatedAt=1744517329796
       description: Details coming soon, contact me if you want to know more
     - title: Testing
-      logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
+      logo: https://ik.imagekit.io/ys4gkaixy/Skills/bug-svgrepo-com.svg?updatedAt=1744517766340
       description: Details coming soon, contact me if you want to know more
 
 
