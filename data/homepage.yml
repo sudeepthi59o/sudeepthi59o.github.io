@@ -12,12 +12,12 @@ social:
 about:
   enable: true
   content: Graduate student in Computer Science at Indiana University Bloomington, with 2+ years of experience in software development, big data and AI/ML.
-  buttons:
-    - btnText: Find out more about me
-      URL: "/about"
-    - btnText: Take a look at some of my projects
-      URL: "/portfolio"
-
+  button:
+    btnText: Find out more about me
+    URL: "/about"
+  button:
+    btnText: Take a look at some of my projects
+    URL: "/portfolio"
 skill:
   enable: true
   item:
