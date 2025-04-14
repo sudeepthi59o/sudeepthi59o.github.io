@@ -7,9 +7,25 @@ image = "https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1591793276/l
 title = "Early Onset Parkinson's Detection from Speech Data"
 type = "post"
 [[tech]]
-logo = "https://res.cloudinary.com/samrobbins/image/upload/v1591793276/logos/logos_hugo_h2xbne.svg"
-name = "Hugo"
-url = "https://gohugo.io/"
+logo = "https://ik.imagekit.io/ys4gkaixy/Skills/Python_logo_01.svg?updatedAt=1744511052787"
+name = "Python"
+url = "https://www.python.org/"
+[[tech]]
+name = "TensorFlow"
+url = "https://www.tensorflow.org/"
+logo = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
+[[tech]]
+name = "Librosa"
+url = "https://librosa.org/"
+logo = "https://ik.imagekit.io/ys4gkaixy/With%20Name%20logos/librosa-logo.svg?updatedAt=1744660100000"
+[[tech]]
+name = "NeuroSpeech"
+url = "https://github.com/dbis-ilm/NeuroSpeech"
+logo = "https://ik.imagekit.io/ys4gkaixy/With%20Name%20logos/brain-audio-icon.svg?updatedAt=1744660200000"
+[[tech]]
+name = "CNN"
+url = "https://en.wikipedia.org/wiki/Convolutional_neural_network"
+logo = "https://ik.imagekit.io/ys4gkaixy/With%20Name%20logos/cnn-icon.svg?updatedAt=1744660300000"
 +++
 
 ### Overview
