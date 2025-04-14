@@ -14,18 +14,6 @@ url = "https://www.python.org/"
 name = "TensorFlow"
 url = "https://www.tensorflow.org/"
 logo = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
-[[tech]]
-name = "Librosa"
-url = "https://librosa.org/"
-logo = "https://ik.imagekit.io/ys4gkaixy/With%20Name%20logos/librosa-logo.svg?updatedAt=1744660100000"
-[[tech]]
-name = "NeuroSpeech"
-url = "https://github.com/dbis-ilm/NeuroSpeech"
-logo = "https://ik.imagekit.io/ys4gkaixy/With%20Name%20logos/brain-audio-icon.svg?updatedAt=1744660200000"
-[[tech]]
-name = "CNN"
-url = "https://en.wikipedia.org/wiki/Convolutional_neural_network"
-logo = "https://ik.imagekit.io/ys4gkaixy/With%20Name%20logos/cnn-icon.svg?updatedAt=1744660300000"
 +++
 
 ### Overview
