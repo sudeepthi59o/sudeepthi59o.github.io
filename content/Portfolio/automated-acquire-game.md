@@ -53,6 +53,6 @@ This project adds an AI-powered dimension to a classic strategy board game, maki
 
 > This project was completed as part of academic coursework and is hosted in a private repository and available upon request.  
 
-<img src='/images/acquire_demo.gif' title='Acquire Game Demo' width='50%' alt='Acquire Game Demo' />
+![Acquire Game Demo](/images/acquire_demo.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
