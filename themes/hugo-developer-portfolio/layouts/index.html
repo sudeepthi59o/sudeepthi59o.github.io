@@ -7,7 +7,7 @@
 {{ $index := resources.Get "css/index.css" | minify }}
 <link rel="stylesheet" href="{{ $index.Permalink | relURL}}">
 
-{{ $custom := resources.Get "css/custom.css" | minify | fingerprint }}
+{{ $custom := resources.Get "css/custom.css" | minify }}
 <link rel="stylesheet" href="{{ $custom.Permalink | relURL }}">
 
 <!--
@@ -20,6 +20,7 @@
 
  -->
 <section class="custom-hero">
+    <h1>TEST CUSTOM HERO</h1>
     {{ if .Site.Data.homepage.banner.image }}
     <div class="uk-container">
         <div class="uk-flex-center" uk-grid>
