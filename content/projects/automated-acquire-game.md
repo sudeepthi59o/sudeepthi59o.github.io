@@ -3,35 +3,60 @@ categories = ["ai"]
 coders = ["surebbal","prvs"]
 date = 2025-04-12T23:00:00Z
 description = "AI-powered automation in the classic Acquire board game"
-image = "https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1591793276/logos/logos_hugo_h2xbne.svg"
+image = "https://ik.imagekit.io/ys4gkaixy/economy-games-svgrepo-com.svg?updatedAt=1744655154207"
 title = "Automated Acquire Game"
 type = "post"
 [[tech]]
 logo = "https://ik.imagekit.io/ys4gkaixy/Skills/Python_logo_01.svg?updatedAt=1744511052787"
 name = "Python"
 url = "https://www.python.org/"
+[[tech]]
+name = "Pytest"
+url = "https://docs.pytest.org/"
+logo = "https://upload.wikimedia.org/wikipedia/commons/2/28/Pytest_logo.svg"
+[[tech]]
+name = "JSON"
+url = "https://www.json.org/"
+logo = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/json/json-original.svg"
+[[tech]]
+name = "JSON"
+url = "https://www.json.org/"
+[[tech]]
+name = "Game Trees"
+url = "https://en.wikipedia.org/wiki/Game_tree"
 +++
 
-## Project Overview
+The Automated Acquire Game project is a Python-based implementation of the classic board game [Acquire](https://en.wikipedia.org/wiki/Acquire), designed to simulate and automate gameplay. It includes intelligent decision-making algorithms to simulate player behavior and strategic gameplay. The project is modular, handling different aspects of the game such as gameplay flow, board state, and AI-driven player logic.
 
-The **Automated Acquire Game** project is a Python-based implementation of the classic board game *Acquire*, designed to simulate and automate gameplay. It includes intelligent decision-making algorithms to simulate player behavior and strategic gameplay. The project is divided into modules that handle different aspects of the game, including gameplay, board management, and player behavior.
+![Acquire board game](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Acquire_gameboard.JPG/640px-Acquire_gameboard.JPG)
 
-### Key Features:
-- **Automated Gameplay**: AI-driven simulation of gameplay, allowing the game to run autonomously without human input.
-- **Player Behavior Modeling**: Simulates human-like decision-making using game tree analysis.
-- **Board Management**: Automates the handling of tiles, hotel acquisitions, and game state.
-- **Game Tree Logic**: Evaluates possible moves and predicts the outcome of each action taken during gameplay.
+---
 
-### Impact:
-The project brings an AI-driven dimension to traditional board games, making it a great tool for showcasing AI, algorithms, and game theory. It allows users to explore how strategic decisions are made in a game setting, and could also be expanded with more complex AI for even deeper gameplay analysis.
+## Key Features
 
-### Technologies Used:
-- **Python**: Core language used for implementing game logic and AI.
-- **Object-Oriented Programming (OOP)**: Design pattern employed to organize the game into logical modules.
-- **Game Trees**: Used to model possible moves and strategies.
-- **AI Algorithms**: For decision-making and player behavior simulation.
+- **Automated Gameplay**: AI-driven simulation allows the game to play itself with no human input.
+- **Player Behavior Modeling**: Uses game-tree logic to simulate strategic decision-making.
+- **Board Management**: Automates tile placement, hotel formation, mergers, and score calculation.
+- **Game Tree Logic**: Evaluates possible moves and predicts outcomes for better strategy.
+
+---
+
+## Impact
+
+This project adds an AI-powered dimension to a classic strategy board game, making it a strong showcase for algorithms, decision trees, and game theory. It offers a foundation for developing more complex game-playing AI or simulating various player types.
+
+---
+
+## Technologies Used
+
+- **Python**: Core language for game logic and AI.
+- **Object-Oriented Programming (OOP)**: Used for modular, maintainable design.
+- **Game Trees**: Models all possible actions and outcomes.
+- **AI Algorithms**: Simulate strategic behavior and decision-making.
+- **Pytest + JSON**: For high-coverage unit tests and scenario validation.
+
+> This project was completed as part of academic coursework and is hosted in a private repository and available upon request.  
 
 
-- This project is part of coursework and hosted in a private repository. Code available upon request.
-
-![Game Screenshot](https://path-to-your-screenshot.png)
+<img src='/images/acquire_demo.gif' title='Acquire Game Demo' width='50%' alt='Acquire Game Demo' />
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
