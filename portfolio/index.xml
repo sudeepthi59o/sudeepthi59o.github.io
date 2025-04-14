@@ -1,26 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Portfolio on Sudeepthi Rebbalapalli</title>
-    <link>https://sudeepthi59o.github.io/portfolio/</link>
-    <description>Recent content in Portfolio on Sudeepthi Rebbalapalli</description>
-    <generator>Hugo</generator>
-    <language>en-gb</language>
-    <lastBuildDate>Fri, 19 Jun 2020 23:00:00 +0000</lastBuildDate>
-    <atom:link href="https://sudeepthi59o.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Hugo Portfolio Website</title>
-      <link>https://sudeepthi59o.github.io/portfolio/hugo-portfolio-website/</link>
-      <pubDate>Fri, 19 Jun 2020 23:00:00 +0000</pubDate>
-      <guid>https://sudeepthi59o.github.io/portfolio/hugo-portfolio-website/</guid>
-      <description>&lt;p&gt;I created my portfolio website using Hugo and UIKit, it serves as an online resume containing all my work.&lt;/p&gt;&#xA;&lt;p&gt;This has been created as a theme so that others can use and adapt it.&lt;/p&gt;&#xA;&lt;h2 id=&#34;sections&#34;&gt;Sections&lt;/h2&gt;&#xA;&lt;h3 id=&#34;homepage&#34;&gt;Homepage&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1591885280/screenshot_aexm2m.png&#34; alt=&#34;Homepage Screenshot&#34; title=&#34;Homepage Screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The homepage provides the basic information about you, including links to social media, skills you have, things you&amp;rsquo;ve done and your education. This page makes good use of UIKit grid and cards for organising all the information and ensuring it is responsive to work on mobile devices. The hackathon section of this page uses code from &lt;a href=&#34;https://github.com/web-tiki/responsive-grid-of-hexagons&#34; title=&#34;https://github.com/web-tiki/responsive-grid-of-hexagons&#34;&gt;https://github.com/web-tiki/responsive-grid-of-hexagons&lt;/a&gt; to ensure that the hexagons tile correctly.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Team project without GitHub</title>
-      <link>https://sudeepthi59o.github.io/portfolio/example-team-no-github/</link>
-      <pubDate>Fri, 19 Jun 2020 23:00:00 +0000</pubDate>
-      <guid>https://sudeepthi59o.github.io/portfolio/example-team-no-github/</guid>
-      <description>&lt;p&gt;This is some content&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on Sudeepthi Rebbalapalli</title><link>https://sudeepthi59o.github.io/portfolio/</link><description>Recent content in Projects on Sudeepthi Rebbalapalli</description><generator>Hugo</generator><language>en-gb</language><lastBuildDate>Sat, 12 Apr 2025 23:00:00 +0000</lastBuildDate><atom:link href="https://sudeepthi59o.github.io/portfolio/index.xml" rel="self" type="application/rss+xml"/><item><title>Android Applications</title><link>https://sudeepthi59o.github.io/portfolio/android-apps/</link><pubDate>Sat, 12 Apr 2025 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/android-apps/</guid><description>&lt;p>This is some content&lt;/p></description></item><item><title>Automated Acquire Game</title><link>https://sudeepthi59o.github.io/portfolio/automated-acquire-game/</link><pubDate>Sat, 12 Apr 2025 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/automated-acquire-game/</guid><description>&lt;p>The Automated Acquire Game project is a Python-based implementation of the classic board game &lt;a href="https://en.wikipedia.org/wiki/Acquire">Acquire&lt;/a>, designed to simulate and automate gameplay. It includes intelligent decision-making algorithms to simulate player behavior and strategic gameplay. The project is modular, handling different aspects of the game such as gameplay flow, board state, and AI-driven player logic.&lt;/p>
+&lt;hr>
+&lt;h2 id="key-features">Key Features&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Automated Gameplay&lt;/strong>: AI-driven simulation allows the game to play itself with no human input.&lt;/li>
+&lt;li>&lt;strong>Player Behavior Modeling&lt;/strong>: Uses game-tree logic to simulate strategic decision-making.&lt;/li>
+&lt;li>&lt;strong>Board Management&lt;/strong>: Automates tile placement, hotel formation, mergers, and score calculation.&lt;/li>
+&lt;li>&lt;strong>Game Tree Logic&lt;/strong>: Evaluates possible moves and predicts outcomes for better strategy.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="impact">Impact&lt;/h2>
+&lt;p>This project adds an AI-powered dimension to a classic strategy board game, making it a strong showcase for algorithms, decision trees, and game theory. It offers a foundation for developing more complex game-playing AI or simulating various player types.&lt;/p></description></item><item><title>Computer Networks</title><link>https://sudeepthi59o.github.io/portfolio/computer-networks/</link><pubDate>Sat, 12 Apr 2025 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/computer-networks/</guid><description>&lt;p>This is some content&lt;/p></description></item><item><title>Early Onset Parkinson's Detection from Speech Data</title><link>https://sudeepthi59o.github.io/portfolio/early-onset-parkinsons-detection/</link><pubDate>Sat, 12 Apr 2025 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/early-onset-parkinsons-detection/</guid><description>&lt;h3 id="overview">Overview&lt;/h3>
+&lt;p>This project implements an end-to-end deep learning model using convolutional neural networks (CNNs) to detect early-onset Parkinson’s Disease (PD) from speech data. Leveraging Mel spectrograms and advanced preprocessing, the model aims to identify subtle vocal indicators of PD.&lt;/p>
+&lt;p>The work builds on methodologies by Quan et al. and evaluates their applicability to a real-world Italian dataset. Tools such as &lt;strong>Librosa&lt;/strong> for audio processing and &lt;strong>NeuroSpeech&lt;/strong> for feature exploration played a crucial role in the pipeline.&lt;/p></description></item><item><title>Human Development Index (HDI) Trends using Google Cloud Platform</title><link>https://sudeepthi59o.github.io/portfolio/human-development_index-gcp/</link><pubDate>Sat, 12 Apr 2025 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/human-development_index-gcp/</guid><description>&lt;p>This is some content&lt;/p></description></item><item><title>Parts-of-Speech (POS) Tagging with Hidden Markov Models (HMM) and Viterbi Algorithm</title><link>https://sudeepthi59o.github.io/portfolio/pos-tagging-hmm/</link><pubDate>Sat, 12 Apr 2025 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/pos-tagging-hmm/</guid><description>&lt;p>This is some content&lt;/p></description></item><item><title>Predictive maintainance using AWS</title><link>https://sudeepthi59o.github.io/portfolio/predictive-maintainance/</link><pubDate>Sat, 12 Apr 2025 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/predictive-maintainance/</guid><description>&lt;p>This is some content&lt;/p></description></item><item><title>Hugo Portfolio Website</title><link>https://sudeepthi59o.github.io/portfolio/hugo-portfolio-website/</link><pubDate>Fri, 19 Jun 2020 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/hugo-portfolio-website/</guid><description>&lt;p>I created my portfolio website using Hugo and UIKit, it serves as an online resume containing all my work.&lt;/p>
+&lt;p>This has been created as a theme so that others can use and adapt it.&lt;/p>
+&lt;h2 id="sections">Sections&lt;/h2>
+&lt;h3 id="homepage">Homepage&lt;/h3>
+&lt;p>&lt;img src="https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1591885280/screenshot_aexm2m.png" alt="Homepage Screenshot" title="Homepage Screenshot">&lt;/p>
+&lt;p>The homepage provides the basic information about you, including links to social media, skills you have, things you&amp;rsquo;ve done and your education. This page makes good use of UIKit grid and cards for organising all the information and ensuring it is responsive to work on mobile devices. The hackathon section of this page uses code from &lt;a href="https://github.com/web-tiki/responsive-grid-of-hexagons" title="https://github.com/web-tiki/responsive-grid-of-hexagons">https://github.com/web-tiki/responsive-grid-of-hexagons&lt;/a> to ensure that the hexagons tile correctly.&lt;/p></description></item></channel></rss>
