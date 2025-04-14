@@ -13,22 +13,18 @@ url = "https://www.python.org/"
 [[tech]]
 name = "Pytest"
 url = "https://docs.pytest.org/"
-logo = "https://upload.wikimedia.org/wikipedia/commons/2/28/Pytest_logo.svg"
+logo = "https://ik.imagekit.io/ys4gkaixy/With%20Name%20logos/Pytest_logo.svg?updatedAt=1744656054099"
 [[tech]]
 name = "JSON"
 url = "https://www.json.org/"
 logo = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/json/json-original.svg"
 [[tech]]
-name = "JSON"
-url = "https://www.json.org/"
-[[tech]]
 name = "Game Trees"
 url = "https://en.wikipedia.org/wiki/Game_tree"
+logo="https://ik.imagekit.io/ys4gkaixy/With%20Name%20logos/Tic-tac-toe-game-tree.svg?updatedAt=1744656309126"
 +++
 
 The Automated Acquire Game project is a Python-based implementation of the classic board game [Acquire](https://en.wikipedia.org/wiki/Acquire), designed to simulate and automate gameplay. It includes intelligent decision-making algorithms to simulate player behavior and strategic gameplay. The project is modular, handling different aspects of the game such as gameplay flow, board state, and AI-driven player logic.
-
-![Acquire board game](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Acquire_gameboard.JPG/640px-Acquire_gameboard.JPG)
 
 ---
 
@@ -57,6 +53,6 @@ This project adds an AI-powered dimension to a classic strategy board game, maki
 
 > This project was completed as part of academic coursework and is hosted in a private repository and available upon request.  
 
-
 <img src='/images/acquire_demo.gif' title='Acquire Game Demo' width='50%' alt='Acquire Game Demo' />
+
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
