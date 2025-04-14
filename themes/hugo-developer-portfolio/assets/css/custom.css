@@ -1,6 +1,7 @@
 .custom-hero {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+        background-color: hotpink !important; /* Just for testing! */
+        padding-top: 2rem;
+        padding-bottom: 2rem;
 }
 
 .custom-hero h1.uk-heading-large {
