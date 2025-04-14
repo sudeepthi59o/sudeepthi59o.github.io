@@ -1,6 +1,6 @@
 +++
 categories = ["ai"]
-coders = ["sudeepthi59o"]
+coders = []
 date = 2025-04-12T23:00:00Z
 description = "Deep learning model using CNNs to detect early-onset Parkinson’s from speech data"
 image = "https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1591793276/logos/logos_hugo_h2xbne.svg"
@@ -36,13 +36,13 @@ The work builds on methodologies by Quan et al. and evaluates their applicabilit
 
 ---
 
-### 🧠 Motivation
+## Motivation
 
 Early-onset PD presents challenges in detection due to its subtle symptoms. Since ~90% of PD patients experience speech impairments, analyzing vocal characteristics becomes a valuable non-invasive biomarker.
 
 ---
 
-### 🔍 Techniques Used
+## Techniques Used
 
 - **CNN-based model** with:
   - Time-distributed 2D CNN for local frequency analysis
@@ -54,7 +54,7 @@ Early-onset PD presents challenges in detection due to its subtle symptoms. Sinc
 
 ---
 
-### 📊 Dataset
+## Dataset
 
 - **Italian Dataset**: 394 HC samples and 437 PD samples from 65 participants.
 - **Telugu Dataset**: 24 samples from 8 participants under varied noise conditions.
@@ -62,7 +62,7 @@ Early-onset PD presents challenges in detection due to its subtle symptoms. Sinc
 
 ---
 
-### ⚙️ Tools & Libraries
+## Tools & Libraries
 
 - Python
 - TensorFlow / Keras
@@ -72,7 +72,7 @@ Early-onset PD presents challenges in detection due to its subtle symptoms. Sinc
 
 ---
 
-### 🧪 Results
+## Results
 
 - Achieved **98% validation accuracy** on Italian speech samples using improved preprocessing (2,000-frame spectrogram segments).
 - Found **low-frequency spectrogram features** to be most indicative of PD.
@@ -80,7 +80,7 @@ Early-onset PD presents challenges in detection due to its subtle symptoms. Sinc
 
 ---
 
-### 💡 Challenges & Insights
+## Challenges & Insights
 
 - CNNs are powerful but lack interpretability — a concern in clinical contexts.
 - Cross-language models fail without balanced training data.
@@ -91,7 +91,7 @@ Early-onset PD presents challenges in detection due to its subtle symptoms. Sinc
 
 ---
 
-### 🧬 References
+## References
 
 - Quan et al., 2022: End-to-End Deep Learning for PD Speech Detection
 - Dimauro & Girardi, 2019: Italian Dataset
@@ -100,6 +100,6 @@ Early-onset PD presents challenges in detection due to its subtle symptoms. Sinc
 
 ---
 
-### 🎯 Takeaway
+## Takeaway
 
 This project shows that **deep learning can detect early-onset Parkinson’s from speech** with high accuracy on single-language data. With better datasets and interpretability tools, speech-based diagnostics may become a reality.
