@@ -6,6 +6,10 @@
 {{ "<!-- Index -->" | safeHTML }}
 {{ $index := resources.Get "css/index.css" | minify }}
 <link rel="stylesheet" href="{{ $index.Permalink | relURL}}">
+
+{{ $custom := resources.Get "css/custom.css" | minify }}
+<link rel="stylesheet" href="{{ $custom.Permalink | relURL }}">
+
 <!--
   _    _
  | |  | |                             /\
@@ -15,7 +19,8 @@
  |_|  |_|  \___| |_|     \___/    /_/    \_\ |_|     \___|  \__,_|
 
  -->
-<section>
+<section class="custom-hero">
+    <h1>TEST</h1>
     {{ if .Site.Data.homepage.banner.image }}
     <div class="uk-container">
         <div class="uk-flex-center" uk-grid>
