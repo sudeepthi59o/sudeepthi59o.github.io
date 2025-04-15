@@ -1,35 +1,29 @@
 +++
 categories = ["networks"]
 coders = []
-date = 2025-04-15T23:00:00Z
+date = 2025-04-12T23:00:00Z
 description = "Hands-on implementation of real-world network protocols and transport mechanisms in C"
-image = "https://ik.imagekit.io/ys4gkaixy/networking-svgrepo-com.svg?updatedAt=1744731111111"
+image = "https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1591793276/logos/logos_hugo_h2xbne.svg"
 title = "Computer Networks Projects"
 type = "post"
 [[tech]]
 name = "Socket Programming"
 url = "https://en.wikipedia.org/wiki/Berkeley_sockets"
-logo = "https://img.icons8.com/ios/100/network-card.png"
 [[tech]]
 name = "HTTP"
 url = "https://developer.mozilla.org/en-US/docs/Web/HTTP"
-logo = "https://img.icons8.com/ios/100/internet--v1.png"
 [[tech]]
 name = "SMTP"
 url = "https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol"
-logo = "https://img.icons8.com/ios/100/new-post.png"
 [[tech]]
 name = "Go-Back-N"
 url = "https://en.wikipedia.org/wiki/Go-Back-N_ARQ"
-logo = "https://img.icons8.com/ios/100/synchronize.png"
 [[tech]]
 name = "Stop-and-Wait"
 url = "https://en.wikipedia.org/wiki/Stop-and-wait_ARQ"
-logo = "https://img.icons8.com/ios/100/pause.png"
 [[tech]]
 name = "Multithreading"
 url = "https://en.wikipedia.org/wiki/Multithreading_(computer_architecture)"
-logo = "https://img.icons8.com/ios/100/split-vertical.png"
 +++
 
 This multi-part project series was developed over the span of a graduate-level Computer Networks course. Each module focused on implementing key components of real-world networking, including application-level protocols and custom transport-layer mechanisms. All implementations were written in C using low-level socket programming.
