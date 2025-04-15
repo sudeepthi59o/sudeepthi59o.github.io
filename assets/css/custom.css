@@ -1,15 +1,15 @@
 .custom-hero {
-        padding-top: 2rem;
-        padding-bottom: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem; /* reduced bottom padding */
 }
 
 .custom-hero h1.uk-heading-large {
-    font-size: 2.5rem; /* Smaller heading */
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    font-size: 3rem; /* bump up heading size */
+    margin-top: 0.5rem; /* less top margin */
+    margin-bottom: 0.5rem; /* less space before social links */
 }
 
 .custom-hero img {
-    max-height: 150px; /* Smaller image */
+    max-height: 150px;
     width: auto;
 }

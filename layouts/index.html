@@ -7,9 +7,6 @@
 {{ $index := resources.Get "css/index.css" | minify }}
 <link rel="stylesheet" href="{{ $index.Permalink | relURL}}">
 
-{{ $custom := resources.Get "css/custom.css" | minify }}
-<link rel="stylesheet" href="{{ $custom.Permalink | relURL }}">
-
 {{ $customCSS := resources.Get "css/custom.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $customCSS.Permalink }}" integrity="{{ $customCSS.Data.Integrity }}">
 
