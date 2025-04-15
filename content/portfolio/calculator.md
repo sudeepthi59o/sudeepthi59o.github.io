@@ -3,7 +3,7 @@ categories = ["web-dev"]
 coders = ["sudeepthi59o"]
 date = 2025-04-12T23:00:00Z
 description = "A user-friendly Android calculator with basic and scientific functions"
-image = "https://ik.imagekit.io/ys4gkaixy/Android_robot.svg?updatedAt=1744746882855"
+image = "https://ik.imagekit.io/ys4gkaixy/calculator-svgrepo-com-2.svg?updatedAt=1744747787618"
 title = "Android Calculator App"
 type = "post"
 [[tech]]
