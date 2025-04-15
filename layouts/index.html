@@ -10,6 +10,10 @@
 {{ $custom := resources.Get "css/custom.css" | minify }}
 <link rel="stylesheet" href="{{ $custom.Permalink | relURL }}">
 
+{{ $customCSS := resources.Get "css/custom.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $customCSS.Permalink }}" integrity="{{ $customCSS.Data.Integrity }}">
+
+
 <!--
   _    _
  | |  | |                             /\
@@ -19,7 +23,7 @@
  |_|  |_|  \___| |_|     \___/    /_/    \_\ |_|     \___|  \__,_|
 
  -->
-<section>
+<section class="custom-hero">
     {{ if .Site.Data.homepage.banner.image }}
     <div class="uk-container">
         <div class="uk-flex-center" uk-grid>
