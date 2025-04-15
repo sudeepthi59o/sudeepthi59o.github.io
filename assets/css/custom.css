@@ -1,9 +1,11 @@
 .custom-hero {
     padding-top: 2rem;
-    padding-bottom: 1rem; /* reduced bottom padding */
+    padding-bottom: 0; /* Remove bottom padding from the hero section */
 }
 
-.custom-hero img {
-    max-height: 150px; /* Smaller image */
-    width: auto;
+.custom-hero h1.uk-heading-large {
+    font-size: 2.5rem; /* Adjust if you want it bigger */
+    margin-top: 1rem;
+    margin-bottom: 0; /* Remove bottom margin from the heading */
+    padding-bottom: 0; /* Just in case any padding is added by default */
 }
