@@ -57,7 +57,7 @@ author = "Sudeepthi Rebbalapalli"
 
   [params.contact]
   enable = true
-  formAction = "" #contact form works with formspree.io
+  formAction = "https://formspree.io/f/xdkejqwj"
 
   [params.footer]
   email = "sudeepthi59o@gmail.com"
