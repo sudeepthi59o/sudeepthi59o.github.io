@@ -4,22 +4,7 @@
 }
 
 .uk-button-text {
-  /* border-bottom: 1px solid #333; */
-  color: mediumblue !important;
-  font-weight: 600 !important;
-  font-size: 1.1rem !important;
-  border-bottom: 2px solid mediumblue !important;
-  padding-bottom: 2px !important;
-  transition: all 0.2s ease-in-out !important;
-  text-decoration: none !important;
-}
-
-.uk-button-text:hover {
-  color: white !important;
-  background-color: mediumblue !important;
-  padding: 4px 10px !important;
-  border-radius: 4px !important;
-  border-bottom: none !important;
+  border-bottom: 1px solid #333;
 }
 
 .uk-button-text::before {

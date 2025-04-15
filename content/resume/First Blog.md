@@ -6,4 +6,4 @@ author: "Sudeepthi Rebbalapalli"
 type: "post"
 ---
 
-[Download Resume](/Sudeepthi_Rebbalapalli_resume.pdf)
+[Download Resume](/Sudeepthi_Rebbalapalli_resume_SDE.pdf)
