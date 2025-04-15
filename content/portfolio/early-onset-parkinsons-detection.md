@@ -14,13 +14,23 @@ url = "https://www.python.org/"
 name = "TensorFlow"
 url = "https://www.tensorflow.org/"
 logo = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
+[[tech]]
+name = "Librosa"
+url = "https://librosa.org/"
+logo = "https://ik.imagekit.io/ys4gkaixy/With%20Name%20logos/librosa-logo.svg?updatedAt=1744660100000"
+[[tech]]
+name = "CNN"
+url = "https://en.wikipedia.org/wiki/Convolutional_neural_network"
+logo = "https://ik.imagekit.io/ys4gkaixy/With%20Name%20logos/cnn-icon.svg?updatedAt=1744660300000"
 +++
 
-### Overview
+## Overview
 
 This project implements an end-to-end deep learning model using convolutional neural networks (CNNs) to detect early-onset Parkinson’s Disease (PD) from speech data. Leveraging Mel spectrograms and advanced preprocessing, the model aims to identify subtle vocal indicators of PD.
 
 The work builds on methodologies by Quan et al. and evaluates their applicability to a real-world Italian dataset. Tools such as **Librosa** for audio processing and **NeuroSpeech** for feature exploration played a crucial role in the pipeline.
+
+This project was completed as part of graduate coursework funded by an international collaboration grant. The work involved partnership with a researcher from [Indian Hospital/Institution Name, if allowed], enabling access to multilingual clinical datasets and expert insights on Parkinson’s speech biomarkers
 
 ---
 
@@ -81,10 +91,11 @@ Early-onset PD presents challenges in detection due to its subtle symptoms. Sinc
 
 ## References
 
-- Quan et al., 2022: End-to-End Deep Learning for PD Speech Detection
-- Dimauro & Girardi, 2019: Italian Dataset
-- Orozco-Arroyave et al., 2018: NeuroSpeech Tool
-- Jaeger et al., 2019: KCL English Dataset
+- [Quan et al., 2022: *End-to-End Deep Learning for PD Speech Detection*](https://www.sciencedirect.com/science/article/abs/pii/S0208521622000341)
+- [Dimauro & Girardi, 2019: *Italian Parkinson’s Voice and Speech Dataset*](https://ieee-dataport.org/open-access/italian-parkinsons-voice-and-speech)
+- [Orozco-Arroyave et al., 2018: *NeuroSpeech Tool*](https://www.sciencedirect.com/science/article/pii/S105120041730146X)
+- [Jaeger et al., 2019: *KCL English Dataset (MDVR-KCL)*](https://explore.openaire.eu/search/dataset?pid=10.5281%2Fzenodo.2867215)
+
 
 ---
 
