@@ -3,7 +3,7 @@ categories = ["networks"]
 coders = []
 date = 2025-04-12T23:00:00Z
 description = "Hands-on implementation of real-world network protocols and transport mechanisms in C"
-image = "https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1591793276/logos/logos_hugo_h2xbne.svg"
+image = "https://ik.imagekit.io/ys4gkaixy/network-svgrepo-com.svg?updatedAt=1744742761706"
 title = "Computer Networks Projects"
 type = "post"
 [[tech]]
