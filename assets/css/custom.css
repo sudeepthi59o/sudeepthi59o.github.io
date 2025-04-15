@@ -3,13 +3,7 @@
     padding-bottom: 1rem; /* reduced bottom padding */
 }
 
-.custom-hero h1.uk-heading-large {
-    font-size: 3rem; /* bump up heading size */
-    margin-top: 0.5rem; /* less top margin */
-    margin-bottom: 0.5rem; /* less space before social links */
-}
-
 .custom-hero img {
-    max-height: 150px;
+    max-height: 150px; /* Smaller image */
     width: auto;
 }
