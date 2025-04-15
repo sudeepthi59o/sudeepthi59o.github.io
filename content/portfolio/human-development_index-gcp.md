@@ -81,7 +81,8 @@ def create_bigquery_tables(bucket_name, prefix, dataset_id):
         )
         load_job.result()
         print(f"Table {table_full_id} created successfully.") 
-        ```
+
+```
 ### 3. Data Visualization
 
 Once the data is processed, the project uses **Plotly** to create interactive visualizations. These visualizations allow users to explore HDI, GDI, and GII trends across different countries over time. Here's an example of how the data is visualized using Plotly:
@@ -95,7 +96,8 @@ def create_interactive_plot(df):
     fig.show()
 
 # Assuming 'df' is a DataFrame containing HDI data
-create_interactive_plot(df) ```
+create_interactive_plot(df)
+```
 
 ### 4. Challenges Faced
 
