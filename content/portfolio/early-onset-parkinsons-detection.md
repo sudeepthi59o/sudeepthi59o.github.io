@@ -21,7 +21,7 @@ logo = "https://ik.imagekit.io/ys4gkaixy/With%20Name%20logos/librosa-logo.svg?up
 [[tech]]
 name = "CNN"
 url = "https://en.wikipedia.org/wiki/Convolutional_neural_network"
-logo = "https://ik.imagekit.io/ys4gkaixy/With%20Name%20logos/cnn-icon.svg?updatedAt=1744660300000"
+logo = "https://www.svgrepo.com/show/498636/neural-network.svg"
 +++
 
 ## Overview

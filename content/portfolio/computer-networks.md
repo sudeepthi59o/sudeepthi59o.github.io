@@ -1,6 +1,6 @@
 +++
-categories = ["networking"]
-coders = ["surebbal"]
+categories = ["networks"]
+coders = []
 date = 2025-04-15T23:00:00Z
 description = "Hands-on implementation of real-world network protocols and transport mechanisms in C"
 image = "https://ik.imagekit.io/ys4gkaixy/networking-svgrepo-com.svg?updatedAt=1744731111111"
@@ -67,6 +67,6 @@ By implementing these protocols from scratch, this project suite offered deep in
 
 > This project collection was completed as part of academic coursework and is hosted in a private repository, available upon request.
 
-![Networks Project Demo](/images/network_demo.gif)
+![Networks Project Demo](/images/acquire_game.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
