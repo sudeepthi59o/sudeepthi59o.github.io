@@ -6,7 +6,9 @@ author : "Sudeepthi Rebbalapalli"
 #authorImage : "images/about/profile.jpg"
 ---
 
-**Hi, I'm Sudeepthi.**
-I'm a second-year Master's student in Computer Science at Indiana University, passionate about building intelligent and scalable systems. My experience spans software development, AI, machine learning, big data, and cloud technologies. Explore the Projects page to see what I’ve been working on.
+**Hi, I'm Sudeepthi.**  
+I'm a second-year Master's student in Computer Science at Indiana University, passionate about building intelligent and scalable systems. My experience spans software development, AI, machine learning, big data, and cloud technologies, where I focus on turning complex problems into practical solutions. Outside of tech, you can usually find me reading fiction, traveling, trying new foods, or experimenting with new recipes in the kitchen.
+
+Check out the Projects page to see what I’ve been working on.
 
 I'm actively seeking full-time opportunities starting **June 2025**.
