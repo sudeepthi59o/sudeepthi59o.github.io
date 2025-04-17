@@ -32,8 +32,4 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
-
-  {{ "<!-- Custom Stylesheet -->" | safeHTML }}
-  {{ $custom := resources.Get "css/custom.css" | minify | fingerprint }}
-  <link rel="stylesheet" href="{{ $custom.Permalink }}" integrity="{{ $custom.Data.Integrity }}" media="screen">
 </head>
