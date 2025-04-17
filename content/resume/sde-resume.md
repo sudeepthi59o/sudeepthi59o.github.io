@@ -1,7 +1,6 @@
 ---
-title: "My latest resume below!"
-date: 2019-12-31T12:14:34+06:00
-description: "My Resume"
+title: "Software Development Resume"
+description: "Tailored for roles in software engineering, full-stack development, and systems design"
 author: "Sudeepthi Rebbalapalli"
 type: "post"
 ---
