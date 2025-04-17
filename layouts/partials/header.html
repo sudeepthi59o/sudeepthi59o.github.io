@@ -2,28 +2,20 @@
     <nav class="uk-navbar-container uk-margin" uk-navbar="mode: click;" style="background-color: #333333; padding-right: 3rem">
         <div class="uk-navbar-right">
             <ul class="uk-navbar-nav uk-visible@s">
-                {{if .IsHome}}
-                <li class="uk-active "><a class="navbar-link" style="font-size: 18px; text-transform: none"
-                        href="{{.Site.BaseURL}}">{{ with .Site.Params.Home }} {{ . }} {{ end }}</a></li>
-                {{else}}
-                <li><a class="navbar-link" style="font-size: 18px; text-transform: none" href="/">{{ with .Site.Params.Home }} {{ . }}
-                        {{ end }}</a></li>
-
-                {{end}}
+                {{ if .IsHome }}
+                <li class="uk-active"><a class="navbar-link" href="{{ .Site.BaseURL }}">{{ with .Site.Params.Home }} {{ . }} {{ end }}</a></li>
+                {{ else }}
+                <li><a class="navbar-link" href="/">{{ with .Site.Params.Home }} {{ . }} {{ end }}</a></li>
+                {{ end }}
                 {{ range .Site.Menus.main }}
-                {{$aURL := .URL | relLangURL}}
-                {{$page := $.Page.Permalink | relLangURL}}
-                {{$aURL2 := split $aURL "/"}}
-                {{$page2 := split $page "/"}}
-                {{$aURL3 := index $aURL2 1}}
-                {{$page3 := index $page2 1}}
-                {{if eq $aURL3 $page3}}
-                <li class="uk-active"><a class="navbar-link" style="font-size: 18px; text-transform:none"
-                        href="{{ .URL | relURL }}">{{.Name}}</a></li>
-                {{else}}
-                <li><a class="navbar-link" style="font-size: 18px; text-transform: none" href="{{ .URL | relURL }}">{{.Name}}</a></li>
-                {{end}}
-                {{end}}
+                {{ $aURL := .URL | relLangURL }}
+                {{ $page := $.Page.Permalink | relLangURL }}
+                {{ if eq $aURL $page }}
+                <li class="uk-active"><a class="navbar-link" href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+                {{ else }}
+                <li><a class="navbar-link" href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+                {{ end }}
+                {{ end }}
             </ul>
 
             <a class="navbar-link" class="uk-navbar-toggle uk-hidden@s" uk-toggle="target: #sidenav" uk-navbar-toggle-icon href="#"></a>
@@ -36,26 +28,20 @@
     <div class="uk-offcanvas-bar uk-flex uk-flex-column">
 
         <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
-            {{if .IsHome}}
-            <li class="uk-active"><a class="navbar-link" style="font-size: 18px" href="{{.Site.BaseURL}}">{{ with .Site.Params.Home }} {{ . }} {{ end }}</a>
-            </li>
-            {{else}}
-            <li><a class="navbar-link" style="font-size: 18px" href="{{.Site.BaseURL}}">{{ with .Site.Params.Home }} {{ . }} {{ end }}</a></li>
-
-            {{end}}
-            {{ range .Site.Menus.main }}
-            {{$aURL := .URL | relLangURL}}
-            {{$page := $.Page.Permalink | relLangURL}}
-            {{$aURL2 := split $aURL "/"}}
-            {{$page2 := split $page "/"}}
-            {{$aURL3 := index $aURL2 1}}
-            {{$page3 := index $page2 1}}
-            {{if eq $aURL3 $page3}}
-            <li class="uk-active"><a class="navbar-link" style="font-size: 18px" href="{{ .URL | relURL }}">{{.Name}}</a></li>
-            {{else}}
-            <li><a class="navbar-link" style="font-size: 18px" href="{{ .URL | relURL }}">{{.Name}}</a></li>
-            {{end}}
-            {{end}}
+            {{ if .IsHome }}
+                <li class="uk-active"><a class="navbar-link" href="{{ .Site.BaseURL }}">{{ with .Site.Params.Home }} {{ . }} {{ end }}</a></li>
+                {{ else }}
+                <li><a class="navbar-link" href="/">{{ with .Site.Params.Home }} {{ . }} {{ end }}</a></li>
+                {{ end }}
+                {{ range .Site.Menus.main }}
+                {{ $aURL := .URL | relLangURL }}
+                {{ $page := $.Page.Permalink | relLangURL }}
+                {{ if eq $aURL $page }}
+                <li class="uk-active"><a class="navbar-link" href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+                {{ else }}
+                <li><a class="navbar-link" href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+                {{ end }}
+                {{ end }}
         </ul>
 
     </div>

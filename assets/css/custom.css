@@ -10,6 +10,11 @@
     text-decoration: none;
 }
 
+.uk-navbar-nav .uk-active a {
+    font-size: 80px;  /* Larger font size for active link */
+    font-weight: bold;
+}
+
 /* Change text color when navbar becomes sticky */
 .uk-navbar-sticky .uk-navbar-nav > li > a {
     color: white !important; /* Or any color that contrasts your background */
