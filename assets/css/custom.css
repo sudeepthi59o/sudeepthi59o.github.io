@@ -4,9 +4,12 @@
 }
 
 .navbar-link {
-    font-size: 22px; /* Adjust the size as needed */
-    text-transform: none; /* Ensure no text transformation */
+    font-size: 50px !important;  /* Now this will override inline font-size */
+    text-transform: none;
+    color: #fff;
+    text-decoration: none;
 }
+
 /* Change text color when navbar becomes sticky */
 .uk-navbar-sticky .uk-navbar-nav > li > a {
     color: white !important; /* Or any color that contrasts your background */
