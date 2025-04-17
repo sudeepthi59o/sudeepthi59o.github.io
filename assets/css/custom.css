@@ -6,18 +6,20 @@
 /* Prevent text from being capitalized */
 .navbar-link {
     font-size: 18px;
-    text-transform: none;  /* Ensure no transformation to uppercase */
+    text-transform: none;  /* Ensures no transformation to uppercase */
 }
 
+/* Specifically for active links (when clicked) */
 .uk-navbar-nav .uk-active a {
     font-size: 20px;
     font-weight: bold;
+    text-transform: none;  /* Prevent uppercase in active state */
 }
 
-
-/* Change text color when navbar becomes sticky */
+/* Optional: Fix the font size when the navbar becomes sticky */
 .uk-navbar-sticky .uk-navbar-nav > li > a {
     color: white !important; /* Or any color that contrasts your background */
+    text-transform: none;  /* Prevent uppercase when sticky */
 }
 
 /* Optional: Highlight the active menu item differently when sticky */

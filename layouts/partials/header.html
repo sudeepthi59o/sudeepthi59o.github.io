@@ -8,14 +8,14 @@
                 <li><a class="navbar-link" href="/">{{ with .Site.Params.Home }} {{ . }} {{ end }}</a></li>
                 {{ end }}
                 {{ range .Site.Menus.main }}
-                {{ $aURL := .URL | relLangURL }}
-                {{ $page := $.Page.Permalink | relLangURL }}
-                {{ if eq $aURL $page }}
-                <li class="uk-active"><a class="navbar-link" href="{{ .URL | relURL }}">{{ .Name }}</a></li>
-                {{ else }}
-                <li><a class="navbar-link" href="{{ .URL | relURL }}">{{ .Name }}</a></li>
-                {{ end }}
-                {{ end }}
+    {{ $aURL := .URL | relLangURL }}
+    {{ $page := $.Page.Permalink | relLangURL }}
+    {{ if eq $aURL $page }}
+        <li class="uk-active"><a class="navbar-link" href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+    {{ else }}
+        <li><a class="navbar-link" href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+    {{ end }}
+{{ end }}
             </ul>
 
             <a class="navbar-link" class="uk-navbar-toggle uk-hidden@s" uk-toggle="target: #sidenav" uk-navbar-toggle-icon href="#"></a>
@@ -34,14 +34,14 @@
                 <li><a class="navbar-link" href="/">{{ with .Site.Params.Home }} {{ . }} {{ end }}</a></li>
                 {{ end }}
                 {{ range .Site.Menus.main }}
-                {{ $aURL := .URL | relLangURL }}
-                {{ $page := $.Page.Permalink | relLangURL }}
-                {{ if eq $aURL $page }}
-                <li class="uk-active"><a class="navbar-link" href="{{ .URL | relURL }}">{{ .Name }}</a></li>
-                {{ else }}
-                <li><a class="navbar-link" href="{{ .URL | relURL }}">{{ .Name }}</a></li>
-                {{ end }}
-                {{ end }}
+    {{ $aURL := .URL | relLangURL }}
+    {{ $page := $.Page.Permalink | relLangURL }}
+    {{ if eq $aURL $page }}
+        <li class="uk-active"><a class="navbar-link" href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+    {{ else }}
+        <li><a class="navbar-link" href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+    {{ end }}
+{{ end }}
         </ul>
 
     </div>
