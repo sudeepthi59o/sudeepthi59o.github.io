@@ -1,6 +1,6 @@
 ---
 title: "Data Focused Resume"
-date: 2019-12-31T12:14:34+06:00
+date: 2025-04-16T15:26:15Z
 description: "Focused on big data, data engineering, analytics, and building machine learning models."
 author: "Sudeepthi Rebbalapalli"
 type: "post"
