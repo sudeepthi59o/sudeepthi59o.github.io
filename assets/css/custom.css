@@ -3,10 +3,10 @@
     padding-bottom: 0; /* Remove bottom padding from the hero section */
 }
 
-body {
-    background-color: pink !important;
+.navbar-link {
+    font-size: 22px; /* Adjust the size as needed */
+    text-transform: none; /* Ensure no text transformation */
 }
-
 /* Change text color when navbar becomes sticky */
 .uk-navbar-sticky .uk-navbar-nav > li > a {
     color: white !important; /* Or any color that contrasts your background */

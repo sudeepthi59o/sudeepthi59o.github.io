@@ -37,7 +37,7 @@
 
         <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
             {{if .IsHome}}
-            <li class="uk-active"><a style="font-size: 18px" href="{{.Site.BaseURL}}">{{ with .Site.Params.Home }} {{ . }} {{ end }}</a>
+            <li class="uk-active"><a class="navbar-link" style="font-size: 18px" href="{{.Site.BaseURL}}">{{ with .Site.Params.Home }} {{ . }} {{ end }}</a>
             </li>
             {{else}}
             <li><a style="font-size: 18px" href="{{.Site.BaseURL}}">{{ with .Site.Params.Home }} {{ . }} {{ end }}</a></li>
