@@ -38,7 +38,7 @@ theme = "hugo-developer-portfolio"
   weight=2
 
   [[menu.main]]
-  name = "Portfolio"
+  name = "Projects"
   URL = "portfolio"
   weight=3
 

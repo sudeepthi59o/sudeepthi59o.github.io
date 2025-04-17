@@ -6,8 +6,7 @@ author : "Sudeepthi Rebbalapalli"
 #authorImage : "images/about/profile.jpg"
 ---
 
-Hi! I'm Sudeepthi, a second year Masters Computer Science student from Indiana University. 
-I like doing personal projects, which you will find in the portfolio page of this website. 
-My specialties can be found on the homepage, of which most are web development or cyber security.
+**Hi, I'm Sudeepthi.**
+I'm a second-year Master's student in Computer Science at Indiana University, passionate about building intelligent and scalable systems. My experience spans software development, AI, machine learning, big data, and cloud technologies. Explore the Projects page to see what I’ve been working on.
 
-I am currently available for part time remote work, but will be looking for full time employment from summer 2025 20.
+I'm actively seeking full-time opportunities starting **June 2025**.
