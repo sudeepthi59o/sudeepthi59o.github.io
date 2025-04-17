@@ -2,9 +2,3 @@
     padding-top: 2rem;
     padding-bottom: 0; /* Remove bottom padding from the hero section */
 }
-
-uk-navbar-nav > li > a,
-.uk-navbar-nav .uk-active > a,
-.navbar-link {
-    text-transform: none !important;
-}
