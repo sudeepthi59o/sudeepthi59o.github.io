@@ -3,17 +3,17 @@
     padding-bottom: 0; /* Remove bottom padding from the hero section */
 }
 
+/* Prevent text from being capitalized */
 .navbar-link {
-    font-size: 50px !important;  /* Now this will override inline font-size */
-    text-transform: none;
-    color: #fff;
-    text-decoration: none;
+    font-size: 18px;
+    text-transform: none;  /* Ensure no transformation to uppercase */
 }
 
 .uk-navbar-nav .uk-active a {
-    font-size: 80px;  /* Larger font size for active link */
+    font-size: 20px;
     font-weight: bold;
 }
+
 
 /* Change text color when navbar becomes sticky */
 .uk-navbar-sticky .uk-navbar-nav > li > a {
