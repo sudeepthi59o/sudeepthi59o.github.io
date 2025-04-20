@@ -58,7 +58,9 @@ Early detection of PD, especially in its early-onset form, is challenging due to
 The overall workflow of the model, from speech input to Parkinson’s detection, is outlined below.
 
 ![Workflow](/images/PD_Detection_Workflow.svg)
----
+
+
+------
 
 ## Dataset and Processing
 
@@ -70,7 +72,9 @@ Example of a Mel spectrogram generated from raw speech data:
 Left: Heatmap representation, Right: Frequency matrix
 
 ![Mel_Spectrogram](/images/Mel_spectrogram.png)
----
+
+
+------
 
 ## Tools & Libraries
 
