@@ -9,22 +9,17 @@ type = "post"
 [[tech]]
 name = "AWS SageMaker"
 url = "https://aws.amazon.com/sagemaker/"
-logo = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+logo = "https://ik.imagekit.io/ys4gkaixy/-yL5MrO-amazon-sagemaker.svg?updatedAt=1745191917808"
 
 [[tech]]
 name = "AWS S3"
 url = "https://aws.amazon.com/s3/"
-logo = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
-
-[[tech]]
-name = "AWS Lambda"
-url = "https://aws.amazon.com/lambda/"
-logo = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+logo = "https://ik.imagekit.io/ys4gkaixy/Amazon-S3-Logo.svg?updatedAt=1745191574668"
 
 [[tech]]
 name = "AWS IAM"
 url = "https://aws.amazon.com/iam/"
-logo = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+logo = "https://ik.imagekit.io/ys4gkaixy/aws-iam.svg?updatedAt=1745191573681"
 
 [[tech]]
 name = "Python"
@@ -34,7 +29,7 @@ logo = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-origina
 [[tech]]
 name = "scikit-learn"
 url = "https://scikit-learn.org/"
-logo = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikit-learn/scikit-learn-original.svg"
+logo = "https://ik.imagekit.io/ys4gkaixy/Scikit_learn_logo.svg?updatedAt=1745191573114"
 
 [[tech]]
 name = "pandas"
@@ -55,14 +50,18 @@ logo = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib
 ## AWS Machine Learning for Predictive Maintenance
 
 ### **Overview**
-This project focuses on developing a Predictive Maintenance System using AWS and Machine Learning. The system predicts machine failures based on sensor data, enabling proactive maintenance and minimizing downtime. By leveraging AWS services, the project efficiently processes and analyzes data to provide real-time predictions of equipment malfunctions.
+
+This project focuses on building a Predictive Maintenance system using the [AI4I 2020 Predictive Maintenance Dataset](https://archive.ics.uci.edu/dataset/682/ai4i+2020+predictive+maintenance+dataset) and [AWS SageMaker Canvas](https://aws.amazon.com/sagemaker/canvas/), a no-code ML platform. The goal is to predict machine failures before they occur based on operational and sensor data. By leveraging AWS services, the project efficiently processes and analyzes data to provide real-time predictions of equipment malfunctions.
+
+Key steps included data ingestion, cleaning, feature engineering, exploratory analysis, model building, evaluation, and basic explainability.
+
 
 ### **Technologies Used**
 - **AWS Services:**
-  - AWS SageMaker (for model training and deployment)
-  - AWS S3 (for data storage)
-  - AWS Lambda (for serverless computing)
-  - AWS IAM (for access management)
+   - AWS SageMaker Canvas for automated model building
+   - AWS Data Wrangler for feature engineering
+   - AWS S3 for storage
+   - AWS IAM for access management
 - **Machine Learning Models:**
   - Logistic Regression
   - Naive Bayes
@@ -72,39 +71,87 @@ This project focuses on developing a Predictive Maintenance System using AWS and
 - **Libraries/Frameworks:**
   - pandas, numpy, scikit-learn, AWS SDK (boto3)
 
-### **Implementation**
-1. **Data Collection & Preprocessing:**
-   - Collected historical sensor data from machines stored in AWS S3.
-   - Performed data cleaning and preprocessing, including handling missing values and feature engineering.
-   
-2. **Model Training:**
-   - Implemented multiple machine learning algorithms (Logistic Regression, Naive Bayes, Random Forest) using AWS SageMaker.
-   - Trained the models using large datasets stored in AWS S3.
-   - Evaluated model performance using metrics like accuracy, precision, and recall.
+---
 
-3. **Deployment & Real-Time Predictions:**
-   - Deployed the trained models to AWS SageMaker for real-time predictions.
-   - Integrated AWS Lambda to automatically trigger model predictions when new sensor data is available.
-   
-4. **Future Work & Enhancements:**
-   - Explored the potential of deep learning models (CNN, RNN) for more accurate predictions.
-   - Expanded the project to include automated maintenance decision-making based on model outputs.
+## Dataset
+The dataset contains 10,000 samples and 14 columns including:
+- **Air temperature [K]**
+- **Process temperature [K]**
+- **Rotational speed [rpm]**
+- **Torque [Nm]**
+- **Tool wear [min]**
+- **Machine failure** (Target variable - can be 0 or 1)
+
+ID columns like 'UDI' and 'Product ID' were dropped as they were irrelevant for modeling.
+
+---
+
+## Workflow
+
+### 1. Data Ingestion
+- Uploaded the dataset to **AWS SageMaker Canvas** and stored in an **S3 bucket**.
+
+![Dataset Upload](/images/datset_to_s3.png)
+
+### 2. Data Preparation
+- Used **AWS Data Wrangler** to clean and transform the data.
+- Engineered new features where appropriate (e.g., calculating difference between air and process temperatures).
+- Dropped ID columns.
+
+![Data Wrangler Flow](/images/data_wrangler_flow.png)
+
+### 3. Exploratory Data Analysis
+- Visualized feature correlations.
+- Found that some features (e.g., torque, rotational speed) had significant linear relationships.
+
+![Correlation Heatmap](figure9.png)
+
+- Identified early warning patterns:
+  - Failures increased sharply when **air temperature** exceeded certain thresholds.
+
+![Air Temperature vs Machine Failure](figure18.png)
+
+- **Tool Wear** was highly predictive for **Tool Wear Failure**.
+
+![Tool Wear vs Tool Wear Failure](figure22.png)
+
+### 4. Model Building
+- Set **Machine Failure** as the prediction target.
+- SageMaker Canvas automatically built multiple models including Logistic Regression, Decision Trees, and XGBoost.
+
+### 5. Model Evaluation
+- **Logistic Regression** provided a strong baseline with high accuracy and recall.
+
+![Logistic Regression Model Evaluation](figure14.png)
+
+### 6. Model Explainability
+- Generated feature importance plots.
+- Found that **Torque**, **Rotational Speed**, and **Tool Wear** were critical predictors.
+
+### 7. Deployment (Optional Step)
+- Although Canvas provides easy deployment options, the model was primarily used for evaluation in this project.
+
+---
 
 ### **Impact**
-This system enables organizations to predict machine failures in advance, reducing downtime and maintenance costs. By deploying the model on AWS, the solution is scalable, cost-effective, and capable of handling large datasets.
+This system enables the prediction machine failures in advance, reducing downtime and maintenance costs. By deploying the model on AWS, the solution is scalable, cost-effective, and capable of handling large datasets.
 
-### **Project Images**
+---
 
-Here’s a visual representation of the various stages of the project:
+## Key Takeaways
+- **SageMaker Canvas** simplifies ML model building for non-coders.
+- Proper feature selection significantly improves predictive performance.
+- EDA remains a critical step even when using no-code ML tools.
+- Predictive maintenance models can reduce downtime and operational costs when deployed properly.
 
-| ![Data Preprocessing](https://via.placeholder.com/150) | ![Model Training](https://via.placeholder.com/150) | ![Model Evaluation](https://via.placeholder.com/150) |
-|-------------------------------------------------------|--------------------------------------------------|--------------------------------------------------|
-| **Data Collection and Preprocessing**                 | **Training ML Models on AWS SageMaker**          | **Evaluating Model Performance**                |
+---
 
-| ![AWS Deployment](https://via.placeholder.com/150) | ![Real-time Predictions](https://via.placeholder.com/150) | ![System Overview](https://via.placeholder.com/150) |
-|--------------------------------------------------|--------------------------------------------------------|--------------------------------------------------|
-| **Deploying Models on AWS SageMaker**            | **Real-time Predictions Using AWS Lambda**            | **System Architecture and Overview**             |
+## Future Work
+- Integrate real-time data pipelines for live failure prediction.
+- Deploy the model using SageMaker endpoints for production use.
+- Implement deeper interpretability methods (e.g., SHAP values).
 
-You can replace the placeholder image URLs with actual screenshots or photos from your project. This layout provides a nice visual flow for the project’s stages, giving visitors a better understanding of how it works.
+---
 
-Let me know if you'd like any further adjustments!
+## External Links
+- [AI4I 2020 Predictive Maintenance Dataset](https://archive.ics.uci.edu/dataset/682/ai4i+2020+predictive+maintenance+dataset)
