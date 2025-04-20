@@ -1,9 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ai on Sudeepthi Rebbalapalli</title><link>https://sudeepthi59o.github.io/categories/ai/</link><description>Recent content in Ai on Sudeepthi Rebbalapalli</description><generator>Hugo</generator><language>en-gb</language><lastBuildDate>Sat, 12 Apr 2025 23:00:00 +0000</lastBuildDate><atom:link href="https://sudeepthi59o.github.io/categories/ai/index.xml" rel="self" type="application/rss+xml"/><item><title>Automated Acquire Game</title><link>https://sudeepthi59o.github.io/portfolio/automated-acquire-game/</link><pubDate>Sat, 12 Apr 2025 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/automated-acquire-game/</guid><description>&lt;p>The Automated Acquire Game project is a Python-based implementation of the classic board game &lt;a href="https://en.wikipedia.org/wiki/Acquire">Acquire&lt;/a>, designed to simulate and automate gameplay. It includes intelligent decision-making algorithms to simulate player behavior and strategic gameplay. The project is structured with a modular object-oriented architecture, handling different components such as gameplay flow, board state management, and AI-driven player logic.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ai on Sudeepthi Rebbalapalli</title><link>https://sudeepthi59o.github.io/categories/ai/</link><description>Recent content in Ai on Sudeepthi Rebbalapalli</description><generator>Hugo</generator><language>en-gb</language><lastBuildDate>Sat, 12 Apr 2025 23:00:00 +0000</lastBuildDate><atom:link href="https://sudeepthi59o.github.io/categories/ai/index.xml" rel="self" type="application/rss+xml"/><item><title>Automated Acquire Game</title><link>https://sudeepthi59o.github.io/portfolio/automated-acquire-game/</link><pubDate>Sat, 12 Apr 2025 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/automated-acquire-game/</guid><description>&lt;!-- raw HTML omitted -->
 &lt;hr>
-&lt;h2 id="key-features">&lt;strong>Key Features&lt;/strong>&lt;/h2>
-&lt;ul>
-&lt;li>
-&lt;p>&lt;strong>Automated Gameplay&lt;/strong>: AI-driven simulation allows the game to play itself with no human input.&lt;/p></description></item><item><title>Early Onset Parkinson's Detection from Speech Data</title><link>https://sudeepthi59o.github.io/portfolio/early-onset-parkinsons-detection/</link><pubDate>Sat, 12 Apr 2025 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/early-onset-parkinsons-detection/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;h2 id="p-stylefont-size-18remkey-featuresp">&lt;!-- raw HTML omitted -->&lt;strong>Key Features&lt;/strong>&lt;!-- raw HTML omitted -->&lt;/h2>
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;hr>
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;hr>
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;hr>
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;p>&lt;img src="https://sudeepthi59o.github.io/images/acquire_demo.gif" alt="Acquire Game Demo">&lt;br>
+GIF created with &lt;!-- raw HTML omitted -->LiceCap&lt;!-- raw HTML omitted -->.&lt;/p></description></item><item><title>Early Onset Parkinson's Detection from Speech Data</title><link>https://sudeepthi59o.github.io/portfolio/early-onset-parkinsons-detection/</link><pubDate>Sat, 12 Apr 2025 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/early-onset-parkinsons-detection/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
 &lt;p>This project implements an end-to-end deep learning model using convolutional neural networks (CNNs) to detect early-onset Parkinson’s Disease (PD) from speech data. Leveraging Mel spectrograms and advanced preprocessing, the model aims to identify subtle vocal indicators of PD.&lt;/p>
 &lt;p>The work builds on methodologies by Quan et al. and evaluates their applicability to a real-world Italian dataset. Tools such as &lt;strong>Librosa&lt;/strong> for audio processing and &lt;strong>NeuroSpeech&lt;/strong> for feature exploration played a crucial role in the pipeline.&lt;/p></description></item><item><title>Parts-of-Speech (POS) Tagging with Hidden Markov Models (HMM) and Viterbi Algorithm</title><link>https://sudeepthi59o.github.io/portfolio/pos-tagging-hmm/</link><pubDate>Sat, 12 Apr 2025 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/pos-tagging-hmm/</guid><description>&lt;p>This is some content&lt;/p></description></item><item><title>Predictive Maintenance Using AWS Machine Learning</title><link>https://sudeepthi59o.github.io/portfolio/predictive-maintainance/</link><pubDate>Sat, 12 Apr 2025 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/predictive-maintainance/</guid><description>&lt;h2 id="aws-machine-learning-for-predictive-maintenance">AWS Machine Learning for Predictive Maintenance&lt;/h2>
 &lt;h3 id="overview">&lt;strong>Overview&lt;/strong>&lt;/h3>
