@@ -6,6 +6,7 @@ description = "Deep learning model using CNNs to detect early-onset Parkinson’
 image = "https://ik.imagekit.io/ys4gkaixy/Neural_network.svg?updatedAt=1744744987487"
 title = "Early Onset Parkinson's Detection from Speech Data"
 type = "post"
+weight=2
 [[tech]]
 logo = "https://ik.imagekit.io/ys4gkaixy/Skills/Python_logo_01.svg?updatedAt=1744511052787"
 name = "Python"
@@ -54,9 +55,9 @@ Early detection of PD, especially in its early-onset form, is challenging due to
 ---
 ## Project Workflow
 
-![Workflow](/images/PD_Detection_Workflow.svg)
+The overall workflow of the model, from speech input to Parkinson’s detection, is outlined below.
 
-The overall workflow of the model, from speech input to Parkinson’s detection, is outlined above.
+![Workflow](/images/PD_Detection_Workflow.svg)
 ---
 
 ## Dataset and Processing
@@ -65,10 +66,10 @@ The overall workflow of the model, from speech input to Parkinson’s detection,
 - **Telugu Dataset**: 24 samples from 8 participants under varied noise conditions (created by the class).
 - **English Dataset**: KCL Hospital phone-based recordings with detailed PD annotations.
 
-![Mel_Spectrogram](/images/Mel_spectrogram.png)
-
 Example of a Mel spectrogram generated from raw speech data: 
 Left: Heatmap representation, Right: Frequency matrix
+
+![Mel_Spectrogram](/images/Mel_spectrogram.png)
 ---
 
 ## Tools & Libraries
