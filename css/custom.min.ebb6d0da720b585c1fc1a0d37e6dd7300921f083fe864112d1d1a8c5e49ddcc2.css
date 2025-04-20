@@ -1,1 +1,0 @@
-body{font-size:1.8rem;line-height:1.8;font-family:Cantarell,sans-serif;color:#454545}p{font-size:3rem;line-height:1.8}html{--vh:100vh;height:100%}@media(max-width:767px){html{--vh:calc(var(--vh, 1vh) * 100)}}body{height:var(--vh);min-height:100%}
