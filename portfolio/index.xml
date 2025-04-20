@@ -40,36 +40,8 @@
 &lt;h3 id="http-client--server">HTTP Client &amp;amp; Server&lt;/h3>
 &lt;p>Built a fully functional HTTP client and server pair, supporting basic GET/POST requests and response parsing. This helped explore how web browsers and servers communicate.&lt;/p></description></item><item><title>Parts-of-Speech (POS) Tagging with Hidden Markov Models (HMM) and Viterbi Algorithm</title><link>https://sudeepthi59o.github.io/portfolio/pos-tagging-hmm/</link><pubDate>Sat, 12 Apr 2025 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/pos-tagging-hmm/</guid><description>&lt;p>This is some content&lt;/p></description></item><item><title>Predictive Maintenance Using AWS Machine Learning</title><link>https://sudeepthi59o.github.io/portfolio/predictive-maintainance/</link><pubDate>Sat, 12 Apr 2025 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/predictive-maintainance/</guid><description>&lt;h2 id="aws-machine-learning-for-predictive-maintenance">AWS Machine Learning for Predictive Maintenance&lt;/h2>
 &lt;h3 id="overview">&lt;strong>Overview&lt;/strong>&lt;/h3>
-&lt;p>This project focuses on developing a Predictive Maintenance System using AWS and Machine Learning. The system predicts machine failures based on sensor data, enabling proactive maintenance and minimizing downtime. By leveraging AWS services, the project efficiently processes and analyzes data to provide real-time predictions of equipment malfunctions.&lt;/p>
-&lt;h3 id="technologies-used">&lt;strong>Technologies Used&lt;/strong>&lt;/h3>
-&lt;ul>
-&lt;li>&lt;strong>AWS Services:&lt;/strong>
-&lt;ul>
-&lt;li>AWS SageMaker (for model training and deployment)&lt;/li>
-&lt;li>AWS S3 (for data storage)&lt;/li>
-&lt;li>AWS Lambda (for serverless computing)&lt;/li>
-&lt;li>AWS IAM (for access management)&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Machine Learning Models:&lt;/strong>
-&lt;ul>
-&lt;li>Logistic Regression&lt;/li>
-&lt;li>Naive Bayes&lt;/li>
-&lt;li>Random Forest&lt;/li>
-&lt;li>(Explored CNNs and RNNs for future improvements)&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Programming Language:&lt;/strong> Python&lt;/li>
-&lt;li>&lt;strong>Libraries/Frameworks:&lt;/strong>
-&lt;ul>
-&lt;li>pandas, numpy, scikit-learn, AWS SDK (boto3)&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h3 id="implementation">&lt;strong>Implementation&lt;/strong>&lt;/h3>
-&lt;ol>
-&lt;li>
-&lt;p>&lt;strong>Data Collection &amp;amp; Preprocessing:&lt;/strong>&lt;/p></description></item><item><title>Hugo Portfolio Website</title><link>https://sudeepthi59o.github.io/portfolio/hugo-portfolio-website/</link><pubDate>Fri, 19 Jun 2020 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/hugo-portfolio-website/</guid><description>&lt;p>I created my portfolio website using Hugo and UIKit, it serves as an online resume containing all my work.&lt;/p>
+&lt;p>This project focuses on building a Predictive Maintenance system using the &lt;a href="https://archive.ics.uci.edu/dataset/682/ai4i+2020+predictive+maintenance+dataset">AI4I 2020 Predictive Maintenance Dataset&lt;/a> and &lt;a href="https://aws.amazon.com/sagemaker/canvas/">AWS SageMaker Canvas&lt;/a>, a no-code ML platform. The goal is to predict machine failures before they occur based on operational and sensor data. By leveraging AWS services, the project efficiently processes and analyzes data to provide real-time predictions of equipment malfunctions.&lt;/p>
+&lt;p>Key steps included data ingestion, cleaning, feature engineering, exploratory analysis, model building, evaluation, and basic explainability.&lt;/p></description></item><item><title>Hugo Portfolio Website</title><link>https://sudeepthi59o.github.io/portfolio/hugo-portfolio-website/</link><pubDate>Fri, 19 Jun 2020 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/hugo-portfolio-website/</guid><description>&lt;p>I created my portfolio website using Hugo and UIKit, it serves as an online resume containing all my work.&lt;/p>
 &lt;p>This has been created as a theme so that others can use and adapt it.&lt;/p>
 &lt;h2 id="sections">Sections&lt;/h2>
 &lt;h3 id="homepage">Homepage&lt;/h3>
