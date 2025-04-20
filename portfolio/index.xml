@@ -1,28 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on Sudeepthi Rebbalapalli</title><link>https://sudeepthi59o.github.io/portfolio/</link><description>Recent content in Projects on Sudeepthi Rebbalapalli</description><generator>Hugo</generator><language>en-gb</language><lastBuildDate>Sat, 12 Apr 2025 23:00:00 +0000</lastBuildDate><atom:link href="https://sudeepthi59o.github.io/portfolio/index.xml" rel="self" type="application/rss+xml"/><item><title>Automated Acquire Game</title><link>https://sudeepthi59o.github.io/portfolio/automated-acquire-game/</link><pubDate>Sat, 12 Apr 2025 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/automated-acquire-game/</guid><description>&lt;!-- raw HTML omitted -->
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on Sudeepthi Rebbalapalli</title><link>https://sudeepthi59o.github.io/portfolio/</link><description>Recent content in Projects on Sudeepthi Rebbalapalli</description><generator>Hugo</generator><language>en-gb</language><lastBuildDate>Sat, 12 Apr 2025 23:00:00 +0000</lastBuildDate><atom:link href="https://sudeepthi59o.github.io/portfolio/index.xml" rel="self" type="application/rss+xml"/><item><title>Automated Acquire Game</title><link>https://sudeepthi59o.github.io/portfolio/automated-acquire-game/</link><pubDate>Sat, 12 Apr 2025 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/automated-acquire-game/</guid><description>&lt;p>The Automated Acquire Game project is a Python-based implementation of the classic board game &lt;a href="https://en.wikipedia.org/wiki/Acquire">Acquire&lt;/a>, designed to simulate and automate gameplay. It includes intelligent decision-making algorithms to simulate player behavior and strategic gameplay. The project is structured with a modular object-oriented architecture, handling different components such as gameplay flow, board state management, and AI-driven player logic.&lt;/p>
 &lt;hr>
-&lt;h2 id="p-stylefont-size-18remkey-featuresp">&lt;!-- raw HTML omitted -->&lt;strong>Key Features&lt;/strong>&lt;!-- raw HTML omitted -->&lt;/h2>
-&lt;!-- raw HTML omitted -->
-&lt;!-- raw HTML omitted -->
-&lt;!-- raw HTML omitted -->
-&lt;!-- raw HTML omitted -->
-&lt;!-- raw HTML omitted -->
-&lt;hr>
-&lt;!-- raw HTML omitted -->
-&lt;!-- raw HTML omitted -->
-&lt;hr>
-&lt;!-- raw HTML omitted -->
-&lt;!-- raw HTML omitted -->
-&lt;!-- raw HTML omitted -->
-&lt;!-- raw HTML omitted -->
-&lt;!-- raw HTML omitted -->
-&lt;!-- raw HTML omitted -->
-&lt;hr>
-&lt;!-- raw HTML omitted -->
-&lt;!-- raw HTML omitted -->
-&lt;!-- raw HTML omitted -->
-&lt;!-- raw HTML omitted -->
-&lt;p>&lt;img src="https://sudeepthi59o.github.io/images/acquire_demo.gif" alt="Acquire Game Demo">&lt;br>
-GIF created with &lt;!-- raw HTML omitted -->LiceCap&lt;!-- raw HTML omitted -->.&lt;/p></description></item><item><title>A Data-Driven Exploration Using GCP and Visualization Tools</title><link>https://sudeepthi59o.github.io/portfolio/human-development_index-gcp/</link><pubDate>Sat, 12 Apr 2025 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/human-development_index-gcp/</guid><description>&lt;h3 id="overview">Overview&lt;/h3>
+&lt;h2 id="key-features">&lt;strong>Key Features&lt;/strong>&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Automated Gameplay&lt;/strong>: AI-driven simulation allows the game to play itself with no human input.&lt;/p></description></item><item><title>A Data-Driven Exploration Using GCP and Visualization Tools</title><link>https://sudeepthi59o.github.io/portfolio/human-development_index-gcp/</link><pubDate>Sat, 12 Apr 2025 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/human-development_index-gcp/</guid><description>&lt;h3 id="overview">Overview&lt;/h3>
 &lt;p>This project involves analyzing global Human Development Indices (HDI), Gender Development Index (GDI), and Gender Inequality Index (GII) over time using cloud-based data pipelines and interactive visualizations. By analyzing historical trends, it identifies the effects of global crises on development indices, including the Syrian Civil War, Yemen Civil War, and the Taliban&amp;rsquo;s takeover of Afghanistan.&lt;/p>
 &lt;h3 id="technologies-used">Technologies Used&lt;/h3>
 &lt;ul>
