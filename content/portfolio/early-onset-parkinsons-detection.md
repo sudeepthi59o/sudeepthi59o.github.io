@@ -54,7 +54,7 @@ Early detection of PD, especially in its early-onset form, is challenging due to
 ---
 ## Project Workflow
 
-![Workflow](static/images/PD_Detection_Workflow.svg)
+![Workflow](../../static/images/PD_Detection_Workflow.svg)
 
 The overall workflow of the model, from speech input to Parkinson’s detection, is outlined above.
 ---
@@ -65,7 +65,7 @@ The overall workflow of the model, from speech input to Parkinson’s detection,
 - **Telugu Dataset**: 24 samples from 8 participants under varied noise conditions (created by the class).
 - **English Dataset**: KCL Hospital phone-based recordings with detailed PD annotations.
 
-![Mel_Spectrogram](static/images/Mel_spectrogram.png)
+![Mel_Spectrogram](../../static/images/Mel_spectrogram.png)
 
 Example of a Mel spectrogram generated from raw speech data: 
 Left: Heatmap representation, Right: Frequency matrix
@@ -100,8 +100,8 @@ Left: Heatmap representation, Right: Frequency matrix
 
 ## Extras/ Resources
 
-- Read full project report here - [PDF](static/Parkinson's%20Approach%20Report.pdf)
-- Exploratory notebooks for Librosa audio processing - [Notebook](static/Librosa%20Feature%20Extraction.pdf) 
+- Read full project report here - [PDF](../../static/Parkinson's%20Approach%20Report.pdf)
+- Exploratory notebooks for Librosa audio processing - [Notebook](../../static/Librosa%20Feature%20Extraction.pdf) 
 ---
 
 ## References
