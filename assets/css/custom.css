@@ -1,16 +1,29 @@
-.custom-hero {
-    padding-top: 2rem;
-    padding-bottom: 0; /* Remove bottom padding from the hero section */
-}
-
+/* Increase font size for body and paragraphs */
 body {
-    font-size: 3rem; /* or 1.5rem, depending how big you want */
+    font-size: 1.8rem; /* Adjust this size to your preference */
     line-height: 1.8;
     font-family: Cantarell, sans-serif;
     color: #454545;
 }
 
+p {
+    font-size: 3rem; /* Set to the desired font size for paragraphs */
+    line-height: 1.8;  /* Maintain readability */
+}
+
+/* Fix viewport height on Chrome/Safari for mobile devices */
 html {
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
+    --vh: 100vh;
+    height: 100%;
+}
+  
+@media (max-width: 767px) {
+    html {
+        --vh: calc(var(--vh, 1vh) * 100);
+    }
+}
+  
+body {
+    height: var(--vh);
+    min-height: 100%;
 }
