@@ -6,6 +6,7 @@ description = "AI-powered automation in the classic Acquire board game"
 image = "https://ik.imagekit.io/ys4gkaixy/economy-games-svgrepo-com.svg?updatedAt=1744655154207"
 title = "Automated Acquire Game"
 type = "post"
+weight = 1
 [[tech]]
 logo = "https://ik.imagekit.io/ys4gkaixy/Skills/Python_logo_01.svg?updatedAt=1744511052787"
 name = "Python"
@@ -24,8 +25,6 @@ url = "https://en.wikipedia.org/wiki/Game_tree"
 logo="https://ik.imagekit.io/ys4gkaixy/With%20Name%20logos/Tic-tac-toe-game-tree.svg?updatedAt=1744656309126"
 +++
 
-# Automated Acquire Game
-
 The Automated Acquire Game project is a Python-based implementation of the classic board game [Acquire](https://en.wikipedia.org/wiki/Acquire), designed to simulate and automate gameplay. It includes intelligent decision-making algorithms to simulate player behavior and strategic gameplay. The project is structured with a modular object-oriented architecture, handling different components such as gameplay flow, board state management, and AI-driven player logic.
 
 ---
@@ -34,8 +33,7 @@ The Automated Acquire Game project is a Python-based implementation of the class
 
 - **Automated Gameplay**: AI-driven simulation allows the game to play itself with no human input.
   
-- **Strategic Player Modeling**: Implements multiple player strategies — ordered, random, largest-alphabetical, and smallest-anti-alphabetical — using game-tree logic to simulate diverse decision-making styles.  
-Rather than always selecting the mathematically optimal move, the AI reflects realistic and varied play patterns, offering a richer and more human-like simulation.
+- **Strategic Player Modeling**: Implements multiple strategies (ordered, random, largest-alphabetical, smallest-anti-alphabetical) using game-tree logic, simulating varied decision-making. The AI prioritizes strategy over the mathematically optimal move, resulting in more realistic gameplay.
   
 - **Efficient Game Tree Evaluation (Lazy Generation)**: To manage complexity, the project adopts a lazy generation approach.  
 Instead of generating all possible future game states, the AI simulates placing each available tile and generates only immediate permutations of share purchases and replacement tiles — a much smaller and more manageable set.  
@@ -44,7 +42,7 @@ A full game board state is generated only for the selected action, dramatically 
 
 - **Board Management**: Automates key gameplay mechanics, including tile placement, hotel formation, mergers, and score calculation.
 
-- **Error Handling and Robustness**: Incorporates fallback mechanisms to handle edge cases, such as unavailable tile placements, ensuring smooth gameplay.
+- **Error Handling and Robustness**: Includes mechanisms to handle edge cases, such as unavailable tile placements, ensuring smooth gameplay.
 
 ---
 
