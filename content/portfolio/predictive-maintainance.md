@@ -91,29 +91,29 @@ ID columns like 'UDI' and 'Product ID' were dropped as they were irrelevant for 
 ### 1. Data Ingestion
 - Uploaded the dataset to **AWS SageMaker Canvas** and stored in an **S3 bucket**.
 
-<img src="/images/dataset_to_s3.png" alt="Dataset Upload" width="600" height="auto" />
+![Dataset Upload](/images/dataset_to_s3.png){width=600 height=600}
 
 ### 2. Data Preparation
 - Used **AWS Data Wrangler** to clean and transform the data.
 - Engineered new features where appropriate (e.g., calculating difference between air and process temperatures).
 - Dropped ID columns.
 
-<img src="/images/data_wrangler_flow.png" alt="Data Wrangler Flow" width="600" height="auto" />
+![Data Wrangler Flow](/images/data_wrangler_flow.png){width=600 height=600}
 
 ### 3. Exploratory Data Analysis
 - Visualized feature correlations.
 - Found that some features (e.g., torque, rotational speed) had significant linear relationships.
 
-![Correlation Heatmap](/images/correlation_features.png)
+![Correlation Heatmap](/images/correlation_features.png){width=600 height=600}
 
 - Identified early warning patterns:
 - Failures increased sharply when **air temperature** exceeded certain thresholds.
 
-![Air Temperature vs Machine Failure](/images/Variable_AT.png)
+![Air Temperature vs Machine Failure](/images/Variable_AT.png){width=600 height=600}
 
 - **Tool Wear** was highly predictive for **Tool Wear Failure**.
 
-![Tool Wear vs Tool Wear Failure](/images/TWF_graphs.png)
+![Tool Wear vs Tool Wear Failure](/images/TWF_graphs.png){width=600 height=600}
 
 ### 4. Model Building
 - Set **Machine Failure** as the prediction target.
@@ -122,7 +122,7 @@ ID columns like 'UDI' and 'Product ID' were dropped as they were irrelevant for 
 ### 5. Model Evaluation
 - **Logistic Regression** provided a strong baseline with high accuracy and recall.
 
-![Logistic Regression Model Evaluation](/images/LR_model.png)
+![Logistic Regression Model Evaluation](/images/LR_model.png){width=600 height=600}
 
 ### 6. Model Explainability
 - Generated feature importance plots.
