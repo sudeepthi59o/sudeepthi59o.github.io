@@ -91,14 +91,14 @@ ID columns like 'UDI' and 'Product ID' were dropped as they were irrelevant for 
 ### 1. Data Ingestion
 - Uploaded the dataset to **AWS SageMaker Canvas** and stored in an **S3 bucket**.
 
-![Dataset Upload](/images/datset_to_s3.png)
+<img src="/images/dataset_to_s3.png" alt="Dataset Upload" width="600" height="auto" />
 
 ### 2. Data Preparation
 - Used **AWS Data Wrangler** to clean and transform the data.
 - Engineered new features where appropriate (e.g., calculating difference between air and process temperatures).
 - Dropped ID columns.
 
-![Data Wrangler Flow](/images/data_wrangler_flow.png)
+<img src="/images/data_wrangler_flow.png" alt="Data Wrangler Flow" width="600" height="auto" />
 
 ### 3. Exploratory Data Analysis
 - Visualized feature correlations.
@@ -128,8 +128,9 @@ ID columns like 'UDI' and 'Product ID' were dropped as they were irrelevant for 
 - Generated feature importance plots.
 - Found that **Torque**, **Rotational Speed**, and **Tool Wear** were critical predictors.
 
-### 7. Deployment (Optional Step)
-- Although Canvas provides easy deployment options, the model was primarily used for evaluation in this project.
+### 7. Deployment
+- Although SageMaker Canvas provides easy deployment options, in this project, the model was primarily evaluated offline. 
+- In the future, the model can be deployed using **AWS SageMaker Endpoints** for real-time predictions or scheduled batch inference jobs for periodic analysis.
 
 ---
 
