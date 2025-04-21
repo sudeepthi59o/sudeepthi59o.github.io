@@ -30,9 +30,11 @@ url = "https://cloud.google.com/storage"
 +++
 
 ## Overview
+This project analyzes the evolution of global Human Development Index (HDI), Gender Development Index (GDI), and Gender Inequality Index (GII) from 1990 to 2023, using a cloud-based data pipeline and interactive visualizations.
 
-This project focuses on analyzing the evolution of global Human Development Indices (HDI), Gender Development Index (GDI), and Gender Inequality Index (GII) over time (1990–2023), using cloud-based data pipelines and interactive visualizations. By investigating the influence of major global crises such as wars, pandemics, and political upheavals, this analysis highlights how significant socio-political events impact human development metrics. The project provides an insightful look at the intersection between global events and human development, offering an effective visualization of these trends to support better decision-making.
+The pipeline includes data collection, cleaning, storage in Google Cloud Platform (GCP) services, analysis using SQL queries in BigQuery, and visualization with Plotly. By integrating cloud-based processing and interactive charts, the project provides deeper insights into development patterns over time.
 
+The analysis explores the impact of major global crises—such as wars, pandemics, and political upheavals—on human development metrics. It offers a data-driven view of how socio-political events shape development outcomes and provides visual tools to support informed decision-making.
 ----
 
 ## Technologies Used
@@ -153,7 +155,7 @@ def create_interactive_plot(df):
 create_interactive_plot(df)
 ```
 
-Sample interactive visualization of HDI trends created using Plotly:
+#### Sample interactive visualization of HDI trends created using Plotly (make sure to 'select all' on the top-right for line plots):
 
 - [HDI Trends by Country](/plots/hdi_plot.html) - Explore how HDI has evolved over time across different countries. For example, you can observe significant declines in Syria and Yemen following major conflicts like the Syrian Civil War (2011) and the Yemen Civil War (2014).
 - [Difference in HDI and IHDI by Country](/plots/ihdi_loss_plot.html) — Visualizes the impact of inequality on development by showing the gap between HDI and the Inequality-adjusted HDI (IHDI).
