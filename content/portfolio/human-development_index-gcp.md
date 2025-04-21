@@ -155,7 +155,9 @@ create_interactive_plot(df)
 
 Sample interactive visualization of HDI trends created using Plotly:
 
-- [HDI Trends plot](https://sudeepthi59o.github.io/plots/plot.html)
+- [HDI Trends by Country](/plots/hdi_plot.html) - Explore how HDI has evolved over time across different countries. For example, you can observe significant declines in Syria and Yemen following major conflicts like the Syrian Civil War (2011) and the Yemen Civil War (2014).
+- [Difference in HDI and IHDI by Country](/plots/ihdi_loss_plot.html) — Visualizes the impact of inequality on development by showing the gap between HDI and the Inequality-adjusted HDI (IHDI).
+- [Comparison of HDI, GDI and GII of the Top 30 Countries](/plots/hdi_gdi_gii_comparison_plot.html) - Compare Human Development Index (HDI), Gender Development Index (GDI), and Gender Inequality Index (GII) side-by-side for the world's top-performing countries.
 
 
 ### 6. Future Work

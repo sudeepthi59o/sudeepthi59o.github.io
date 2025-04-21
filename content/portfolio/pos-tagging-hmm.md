@@ -12,4 +12,4 @@ name = "Hugo"
 url = "https://gohugo.io/"
 +++
 
-This is some content
+Coming soon
