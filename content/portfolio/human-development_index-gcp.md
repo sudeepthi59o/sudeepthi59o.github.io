@@ -35,6 +35,7 @@ This project analyzes the evolution of global Human Development Index (HDI), Gen
 The pipeline includes data collection, cleaning, storage in Google Cloud Platform (GCP) services, analysis using SQL queries in BigQuery, and visualization with Plotly. By integrating cloud-based processing and interactive charts, the project provides deeper insights into development patterns over time.
 
 The analysis explores the impact of major global crises—such as wars, pandemics, and political upheavals—on human development metrics. It offers a data-driven view of how socio-political events shape development outcomes and provides visual tools to support informed decision-making.
+
 ----
 
 ## Technologies Used
