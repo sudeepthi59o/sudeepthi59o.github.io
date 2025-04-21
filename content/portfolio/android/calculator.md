@@ -1,5 +1,5 @@
 +++
-categories = ["web-dev"]
+categories = []
 coders = ["sudeepthi59o"]
 date = 2025-04-12T23:00:00Z
 description = "A user-friendly Android calculator with basic and scientific functions"

@@ -1,7 +1,7 @@
 filter:
   - label: Web Dev
     value: web-dev
-  - label: AI
+  - label: AI/ML
     value: ai
   - label: Cloud
     value: cloud

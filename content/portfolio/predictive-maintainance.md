@@ -1,5 +1,5 @@
 +++
-categories = ["ai"]
+categories = ["ai","cloud"]
 coders = []
 date = 2025-04-12T23:00:00Z
 description = "Predictive Maintenance Using AWS Machine Learning"
