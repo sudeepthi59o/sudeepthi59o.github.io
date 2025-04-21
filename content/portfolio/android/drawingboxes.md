@@ -1,5 +1,5 @@
 +++
-categories = ["web-dev"]
+categories = ["app"]
 coders = ["sudeepthi59o"]
 date = 2025-04-12T23:00:00Z
 description = "A user-friendly Android box drawing app"
