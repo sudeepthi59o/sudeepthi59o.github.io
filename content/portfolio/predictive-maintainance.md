@@ -48,8 +48,6 @@ url = "https://matplotlib.org/"
 logo = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg"
 +++
 
-## AWS Machine Learning for Predictive Maintenance
-
 ### **Overview**
 
 This project focuses on building a Predictive Maintenance system using the [AI4I 2020 Predictive Maintenance Dataset](https://archive.ics.uci.edu/dataset/682/ai4i+2020+predictive+maintenance+dataset) and [AWS SageMaker Canvas](https://aws.amazon.com/sagemaker/canvas/), a no-code ML platform. The goal is to predict machine failures before they occur based on operational and sensor data. By leveraging AWS services, the project efficiently processes and analyzes data to provide real-time predictions of equipment malfunctions.
@@ -59,7 +57,7 @@ Key steps included data ingestion, cleaning, feature engineering, exploratory an
 
 ### **Technologies Used**
 - **AWS Services:**
-   - AWS SageMaker Canvas for automated model building
+   - AWS SageMaker Canvas for for low-code/no-code model building
    - AWS Data Wrangler for feature engineering
    - AWS S3 for storage
    - AWS IAM for access management
@@ -67,7 +65,6 @@ Key steps included data ingestion, cleaning, feature engineering, exploratory an
   - Logistic Regression
   - Naive Bayes
   - Random Forest
-  - (Explored CNNs and RNNs for future improvements)
 - **Programming Language:** Python
 - **Libraries/Frameworks:**
   - pandas, numpy, scikit-learn, AWS SDK (boto3)
@@ -90,7 +87,8 @@ ID columns like 'UDI' and 'Product ID' were dropped as they were irrelevant for 
 ## Workflow
 
 ### 1. Data Ingestion
-- Uploaded the dataset to **AWS SageMaker Canvas** and stored in an **S3 bucket**.
+- Uploaded the dataset to **AWS S3**.
+- Connected **AWS SageMaker Canvas** to the S3 bucket for ingestion.
 
 ![Dataset Upload](/images/dataset_to_s3.png)
 
@@ -102,28 +100,39 @@ ID columns like 'UDI' and 'Product ID' were dropped as they were irrelevant for 
 ![Data Wrangler Flow](/images/data_wrangler_flow.png)
 
 ### 3. Exploratory Data Analysis
-- Visualized feature correlations.
-- Found that some features (e.g., torque, rotational speed) had significant linear relationships.
+- Visualized feature correlations and identified significant patterns.
+- Made some key observations like:
+   - Found that some features (e.g., torque, rotational speed) had significant linear relationships.
 
 ![Correlation Heatmap](/images/correlation_features.png)
 
 - Identified early warning patterns:
-- Failures increased sharply when **air temperature** exceeded certain thresholds.
+   - Failures increased sharply when **air temperature** exceeded certain thresholds.
 
 ![Air Temperature vs Machine Failure](/images/Variable_AT.png)
 
-- **Tool Wear** was highly predictive for **Tool Wear Failure**.
+   - **Tool Wear** was highly predictive for **Tool Wear Failure**.
 
 ![Tool Wear vs Tool Wear Failure](/images/TWF_graphs.png)
 
-### 4. Model Building
-- Set **Machine Failure** as the prediction target.
-- SageMaker Canvas automatically built multiple models including Logistic Regression, Decision Trees, and XGBoost.
+### 4. Model Building and Evaluation
 
-### 5. Model Evaluation
-- **Logistic Regression** provided a strong baseline with high accuracy and recall.
+- Logistic Regression
+   - Chosen as the benchmark model due to the dataset's linear characteristics.
+   - Achieved 98%-99% accuracy and high recall across multiple runs.
+   - ROC AUC score: 0.98
 
-![Logistic Regression Model Evaluation](/images/LR_model.png)
+- Naive Bayes
+   - Trained for its simplicity and speed.
+   - Achieved similar accuracy (98%-99%) with an average precision of 0.90, effectively handling class imbalance.
+
+- Random Forest
+   - Added for its robustness and feature importance insights.
+   - Achieved ~97% accuracy.
+   - Showed more variance in recall scores across folds.
+   - Higher false positives observed, indicating the need for tuning.
+   - Provided valuable feature importance analysis.
+
 
 ### 6. Model Explainability
 - Generated feature importance plots.
@@ -141,17 +150,15 @@ This system enables the prediction machine failures in advance, reducing downtim
 ---
 
 ## Key Takeaways
-- **No-code ML platforms like AWS SageMaker Canvas** empower rapid model development without deep coding expertise, accelerating time-to-value.
-- **Thoughtful feature engineering and selection** remain vital for maximizing model accuracy, even with automated tools.
-- **Exploratory Data Analysis (EDA)** is essential for uncovering hidden patterns, guiding better model design and data-driven decision-making.
-- **Cloud-based ML workflows** offer scalability, reliability, and easier deployment paths for industrial machine learning applications.
+- **Simple models** like **Logistic Regression** can deliver high performance when the data exhibits strong linearity, while **Naive Bayes** can perform well when feature independence assumptions approximately hold — particularly in synthetic datasets with minimal missing values.
+- **Feature engineering and exploratory data analysis (EDA)** are essential for successful model building, even when leveraging no-code tools.
+- **Cloud-based ML platforms** like AWS SageMaker Canvas accelerate development cycles, enabling rapid prototyping, evaluation, and future deployment at scale.
 
 ---
 
 ## Future Work
 - **Integrate a real-time data ingestion pipeline** to enable continuous monitoring and live failure prediction.
 - **Automate deployment** by building SageMaker endpoints for production-ready model serving and API-based access.
-- **Implement continuous model monitoring** to retrain models as new data is collected, ensuring sustained model performance over time.
 
 ---
 
