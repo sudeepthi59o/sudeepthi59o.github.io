@@ -104,16 +104,16 @@ ID columns like 'UDI' and 'Product ID' were dropped as they were irrelevant for 
 - Visualized feature correlations.
 - Found that some features (e.g., torque, rotational speed) had significant linear relationships.
 
-![Correlation Heatmap](figure9.png)
+![Correlation Heatmap](/images/correlation_features.png)
 
 - Identified early warning patterns:
-  - Failures increased sharply when **air temperature** exceeded certain thresholds.
+- Failures increased sharply when **air temperature** exceeded certain thresholds.
 
-![Air Temperature vs Machine Failure](figure18.png)
+![Air Temperature vs Machine Failure](/images/Variable_AT.png)
 
 - **Tool Wear** was highly predictive for **Tool Wear Failure**.
 
-![Tool Wear vs Tool Wear Failure](figure22.png)
+![Tool Wear vs Tool Wear Failure](/images/TWF_graphs.png)
 
 ### 4. Model Building
 - Set **Machine Failure** as the prediction target.
@@ -122,7 +122,7 @@ ID columns like 'UDI' and 'Product ID' were dropped as they were irrelevant for 
 ### 5. Model Evaluation
 - **Logistic Regression** provided a strong baseline with high accuracy and recall.
 
-![Logistic Regression Model Evaluation](figure14.png)
+![Logistic Regression Model Evaluation](/images/LR_model.png)
 
 ### 6. Model Explainability
 - Generated feature importance plots.
