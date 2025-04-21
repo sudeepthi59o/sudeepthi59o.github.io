@@ -5,6 +5,7 @@ date = 2025-04-12T23:00:00Z
 description = "Predictive maintainance using AWS"
 image = "https://ik.imagekit.io/ys4gkaixy/Amazon_Web_Services_Logo.svg?updatedAt=1744742609304"
 title = "Predictive Maintenance Using AWS Machine Learning"
+weight=4
 type = "post"
 [[tech]]
 name = "AWS SageMaker"
