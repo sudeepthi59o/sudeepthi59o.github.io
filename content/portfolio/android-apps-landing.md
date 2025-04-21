@@ -16,7 +16,7 @@ logo = "https://ik.imagekit.io/ys4gkaixy/Skills/Android_Studio_Logo_2024.svg?upd
 
 This page showcases the Android apps I have developed as part of my coursework and projects. These apps cover various concepts such as user authentication, CRUD operations, animations, and more.
 
-### 1. [Calculator App](/portfolio/android/calculator.md)
+### 1. [Calculator App](../portfolio/android/calculator.md)
 A basic calculator app that replicates the functionality of the iPhone's default calculator.
 
 ### 2. [Notes App](/portfolio/android/notes_app.md)
