@@ -62,6 +62,8 @@ While HDI offers a comprehensive overview, it does not fully capture inequalitie
 
 These indices provide a more nuanced view of global development, addressing aspects like inequality, gender disparities, poverty, and sustainability that HDI alone cannot fully capture. The UNDP’s Human Development Reports (HDRs) also offer in-depth analyses of global political, economic, and environmental trends, along with detailed insights into how these indices are constructed.
 
+---
+
 ## Project Architecture
 
 High-level data pipeline architecture for HDI analysis project.
@@ -152,6 +154,9 @@ create_interactive_plot(df)
 ```
 
 Sample interactive visualization of HDI trends created using Plotly:
+
+- [HDI Trends plot](https://sudeepthi59o.github.io/plots/plot.html)
+
 
 ### 6. Future Work
 
