@@ -2,9 +2,9 @@
 categories = ["ai"]
 coders = []
 date = 2025-04-12T23:00:00Z
-description = "Predictive maintainance using AWS"
+description = "Predictive Maintenance Using AWS Machine Learning"
 image = "https://ik.imagekit.io/ys4gkaixy/Amazon_Web_Services_Logo.svg?updatedAt=1744742609304"
-title = "Predictive Maintenance Using AWS Machine Learning"
+title = "Predictive Maintenance Using AWS"
 weight=4
 type = "post"
 [[tech]]

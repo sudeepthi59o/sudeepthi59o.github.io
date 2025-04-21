@@ -2,9 +2,9 @@
 categories = ["cloud"]
 coders = []
 date = 2025-04-12T23:00:00Z
-description = "Human Development Trends Analysis"
+description = "A Data-Driven Exploration Using GCP and Visualization Tools"
 image = "https://ik.imagekit.io/ys4gkaixy/Google-cloud-platform.svg?updatedAt=1744744794909"
-title = "A Data-Driven Exploration Using GCP and Visualization Tools"
+title = "Human Development Trends Analysis"
 weight=5
 type = "post"
 [[tech]]
@@ -29,13 +29,13 @@ name = "Cloud Storage"
 url = "https://cloud.google.com/storage"
 +++
 
-### Overview
+## Overview
 
 This project focuses on analyzing the evolution of global Human Development Indices (HDI), Gender Development Index (GDI), and Gender Inequality Index (GII) over time (1990–2023), using cloud-based data pipelines and interactive visualizations. By investigating the influence of major global crises such as wars, pandemics, and political upheavals, this analysis highlights how significant socio-political events impact human development metrics. The project provides an insightful look at the intersection between global events and human development, offering an effective visualization of these trends to support better decision-making.
 
 ----
 
-### Technologies Used
+## Technologies Used
 
 - **Google Cloud Platform (GCP)**: Utilized for creating a scalable, efficient data pipeline using BigQuery and Cloud Functions.
 - **BigQuery**: Served as the data storage and querying solution for handling massive datasets. It allowed for high-performance analysis and provided the ability to perform complex queries on the HDI, GDI, and GII data.
@@ -44,7 +44,7 @@ This project focuses on analyzing the evolution of global Human Development Indi
 - **Cloud Storage**: Employed to store raw datasets securely in GCP buckets, allowing easy retrieval and management of data for further processing.
 ---
 
-### Background: Understanding Human Development Metrics
+## Background: Understanding Human Development Metrics
 
 The **Human Development Index (HDI)**, developed by the United Nations Development Programme (UNDP), is a key measure of a country’s overall development. Unlike traditional economic indicators, HDI focuses on people and their capabilities, offering a broader view of progress. It combines three core dimensions:
 
@@ -62,22 +62,26 @@ While HDI offers a comprehensive overview, it does not fully capture inequalitie
 
 These indices provide a more nuanced view of global development, addressing aspects like inequality, gender disparities, poverty, and sustainability that HDI alone cannot fully capture. The UNDP’s Human Development Reports (HDRs) also offer in-depth analyses of global political, economic, and environmental trends, along with detailed insights into how these indices are constructed.
 
-#### Project Architecture
+## Project Architecture
 
 High-level data pipeline architecture for HDI analysis project.
 
-### Project Workflow
+![Workflow Diagram](/images/GCP_Workflow.svg)
 
-#### 1. Data Collection
+---
+
+## Project Workflow
+
+### 1. Data Collection
 
 - Datasets from the UNDP Human Development Reports (1990–2023) were collected.
 - Data includes key metrics such as HDI, GDI, and GII.
 
-#### 2. Data Storage
+### 2. Data Storage
 
 - Raw CSV files were uploaded to Google Cloud Storage buckets.
 
-#### 3. Data Processing
+### 3. Data Processing
 
 Python scripts were developed to:
 
@@ -161,7 +165,8 @@ Sample interactive visualization of HDI trends created using Plotly:
 ### 7. Conclusion
 This project demonstrates the integration of cloud technologies like Google Cloud Platform and BigQuery for large-scale data storage, processing, and querying. By automating data processing and utilizing Plotly for visualization, the project effectively analyzes and presents complex datasets related to global development trends.
 
+---
 
-### Resources
+## Resources
 
 - [United Nations Development Programme (UNDP) - Human Development Reports](https://hdr.undp.org/data-center)
