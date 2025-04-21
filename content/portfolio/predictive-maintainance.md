@@ -91,29 +91,29 @@ ID columns like 'UDI' and 'Product ID' were dropped as they were irrelevant for 
 ### 1. Data Ingestion
 - Uploaded the dataset to **AWS SageMaker Canvas** and stored in an **S3 bucket**.
 
-![Dataset Upload](/images/dataset_to_s3.png){width=600 height=600}
+![Dataset Upload](/images/dataset_to_s3.png)
 
 ### 2. Data Preparation
 - Used **AWS Data Wrangler** to clean and transform the data.
 - Engineered new features where appropriate (e.g., calculating difference between air and process temperatures).
 - Dropped ID columns.
 
-![Data Wrangler Flow](/images/data_wrangler_flow.png){width=600 height=600}
+![Data Wrangler Flow](/images/data_wrangler_flow.png)
 
 ### 3. Exploratory Data Analysis
 - Visualized feature correlations.
 - Found that some features (e.g., torque, rotational speed) had significant linear relationships.
 
-![Correlation Heatmap](/images/correlation_features.png){width=600 height=600}
+![Correlation Heatmap](/images/correlation_features.png)
 
 - Identified early warning patterns:
 - Failures increased sharply when **air temperature** exceeded certain thresholds.
 
-![Air Temperature vs Machine Failure](/images/Variable_AT.png){width=600 height=600}
+![Air Temperature vs Machine Failure](/images/Variable_AT.png)
 
 - **Tool Wear** was highly predictive for **Tool Wear Failure**.
 
-![Tool Wear vs Tool Wear Failure](/images/TWF_graphs.png){width=600 height=600}
+![Tool Wear vs Tool Wear Failure](/images/TWF_graphs.png)
 
 ### 4. Model Building
 - Set **Machine Failure** as the prediction target.
@@ -122,7 +122,7 @@ ID columns like 'UDI' and 'Product ID' were dropped as they were irrelevant for 
 ### 5. Model Evaluation
 - **Logistic Regression** provided a strong baseline with high accuracy and recall.
 
-![Logistic Regression Model Evaluation](/images/LR_model.png){width=600 height=600}
+![Logistic Regression Model Evaluation](/images/LR_model.png)
 
 ### 6. Model Explainability
 - Generated feature importance plots.
@@ -140,17 +140,17 @@ This system enables the prediction machine failures in advance, reducing downtim
 ---
 
 ## Key Takeaways
-- **SageMaker Canvas** simplifies ML model building for non-coders.
-- Proper feature selection significantly improves predictive performance.
-- EDA remains a critical step even when using no-code ML tools.
-- Predictive maintenance models can reduce downtime and operational costs when deployed properly.
+- **No-code ML platforms like AWS SageMaker Canvas** empower rapid model development without deep coding expertise, accelerating time-to-value.
+- **Thoughtful feature engineering and selection** remain vital for maximizing model accuracy, even with automated tools.
+- **Exploratory Data Analysis (EDA)** is essential for uncovering hidden patterns, guiding better model design and data-driven decision-making.
+- **Cloud-based ML workflows** offer scalability, reliability, and easier deployment paths for industrial machine learning applications.
 
 ---
 
 ## Future Work
-- Integrate real-time data pipelines for live failure prediction.
-- Deploy the model using SageMaker endpoints for production use.
-- Implement deeper interpretability methods (e.g., SHAP values).
+- **Integrate a real-time data ingestion pipeline** to enable continuous monitoring and live failure prediction.
+- **Automate deployment** by building SageMaker endpoints for production-ready model serving and API-based access.
+- **Implement continuous model monitoring** to retrain models as new data is collected, ensuring sustained model performance over time.
 
 ---
 
