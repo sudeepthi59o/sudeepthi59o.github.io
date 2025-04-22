@@ -3,10 +3,10 @@
         <div class="uk-navbar-right">
             <ul class="uk-navbar-nav uk-visible@s">
                 {{if .IsHome}}
-                <li class="uk-active "><a class="uk-text-bold uk-button uk-button-secondary"
+                <li class="uk-active "><a class="uk-text-bold uk-text-white"
                         href="{{.Site.BaseURL}}">{{ with .Site.Params.Home }} {{ . }} {{ end }}</a></li>
                 {{else}}
-                <li><a style="font-size: 18px; text-transform: none" href="/">{{ with .Site.Params.Home }} {{ . }}
+                <li><a class="uk-text-bold uk-text-white" href="/">{{ with .Site.Params.Home }} {{ . }}
                         {{ end }}</a></li>
 
                 {{end}}
@@ -18,10 +18,10 @@
                 {{$aURL3 := index $aURL2 1}}
                 {{$page3 := index $page2 1}}
                 {{if eq $aURL3 $page3}}
-                <li class="uk-active"><a class="uk-text-bold uk-button uk-button-secondary"
+                <li class="uk-active"><a class="uk-text-bold uk-text-white"
                         href="{{ .URL | relURL }}">{{.Name}}</a></li>
                 {{else}}
-                <li><a style="font-size: 18px; text-transform: none" href="{{ .URL | relURL }}">{{.Name}}</a></li>
+                <li><a class="uk-text-bold uk-text-white" href="{{ .URL | relURL }}">{{.Name}}</a></li>
                 {{end}}
                 {{end}}
             </ul>
