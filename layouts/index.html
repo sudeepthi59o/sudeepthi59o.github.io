@@ -111,7 +111,7 @@
             {{ with .Site.Data.homepage.about }}
             <p class="uk-text-lead">{{.content | markdownify}}</p>
             {{ with .button }}
-            <a class="uk-button uk-button-large uk-button-secondary" href="{{.URL| absURL}}">{{.btnText}}</a>
+            <a class="uk-button uk-button-secondary" href="{{.URL| absURL}}">{{.btnText}}</a>
             {{end}}
             {{end}}
         </div>
