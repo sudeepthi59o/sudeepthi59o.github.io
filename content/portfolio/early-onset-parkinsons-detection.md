@@ -3,7 +3,7 @@ categories = ["ai"]
 coders = []
 date = 2025-04-12T23:00:00Z
 description = "Deep learning model using CNNs to detect early-onset Parkinson’s from speech data"
-image = "https://ik.imagekit.io/ys4gkaixy/Neural_network.svg?updatedAt=1744744987487"
+image = "https://ik.imagekit.io/ys4gkaixy/Artificial_neural_network.svg?updatedAt=1745129381637"
 title = "Early Onset Parkinson's Detection from Speech Data"
 type = "post"
 weight=2
@@ -22,7 +22,7 @@ logo = "https://ik.imagekit.io/ys4gkaixy/sound-waves-svgrepo-com.svg?updatedAt=1
 [[tech]]
 name = "CNN"
 url = "https://en.wikipedia.org/wiki/Convolutional_neural_network"
-logo = "https://ik.imagekit.io/ys4gkaixy/Artificial_neural_network.svg?updatedAt=1745129381637"
+logo = "https://ik.imagekit.io/ys4gkaixy/Neural_network.svg?updatedAt=1744744987487"
 +++
 
 ## Overview

@@ -5,6 +5,7 @@ date = 2025-04-12T23:00:00Z
 description = "Hands-on implementation of real-world network protocols and transport mechanisms in C"
 image = "https://ik.imagekit.io/ys4gkaixy/network-svgrepo-com-2.svg?updatedAt=1744745337992"
 title = "Computer Networks Projects"
+weight=3
 type = "post"
 [[tech]]
 name = "Socket Programming"
