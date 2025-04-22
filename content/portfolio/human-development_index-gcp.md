@@ -4,7 +4,7 @@ coders = []
 date = 2025-04-12T23:00:00Z
 description = "A Data-Driven Exploration Using GCP and Visualization Tools"
 image = "https://ik.imagekit.io/ys4gkaixy/Google-cloud-platform.svg?updatedAt=1744744794909"
-title = "Human Development Trends Analysis"
+title = "Global Development Index Analysis"
 weight=5
 type = "post"
 [[tech]]

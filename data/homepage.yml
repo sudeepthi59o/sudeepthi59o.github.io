@@ -16,7 +16,7 @@ about:
     btnText: Find out more about me
     URL: "/about"
   button:
-    btnText: Take a look at some of my projects ->
+    btnText: Take a look at some of my projects -->
     URL: "/portfolio"
 skill:
   enable: true
