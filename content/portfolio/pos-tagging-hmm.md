@@ -6,6 +6,7 @@ description = "POS Tagging"
 image = "https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1591793276/logos/logos_hugo_h2xbne.svg"
 title = "Parts-of-Speech (POS) Tagging with Hidden Markov Models (HMM) and Viterbi Algorithm"
 type = "post"
+draft = true
 [[tech]]
 logo = "https://res.cloudinary.com/samrobbins/image/upload/v1591793276/logos/logos_hugo_h2xbne.svg"
 name = "Hugo"
