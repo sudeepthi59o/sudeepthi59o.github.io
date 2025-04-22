@@ -19,7 +19,7 @@
         uk-grid
         uk-height-match="target: > li > div > .fixy"
       >
-      {{ range where .Data.Pages ".Params.type" "!=" "app" }}
+      {{ range where .Data.Pages ".Params.type" "eq" "post" }}
         <li data-tags="{{delimit .Params.categories  ' '}}">
           <div class="uk-card uk-card-default" style="position: relative;">
             <div class="fixy">
