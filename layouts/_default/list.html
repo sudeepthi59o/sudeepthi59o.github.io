@@ -5,7 +5,7 @@
 <section class="uk-margin-large-bottom">
     <div class="uk-container">
         <div class="uk-grid-small uk-child-width-1-4@s uk-text-center" uk-grid uk-height-match="target: > div > div > .card-body">
-            {{ range where .Data.Pages.ByPublishDate "Type" "post"}}
+            {{ range .Data.Pages.ByPublishDate }}
 
             <div>
                 <div class="uk-card uk-card-default uk-width-1@m">
