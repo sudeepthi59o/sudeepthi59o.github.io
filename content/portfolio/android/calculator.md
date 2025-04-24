@@ -45,7 +45,7 @@ The app offers a customizable button layout, allowing users to personalize the i
 
 ## Demo
 
-![Calculator App Screenshot](path/to/screenshot.png)
+![Calculator App Screenshot](/calculator_demo_2.gif)
 
 ## Project Link
 
