@@ -45,8 +45,6 @@ This multi-part project series was developed over the span of a graduate-level C
 
 **Technical Skills Gained:** SMTP protocol, email systems, socket communication.
 
-**GitHub Repository:** [View Code](#)
-
 ---
 
 ### Reliable UDP & RUDP Handshake
@@ -58,8 +56,6 @@ This multi-part project series was developed over the span of a graduate-level C
 - Used **sendto** and **recvfrom** functions for communication between client and server.
 
 **Technical Skills Gained:** Socket programming, custom protocol design, UDP handling.
-
-**GitHub Repository:** [View Code](#)
 
 ---
 
@@ -73,8 +69,6 @@ This multi-part project series was developed over the span of a graduate-level C
 
 **Technical Skills Gained:** Reliability techniques, packet acknowledgment, timeout handling.
 
-**GitHub Repository:** [View Code](#)
-
 ---
 
 ### Go-Back-N Protocol
@@ -86,8 +80,6 @@ This multi-part project series was developed over the span of a graduate-level C
 - Used a **background worker thread** for packet management and retransmission.
 
 **Technical Skills Gained:** Multi-threading, window-based flow control, Go-Back-N algorithm.
-
-**GitHub Repository:** [View Code](#)
 
 ---
 
@@ -101,8 +93,6 @@ This multi-part project series was developed over the span of a graduate-level C
 
 **Technical Skills Gained:** Error correction, performance optimization, data integrity.
 
-**GitHub Repository:** [View Code](#)
-
 ---
 
 ### Protocol Testing and Debugging
@@ -114,8 +104,6 @@ This multi-part project series was developed over the span of a graduate-level C
 - Used **network simulators** to mimic real-world conditions.
 
 **Technical Skills Gained:** Testing methodologies, debugging, fault tolerance, network simulation.
-
-**GitHub Repository:** [View Code](#)
 
 ---
 
@@ -141,7 +129,5 @@ By implementing these protocols from scratch, this project suite offered deep in
 - **Multithreading:** Applied to increase efficiency in data transmission.
 
 > This project collection was completed as part of academic coursework and is hosted in a private repository, available upon request.
-
-![Networks Project Demo](/images/acquire_game.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
