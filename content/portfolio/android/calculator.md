@@ -1,6 +1,6 @@
 +++
 categories = ["app"]
-coders = ["sudeepthi59o"]
+coders = []
 date = 2025-04-12T23:00:00Z
 description = "A user-friendly Android calculator with basic and scientific functions"
 image = "https://ik.imagekit.io/ys4gkaixy/calculator-svgrepo-com-2.svg?updatedAt=1744747787618"
