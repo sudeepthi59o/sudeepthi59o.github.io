@@ -21,4 +21,4 @@ Coming soon
 
 ### Demo
 
-![Ticketing App Screenshot](/ticketing_app.gif)
+![Ticketing App Screenshot](/ticket_app.gif)
