@@ -10,20 +10,24 @@ type = "post"
 name = "Android Studio"
 url = "https://developer.android.com/studio?_gl=1*1npx4x9*_up*MQ..&gclid=Cj0KCQjwtpLABhC7ARIsALBOCVoDoW_ZoN1eK0q9eFGMlT4ZE-nIwsUWbH7DDGkIsJX7M7GzzNl1aKsaAnV7EALw_wcB&gclsrc=aw.ds&gbraid=0AAAAAC-IOZmHyIn7c11qpDYFzrptif_wk"
 logo = "https://ik.imagekit.io/ys4gkaixy/Skills/Android_Studio_Logo_2024.svg?updatedAt=1744516638440"
+
+name = "Kotlin"
+url = "https://kotlinlang.org"
+logo = "https://ik.imagekit.io/ys4gkaixy/Skills/Kotlin_Icon.svg?updatedAt=1744516638766"
 +++
 
 ## Android Apps Collection
 
-This page showcases the Android apps I have developed as part of my coursework and projects. These apps cover various concepts such as user authentication, CRUD operations, animations, and more.
+This page showcases a curated collection of Android applications I developed as part of my coursework. These apps demonstrate key concepts such as user authentication, CRUD operations, animations, and Jetpack Compose UI.
 
 ### 1. [Calculator App](/portfolio/android/calculator/)
-A basic calculator app that replicates the functionality of the iPhone's default calculator.
+A simple calculator that mimics the functionality and design of the iPhone’s default calculator. Supports basic arithmetic operations with a responsive UI.
 
 ### 2. [Notes App](/portfolio/android/notesapp/)
-A note-taking app where users can log in, add, edit, and delete notes.
+A note-taking app with login functionality. Users can create, edit, and delete notes. Uses Firebase for authentication and Firestore for data storage.
 
 ### 3. [Ticketing App](/portfolio/android/ticketingapp/)
-A ticket management app where you can create and edit tickets with descriptions, photos, titles, and dates.
+A ticket management tool where users can create and update tickets with descriptions, images, and due dates.
 
 ### 4. [Sunset Animation App](/portfolio/android/sunsetanimation/)
 An app that visualizes a sunset with smooth animation.
@@ -32,10 +36,10 @@ An app that visualizes a sunset with smooth animation.
 A drawing app that lets users draw and interact with boxes on the screen.
 
 ### 6. [Posts App](/portfolio/android/postsapp/)
-A posts app that lets users log in (using Firebase), choose a picture, write a post, and store the data.
+Users can log in with Firebase, choose an image, write a post, and publish it. All data is stored and retrieved from Firebase.
 
 ### 7. [Pizza Ordering App](/portfolio/android/pizzaapp/)
-A pizza ordering app with a Jetpack Compose UI, featuring visuals and checkboxes to select pizza ingredients.
+A UI-driven pizza ordering app built using Jetpack Compose. Users can select ingredients using checkboxes and see a visual update of their pizza.
 
 ---
 
