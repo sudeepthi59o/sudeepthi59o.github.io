@@ -36,7 +36,7 @@ An app that visualizes a sunset with smooth animation.
 A drawing app that lets users draw and interact with boxes on the screen.
 
 ### **6. [Posts App](/portfolio/android/postsapp/)**
-Users can log in with Firebase, choose an image, write a post, and publish it. All data is stored and retrieved from Firebase.
+An Android app that allows users to log in with Firebase, select an image, create a post, and publish it. All data, including posts and images, are stored and retrieved in real time from Firebase, with seamless user authentication and efficient image loading.
 
 ### **7. [Pizza Ordering App](/portfolio/android/pizzaapp/)**
 A UI-driven pizza ordering app built using Jetpack Compose. Users can select ingredients using checkboxes and see a visual update of their pizza.
