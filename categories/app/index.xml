@@ -14,7 +14,17 @@
 &lt;h3 id="demo">Demo&lt;/h3>
 &lt;p>&lt;img src="https://sudeepthi59o.github.io/notes_app_demo.gif" alt="Notes App Screenshot">&lt;/p></description></item><item><title>Android Pizza Ordering Interface</title><link>https://sudeepthi59o.github.io/portfolio/android/pizzaapp/</link><pubDate>Sat, 12 Apr 2025 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/android/pizzaapp/</guid><description>&lt;p>Coming soon&lt;/p>
 &lt;h3 id="demo">Demo&lt;/h3>
-&lt;p>&lt;img src="https://sudeepthi59o.github.io/pizza_app.gif" alt="Pizza Ordering App Screenshot">&lt;/p></description></item><item><title>Android Posts App</title><link>https://sudeepthi59o.github.io/portfolio/android/postsapp/</link><pubDate>Sat, 12 Apr 2025 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/android/postsapp/</guid><description>&lt;p>Coming soon&lt;/p></description></item><item><title>Android Sunset Animation App</title><link>https://sudeepthi59o.github.io/portfolio/android/sunsetanimation/</link><pubDate>Sat, 12 Apr 2025 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/android/sunsetanimation/</guid><description>&lt;p>Coming soon&lt;/p>
+&lt;p>&lt;img src="https://sudeepthi59o.github.io/pizza_app.gif" alt="Pizza Ordering App Screenshot">&lt;/p></description></item><item><title>Android Posts App</title><link>https://sudeepthi59o.github.io/portfolio/android/postsapp/</link><pubDate>Sat, 12 Apr 2025 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/android/postsapp/</guid><description>&lt;p>The Android Posts app displays real-time posts submitted by users, including usernames, image uploads, and descriptions. The feed mimics core social platform functionality and includes authentication, live data updates, and dynamic UI rendering.&lt;/p>
+&lt;h3 id="core-features">Core Features&lt;/h3>
+&lt;ul>
+&lt;li>Displays a real-time feed of posts from Firebase Firestore&lt;/li>
+&lt;li>Each post includes a username, description, image (optional), and relative timestamp&lt;/li>
+&lt;li>Supports user authentication and logout using Firebase Auth&lt;/li>
+&lt;li>Navigation to post creation via a floating action button (FAB)&lt;/li>
+&lt;li>Uses Coil library for smooth and efficient image loading&lt;/li>
+&lt;/ul>
+&lt;h3 id="design">Design&lt;/h3>
+&lt;p>The app follows the Model-View-ViewModel (MVVM) architecture to maintain clean separation of concerns. Posts are observed using Kotlin StateFlow for real-time UI updates. A RecyclerView is used to display a scrollable list of posts with a custom layout per item. Relative timestamps (e.g., “2 hours ago”) are calculated using DateUtils. For development convenience, post images are hosted on GitHub and dynamically loaded using the Coil image loading library.&lt;/p></description></item><item><title>Android Sunset Animation App</title><link>https://sudeepthi59o.github.io/portfolio/android/sunsetanimation/</link><pubDate>Sat, 12 Apr 2025 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/android/sunsetanimation/</guid><description>&lt;p>Coming soon&lt;/p>
 &lt;h3 id="demo">Demo&lt;/h3>
 &lt;p>&lt;img src="https://sudeepthi59o.github.io/sunset_animation.gif" alt="Sunset Animation App Screenshot">&lt;/p></description></item><item><title>Android Ticketing App</title><link>https://sudeepthi59o.github.io/portfolio/android/ticketingapp/</link><pubDate>Sat, 12 Apr 2025 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/android/ticketingapp/</guid><description>&lt;p>Coming soon&lt;/p>
 &lt;h3 id="demo">Demo&lt;/h3>
