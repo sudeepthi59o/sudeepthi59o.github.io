@@ -29,7 +29,7 @@ name = "Cloud Storage"
 url = "https://cloud.google.com/storage"
 +++
 
-## Overview
+## **Overview**
 This project analyzes the evolution of global Human Development Index (HDI), Gender Development Index (GDI), and Gender Inequality Index (GII) from 1990 to 2023, using a cloud-based data pipeline and interactive visualizations.
 
 The pipeline includes data collection, cleaning, storage in Google Cloud Platform (GCP) services, analysis using SQL queries in BigQuery, and visualization with Plotly. By integrating cloud-based processing and interactive charts, the project provides deeper insights into development patterns over time.
@@ -38,7 +38,7 @@ The analysis explores the impact of major global crises—such as wars, pandemic
 
 ----
 
-## Technologies Used
+## **Technologies Used**
 
 - **Google Cloud Platform (GCP)**: Utilized for creating a scalable, efficient data pipeline using BigQuery and Cloud Functions.
 - **BigQuery**: Served as the data storage and querying solution for handling massive datasets. It allowed for high-performance analysis and provided the ability to perform complex queries on the HDI, GDI, and GII data.
@@ -47,7 +47,7 @@ The analysis explores the impact of major global crises—such as wars, pandemic
 - **Cloud Storage**: Employed to store raw datasets securely in GCP buckets, allowing easy retrieval and management of data for further processing.
 ---
 
-## Background: Understanding Human Development Metrics
+## **Background: Understanding Human Development Metrics**
 
 The **Human Development Index (HDI)**, developed by the United Nations Development Programme (UNDP), is a key measure of a country’s overall development. Unlike traditional economic indicators, HDI focuses on people and their capabilities, offering a broader view of progress. It combines three core dimensions:
 
@@ -67,7 +67,7 @@ These indices provide a more nuanced view of global development, addressing aspe
 
 ---
 
-## Project Architecture
+## **Project Architecture**
 
 High-level data pipeline architecture for HDI analysis project.
 
@@ -177,6 +177,6 @@ This project demonstrates the integration of cloud technologies like Google Clou
 
 ---
 
-## Resources
+## **Resources**
 
 - [United Nations Development Programme (UNDP) - Human Development Reports](https://hdr.undp.org/data-center)

@@ -22,9 +22,9 @@ This multi-part project series was developed over the span of a graduate-level C
 
 ---
 
-## Project Modules
+## **Project Modules**
 
-### HTTP Client & Server Implementation
+### **HTTP Client & Server Implementation**
 
 - **Objective:** Implement an HTTP client and HTTP server to simulate web communication, focusing on the underlying TCP communication layer.
   
@@ -35,7 +35,7 @@ This multi-part project series was developed over the span of a graduate-level C
 
 ---
 
-### SMTP Agent Implementation
+### **SMTP Agent Implementation**
 
 - **Objective:** Develop a SMTP agent to simulate email communication using the Simple Mail Transfer Protocol (SMTP)
 
@@ -46,7 +46,7 @@ This multi-part project series was developed over the span of a graduate-level C
 
 ---
 
-### Reliable UDP & RUDP Handshake
+### **Reliable UDP & RUDP Handshake**
 
 - **Objective:** Design and implement a custom reliable transport protocol (RUDP) over UDP, featuring a 3-way handshake for connection establishment.
 
@@ -59,7 +59,7 @@ This multi-part project series was developed over the span of a graduate-level C
 - **Skills Gained**: UDP socket programming, custom transport protocol design, connection management.
 ---
 
-### Stop-and-Wait Protocol
+### **Stop-and-Wait Protocol**
 
 - **Objective:**  Implement the **Stop-and-Wait** protocol to ensure reliable data transmission by requiring acknowledgment of each packet before sending the next.
   
@@ -72,7 +72,7 @@ This multi-part project series was developed over the span of a graduate-level C
 
 ---
 
-### Go-Back-N Protocol
+### **Go-Back-N Protocol**
 
 - **Objective:** Extend the **Stop-and-Wait** protocol to **Go-Back-N**, allowing multiple packets to be in transit before acknowledgments are received, improving throughput.
   
@@ -89,7 +89,7 @@ Through implementing protocols such as **RUDP**, **Stop-and-Wait**, and **Go-Bac
 
 ---
 
-## Technologies Used
+## **Technologies Used**
 
 - **C Language:** Provided low-level memory and system control for efficient protocol implementation.
 - **POSIX Sockets:** Enabled direct manipulation of TCP/UDP connections for building custom communication protocols.

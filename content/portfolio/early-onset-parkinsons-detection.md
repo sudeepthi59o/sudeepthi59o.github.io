@@ -25,7 +25,7 @@ url = "https://en.wikipedia.org/wiki/Convolutional_neural_network"
 logo = "https://ik.imagekit.io/ys4gkaixy/Neural_network.svg?updatedAt=1744744987487"
 +++
 
-## Overview
+## **Overview**
 
 This project implements an end-to-end deep learning model using **convolutional neural networks (CNNs)** to detect **early-onset Parkinson's Disease (PD)** from speech data. By leveraging **Mel spectrograms**—visual and mathematical representations of sound frequencies over time, to reflect human hearing perception—our model extracts features that help identify vocal indicators of PD. 
 
@@ -35,13 +35,13 @@ The project was completed as part of graduate coursework, supported by an intern
 
 ---
 
-## Motivation
+## **Motivation**
 
 Early detection of PD, especially in its early-onset form, is challenging due to subtle symptoms. Since ~90% of PD patients exhibit speech impairments, analyzing vocal characteristics becomes a promising, non-invasive method for early detection.
 
 ---
 
-## Techniques Used
+## **Techniques Used**
 
 - Following the architecture proposed by Quan et al., the model uses a **two-stage CNN** to detect Parkinson’s Disease from speech:
   - **Time-Distributed 2D CNN**: Processes overlapping segments of log Mel-spectrograms to extract local spatial features while preserving temporal structure.
@@ -53,7 +53,7 @@ Early detection of PD, especially in its early-onset form, is challenging due to
 - **Datasets**: Speech data collected in Italian, Telugu, and English
 
 ---
-## Project Workflow
+## **Project Workflow**
 
 The overall workflow of the model, from speech input to Parkinson’s detection, is outlined below.
 
@@ -62,7 +62,7 @@ The overall workflow of the model, from speech input to Parkinson’s detection,
 
 ------
 
-## Dataset and Processing
+## **Dataset and Processing**
 
 - **Italian Dataset**: 394 HC samples and 437 PD samples from 65 participants.
 - **Telugu Dataset**: 24 samples from 8 participants under varied noise conditions (created by the class).
@@ -76,7 +76,7 @@ Left: Heatmap representation, Right: Frequency matrix
 
 ------
 
-## Tools & Libraries
+## **Tools & Libraries**
 
 - Python
 - TensorFlow / Keras
@@ -86,7 +86,7 @@ Left: Heatmap representation, Right: Frequency matrix
 
 ---
 
-## Results
+## **Results**
 
 - Achieved **~98% validation accuracy** on Italian speech samples using improved preprocessing (2,000-frame spectrogram segments).
 - Found **low-frequency spectrogram features** to be most indicative of PD.
@@ -94,7 +94,7 @@ Left: Heatmap representation, Right: Frequency matrix
 
 ---
 
-## Challenges & Insights
+## **Challenges & Insights**
 
 - **CNNs**, while powerful, suffer from a lack of interpretability, which is a significant concern in clinical settings.
 - **Cross-language models** struggle without balanced training data, limiting their effectiveness.
@@ -103,13 +103,13 @@ Left: Heatmap representation, Right: Frequency matrix
   - Exploring more interpretable machine learning algorithms like trees or building tools like NeuroSpeech, which directly extracts key speech features (such as articulation rate, pitch variability, and speech clarity) from audio and compares them against a database of healthy control (HC) and PD patient data to determine whether they fall within a normal or abnormal range.
 ---
 
-## Extras/ Resources
+## **Extras/ Resources**
 
 - Read full project report here - [PDF](/Parkinsons_Approach_Report.pdf)
 - Exploratory notebooks for Librosa audio processing - [Notebook](/Librosa_Feature_Extraction.pdf) 
 ---
 
-## References
+## **References**
 
 - [Quan et al., 2022: *End-to-End Deep Learning for PD Speech Detection*](https://www.sciencedirect.com/science/article/abs/pii/S0208521622000341)
 - [Dimauro & Girardi, 2019: *Italian Parkinson’s Voice and Speech Dataset*](https://ieee-dataport.org/open-access/italian-parkinsons-voice-and-speech)

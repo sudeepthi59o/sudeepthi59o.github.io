@@ -48,14 +48,14 @@ url = "https://matplotlib.org/"
 logo = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg"
 +++
 
-### **Overview**
+## **Overview**
 
 This project focuses on building a Predictive Maintenance system using the [AI4I 2020 Predictive Maintenance Dataset](https://archive.ics.uci.edu/dataset/682/ai4i+2020+predictive+maintenance+dataset) and [AWS SageMaker Canvas](https://aws.amazon.com/sagemaker/canvas/), a no-code ML platform. The goal is to predict machine failures before they occur based on operational and sensor data. By leveraging AWS services, the project efficiently processes and analyzes data to provide real-time predictions of equipment malfunctions.
 
 Key steps included data ingestion, cleaning, feature engineering, exploratory analysis, model building, evaluation, and basic explainability.
 
 
-### **Technologies Used**
+## **Technologies Used**
 - **AWS Services:**
    - AWS SageMaker Canvas for for low-code/no-code model building
    - AWS Data Wrangler for feature engineering
@@ -71,7 +71,7 @@ Key steps included data ingestion, cleaning, feature engineering, exploratory an
 
 ---
 
-## Dataset
+## **Dataset**
 The dataset contains 10,000 samples and 14 columns including:
 - **Air temperature [K]**
 - **Process temperature [K]**
@@ -84,7 +84,7 @@ ID columns like 'UDI' and 'Product ID' were dropped as they were irrelevant for 
 
 ---
 
-## Workflow
+## **Workflow**
 
 ### 1. Data Ingestion
 - Uploaded the dataset to **AWS S3**.
@@ -144,23 +144,23 @@ ID columns like 'UDI' and 'Product ID' were dropped as they were irrelevant for 
 
 ---
 
-### **Impact**
+## **Impact**
 This system enables the prediction machine failures in advance, reducing downtime and maintenance costs. By deploying the model on AWS, the solution is scalable, cost-effective, and capable of handling large datasets.
 
 ---
 
-## Key Takeaways
+## **Key Takeaways**
 - **Simple models** like **Logistic Regression** can deliver high performance when the data exhibits strong linearity, while **Naive Bayes** can perform well when feature independence assumptions approximately hold — particularly in synthetic datasets with minimal missing values.
 - **Feature engineering and exploratory data analysis (EDA)** are essential for successful model building, even when leveraging no-code tools.
 - **Cloud-based ML platforms** like AWS SageMaker Canvas accelerate development cycles, enabling rapid prototyping, evaluation, and future deployment at scale.
 
 ---
 
-## Future Work
+## **Future Work**
 - **Integrate a real-time data ingestion pipeline** to enable continuous monitoring and live failure prediction.
 - **Automate deployment** by building SageMaker endpoints for production-ready model serving and API-based access.
 
 ---
 
-## External Links
+## **External Links**
 - [AI4I 2020 Predictive Maintenance Dataset](https://archive.ics.uci.edu/dataset/682/ai4i+2020+predictive+maintenance+dataset)
