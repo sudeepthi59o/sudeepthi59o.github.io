@@ -29,105 +29,71 @@ This multi-part project series was developed over the span of a graduate-level C
 - **Objective:** Implement an HTTP client and HTTP server to simulate web communication, focusing on the underlying TCP communication layer.
   
 **Key Features:**
-- Developed a custom **HTTP server** to handle requests.
-- Implemented client functionality to send **HTTP GET** requests and receive responses.
-- **Technical Skills Gained:** HTTP protocol, socket programming, client-server model.
+- Built an **HTTP server** to handle client connections and respond with appropriate data using the HTTP protocol.
+- Developed a **HTTP client** capable of establishing TCP connections, sending fixed-size HTTP GET requests, and processing server responses.
+- **Skills Gained:** HTTP protocol, TCP socket programming, client-server architecture.
 
 ---
 
 ### SMTP Agent Implementation
 
-- **Objective:** Build an SMTP agent to simulate email communication via the Simple Mail Transfer Protocol (SMTP).
-  
-**Key Features:**
-- Implemented an **SMTP client** to send emails to a server.
-- Supported basic **SMTP commands** and interaction.
+- **Objective:** Develop a SMTP agent to simulate email communication using the Simple Mail Transfer Protocol (SMTP)
 
-**Technical Skills Gained:** SMTP protocol, email systems, socket communication.
+**Key Features:**
+- Built an **SMTP** client to establish connections with a remote server and perform a full email transaction using commands such as HELO, MAIL FROM, RCPT TO, DATA, and QUIT.
+- Supported basic **SMTP command handling** and protocol-compliant request-response interactions.
+- **Skills Gained** SMTP protocol, email systems, socket programming.
 
 ---
 
 ### Reliable UDP & RUDP Handshake
 
-- **Objective:** Implement a custom transport protocol over UDP, introducing reliable data transmission with a 3-way handshake mechanism for connection establishment.
-  
+- **Objective:** Design and implement a custom reliable transport protocol (RUDP) over UDP, featuring a 3-way handshake for connection establishment.
+
 **Key Features:**
-- Built a **3-way handshake** for **RUDP** to establish reliable connections over UDP.
-- Used **sendto** and **recvfrom** functions for communication between client and server.
-
-**Technical Skills Gained:** Socket programming, custom protocol design, UDP handling.
-
+- Created, bound, and listened to sockets using low-level UDP functions (sendto, recvfrom) for bidirectional communication.
+- Implemented a **3-way handshake** mechanism to simulate reliable connections over UDP:
+    - **Client side**: Initiates connection, waits 20ms for a response, and sends an acknowledgment upon successful receipt.
+    - **Server side**: Listens for incoming packets, validates them, and responds with an acknowledgment.
+- Ensured message delivery despite UDP's lack of built-in reliability.
+- **Skills Gained**: UDP socket programming, custom transport protocol design, connection management.
 ---
 
 ### Stop-and-Wait Protocol
 
-- **Objective:** Implement the **Stop-and-Wait** reliability technique where each packet is acknowledged before sending the next one.
+- **Objective:**  Implement the **Stop-and-Wait** protocol to ensure reliable data transmission by requiring acknowledgment of each packet before sending the next.
   
 **Key Features:**
-- Implemented single packet transmission and retransmission on timeout or incorrect acknowledgment.
-- Timeout management was built for retransmission.
-
-**Technical Skills Gained:** Reliability techniques, packet acknowledgment, timeout handling.
+- Developed single-packet transmission logic with support for retransmission upon timeout or incorrect acknowledgment.
+- Integrated timeout management for detecting lost or delayed packets.
+- **Sender Side:** Sent packets with a custom structure, tracked sequence numbers, and handled retransmissions on timeout or invalid acknowledgments.
+- **Receiver Side:** Received packets, validated sequence numbers, and acknowledged only the last valid packet received.
+- **Skills Gained:** Reliable data transfer, packet acknowledgment mechanisms, timeout and retransmission logic.
 
 ---
 
 ### Go-Back-N Protocol
 
-- **Objective:** Extend the **Stop-and-Wait** protocol to **Go-Back-N**, enabling multiple packets to be sent before acknowledgment is received.
+- **Objective:** Extend the **Stop-and-Wait** protocol to **Go-Back-N**, allowing multiple packets to be in transit before acknowledgments are received, improving throughput.
   
 **Key Features:**
-- Introduced a **queue of packets** to handle multiple transmissions.
-- Used a **background worker thread** for packet management and retransmission.
-
-**Technical Skills Gained:** Multi-threading, window-based flow control, Go-Back-N algorithm.
-
----
-
-### Data Packet Transmission Optimization
-
-- **Objective:** Optimize data transmission protocols by exploring error handling, retransmission strategies, and performance improvements.
-  
-**Key Features:**
-- Optimized packet transmission techniques to reduce delays.
-- Introduced efficient **error correction mechanisms**.
-
-**Technical Skills Gained:** Error correction, performance optimization, data integrity.
+- Implemented a **packet queue (ring buffer)** to manage multiple in-flight packets within a defined window size.
+- Utilized a **background worker thread** for sending, tracking, and retransmitting packets as needed.
+- **Sender Side:** Constructed and enqueued packets, transmitted all unsent packets in the window, awaited acknowledgments, and removed acknowledged packets; on timeout, retransmitted the entire window.
+- **Receiver Side:** Processed incoming packets, tracked sequence numbers, and acknowledged the last valid packet received.
+- **Skills Gained:** Multi-threaded programming, window-based flow control, Go-Back-N reliability algorithm.
 
 ---
 
-### Protocol Testing and Debugging
-
-- **Objective:** Test and debug the reliability of the implemented protocols, ensuring robustness and fault tolerance under various network conditions.
-  
-**Key Features:**
-- Developed a suite of test cases to evaluate **packet loss**, delays, and retransmissions.
-- Used **network simulators** to mimic real-world conditions.
-
-**Technical Skills Gained:** Testing methodologies, debugging, fault tolerance, network simulation.
-
----
-
-### Conclusion
-
-These projects allowed me to dive deep into network protocols, from building custom **RUDP** to exploring reliability techniques such as **Stop-and-Wait** and **Go-Back-N**. Each project built on the previous, expanding my understanding of **socket programming**, **multithreading**, and **network reliability**.
-
-You can explore the full implementation of each of these projects on my GitHub, linked above.
-
----
-
-## Impact
-
-By implementing these protocols from scratch, this project suite offered deep insights into how the internet and data communication systems operate. It strengthened concepts such as **reliability**, **flow control**, **concurrency**, and **packet loss handling**—all critical in systems and backend development.
+Through implementing protocols such as **RUDP**, **Stop-and-Wait**, and **Go-Back-N**, these projects provided hands-on experience with core networking concepts, including **socket programming**, **reliability**, and **flow control**. Building each component from the ground up deepened my understanding of how data is transmitted over the internet and reinforced essential principles like **concurrency**, **packet loss handling**, and **network resilience**—skills highly relevant to systems and backend development.
 
 ---
 
 ## Technologies Used
 
-- **C Language:** For performance and low-level memory control.
-- **POSIX Sockets:** Direct control of network communication.
-- **Custom Protocol Design:** Simulated behavior of core internet mechanisms.
+- **C Language:** Provided low-level memory and system control for efficient protocol implementation.
+- **POSIX Sockets:** Enabled direct manipulation of TCP/UDP connections for building custom communication protocols.
+- **Custom Protocol Design:** Emulated core internet mechanisms such as handshakes, acknowledgments, and flow control.
 - **Multithreading:** Applied to increase efficiency in data transmission.
 
 > This project collection was completed as part of academic coursework and is hosted in a private repository, available upon request.
-
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
