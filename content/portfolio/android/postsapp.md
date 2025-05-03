@@ -1,6 +1,6 @@
 +++
 categories = ["app"]
-coders = ["sudeepthi59o"]
+coders = []
 date = 2025-04-12T23:00:00Z
 description = "A responsive Android app that fetches and displays real-time social posts with Firebase integration."
 image = "https://ik.imagekit.io/ys4gkaixy/comment-balloon-part-3-svgrepo-com.svg?updatedAt=1744747787673"

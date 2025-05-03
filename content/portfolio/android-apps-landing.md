@@ -33,7 +33,7 @@ A ticket management tool where users can create and update tickets with descript
 An app that visualizes a sunset with smooth animation.
 
 ### **5. [Drawing Boxes App](/portfolio/android/drawingboxes/)**
-A drawing app that lets users draw and interact with boxes on the screen.
+A simple Android app that lets users draw and edit multiple boxes on a canvas in real-time. 
 
 ### **6. [Posts App](/portfolio/android/postsapp/)**
 An Android app that allows users to log in with Firebase, select an image, create a post, and publish it. All data, including posts and images, are stored and retrieved in real time from Firebase, with seamless user authentication and efficient image loading.
