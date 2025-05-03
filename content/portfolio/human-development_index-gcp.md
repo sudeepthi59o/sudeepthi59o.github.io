@@ -163,7 +163,7 @@ create_interactive_plot(df)
 - [Comparison of HDI, GDI and GII of the Top 30 Countries](/plots/hdi_gdi_gii_comparison_plot.html) - Compare Human Development Index (HDI), Gender Development Index (GDI), and Gender Inequality Index (GII) side-by-side for the world's top-performing countries.
 
 
-### 6. Future Work
+## **Future Work**
 
 - **Automate Pipeline**: Integrate Google Cloud Functions to automate data processing on new uploads.
 - **Advanced Analytics**: Leverage BigQuery ML for trend forecasting.
@@ -172,7 +172,7 @@ create_interactive_plot(df)
 
 ---
 
-### 7. Conclusion
+## **Conclusion**
 This project demonstrates the integration of cloud technologies like Google Cloud Platform and BigQuery for large-scale data storage, processing, and querying. By automating data processing and utilizing Plotly for visualization, the project effectively analyzes and presents complex datasets related to global development trends.
 
 ---
