@@ -30,7 +30,7 @@ A note-taking app with login functionality. Users can create, edit, and delete n
 A ticket management tool where users can create and update tickets with descriptions, images, and due dates.
 
 ### **4. [Sunset Animation App](/portfolio/android/sunsetanimation/)**
-An app that visualizes a sunset with smooth animation.
+An app where a tap the screen triggers an animation where the sun sets.
 
 ### **5. [Drawing Boxes App](/portfolio/android/drawingboxes/)**
 A simple Android app that lets users draw and edit multiple boxes on a canvas in real-time. 
