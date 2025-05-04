@@ -44,6 +44,11 @@ Handling null or invalid image URLs required implementing exception-safe image l
 - **RecyclerView** for efficient list rendering
 - **Coil** for efficient image loading from remote URLs (images hosted on GitHub)
 
+### Screenshots
+
+
+| ![Login](/images/Login_Screen) | ![Posts View](/images/Posts_Screen) | ![Add Post](/images/Add_Post) |
+|------------------------|------------------------|------------------------|
 
 ### Conclusion
 

@@ -45,6 +45,6 @@ The primary challenge was syncing the sun's movement with the changing sky color
 
 ### Conclusion
 
-This project strengthened my Android development skills, particularly in managing orientation changes and enhancing user experience. Future improvements may include history tracking and additional scientific features.
+This project allowed me to enhance my animation and UI development skills. Future improvements could include adding more dynamic elements, such as stars appearing in the night sky and adjusting the animation speed.
 
 > This app was completed as part of academic coursework and is hosted in a private repository and available upon request.  
