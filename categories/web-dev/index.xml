@@ -3,4 +3,4 @@
 &lt;h3 id="1-calculator-appportfolioandroidcalculator">&lt;strong>1. &lt;a href="https://sudeepthi59o.github.io/portfolio/android/calculator/">Calculator App&lt;/a>&lt;/strong>&lt;/h3>
 &lt;p>A simple calculator that mimics the functionality and design of the iPhone’s default calculator. Supports basic arithmetic operations with a responsive UI.&lt;/p>
 &lt;h3 id="2-notes-appportfolioandroidnotesapp">&lt;strong>2. &lt;a href="https://sudeepthi59o.github.io/portfolio/android/notesapp/">Notes App&lt;/a>&lt;/strong>&lt;/h3>
-&lt;p>A note-taking app with login functionality. Users can create, edit, and delete notes. Uses Firebase for authentication and Firestore for data storage.&lt;/p></description></item></channel></rss>
+&lt;p>A functional Android Notes App built with Firebase Authentication and Firestore. Features include secure user authentication, real-time syncing, and CRUD operations for note management.&lt;/p></description></item></channel></rss>

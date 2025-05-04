@@ -21,7 +21,7 @@
 &lt;h3 id="1-calculator-appportfolioandroidcalculator">&lt;strong>1. &lt;a href="https://sudeepthi59o.github.io/portfolio/android/calculator/">Calculator App&lt;/a>&lt;/strong>&lt;/h3>
 &lt;p>A simple calculator that mimics the functionality and design of the iPhone’s default calculator. Supports basic arithmetic operations with a responsive UI.&lt;/p>
 &lt;h3 id="2-notes-appportfolioandroidnotesapp">&lt;strong>2. &lt;a href="https://sudeepthi59o.github.io/portfolio/android/notesapp/">Notes App&lt;/a>&lt;/strong>&lt;/h3>
-&lt;p>A note-taking app with login functionality. Users can create, edit, and delete notes. Uses Firebase for authentication and Firestore for data storage.&lt;/p></description></item><item><title>Android Box Drawing App</title><link>https://sudeepthi59o.github.io/portfolio/android/drawingboxes/</link><pubDate>Sat, 12 Apr 2025 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/android/drawingboxes/</guid><description>&lt;p>A simple and interactive Android app that lets users draw boxes by touching the screen. The app supports multiple boxes on the canvas, and each box can be drawn with touch gestures, offering real-time visual feedback&lt;/p>
+&lt;p>A functional Android Notes App built with Firebase Authentication and Firestore. Features include secure user authentication, real-time syncing, and CRUD operations for note management.&lt;/p></description></item><item><title>Android Box Drawing App</title><link>https://sudeepthi59o.github.io/portfolio/android/drawingboxes/</link><pubDate>Sat, 12 Apr 2025 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/android/drawingboxes/</guid><description>&lt;p>A simple and interactive Android app that lets users draw boxes by touching the screen. The app supports multiple boxes on the canvas, and each box can be drawn with touch gestures, offering real-time visual feedback&lt;/p>
 &lt;h3 id="core-features">Core Features&lt;/h3>
 &lt;ul>
 &lt;li>&lt;strong>Interactive Box Drawing:&lt;/strong> Users can draw boxes by tapping and dragging on the screen.&lt;/li>
@@ -50,9 +50,18 @@
 &lt;li>Maintains state and updates the UI seamlessly using Jetpack Compose.&lt;/li>
 &lt;/ul>
 &lt;h3 id="design">Design&lt;/h3>
-&lt;p>The app uses a modern, clean interface styled with Material 3 themes. Users are presented with a base pizza and a topping menu. Each topping has an associated image overlay and label, providing visual feedback as they are placed on the pizza. The UI responds instantly to user input, reflecting topping changes and updated pricing.&lt;/p></description></item><item><title>Android Notes App</title><link>https://sudeepthi59o.github.io/portfolio/android/notesapp/</link><pubDate>Sat, 12 Apr 2025 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/android/notesapp/</guid><description>&lt;p>Coming soon&lt;/p>
-&lt;h3 id="demo">Demo&lt;/h3>
-&lt;p>&lt;img src="https://sudeepthi59o.github.io/notes_app_demo.gif" alt="Notes App Screenshot">&lt;/p></description></item><item><title>Android Posts App</title><link>https://sudeepthi59o.github.io/portfolio/android/postsapp/</link><pubDate>Sat, 12 Apr 2025 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/android/postsapp/</guid><description>&lt;p>The Android Posts app displays real-time posts submitted by users, including usernames, image uploads, and descriptions. The feed mimics core social platform functionality and includes authentication, live data updates, and dynamic UI rendering.&lt;/p>
+&lt;p>The app uses a modern, clean interface styled with Material 3 themes. Users are presented with a base pizza and a topping menu. Each topping has an associated image overlay and label, providing visual feedback as they are placed on the pizza. The UI responds instantly to user input, reflecting topping changes and updated pricing.&lt;/p></description></item><item><title>Android Notes App</title><link>https://sudeepthi59o.github.io/portfolio/android/notesapp/</link><pubDate>Sat, 12 Apr 2025 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/android/notesapp/</guid><description>&lt;p>A user-friendly Android app for creating, editing, and managing notes. The app provides a clean, responsive interface to add, update, and delete text notes—making it ideal for quick reminders, to-do lists, or jotting down ideas.&lt;/p>
+&lt;h3 id="core-features">Core Features&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>User Authentication:&lt;/strong> Login screen to ensure notes are accessed only by the intended user.&lt;/li>
+&lt;li>&lt;strong>Create Notes:&lt;/strong> Add new notes with a title and content.&lt;/li>
+&lt;li>&lt;strong>Edit Notes:&lt;/strong> Modify existing notes with ease.&lt;/li>
+&lt;li>&lt;strong>Delete Notes:&lt;/strong> Remove unwanted notes with a long press.&lt;/li>
+&lt;li>&lt;strong>Persistent Storage:&lt;/strong> Notes are stored locally using Room Database and persist across sessions.&lt;/li>
+&lt;li>&lt;strong>RecyclerView UI:&lt;/strong> Scrollable and responsive list of saved notes.&lt;/li>
+&lt;/ul>
+&lt;h3 id="design">Design&lt;/h3>
+&lt;p>The app uses a minimalistic design to keep the focus on content. Notes are displayed in a vertically scrolling list, with each item showing the title and preview of the note body. A floating action button (FAB) allows users to quickly create a new note. A simple form is used for editing and creating notes, ensuring a seamless and distraction-free user experience.&lt;/p></description></item><item><title>Android Posts App</title><link>https://sudeepthi59o.github.io/portfolio/android/postsapp/</link><pubDate>Sat, 12 Apr 2025 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/android/postsapp/</guid><description>&lt;p>The Android Posts app displays real-time posts submitted by users, including usernames, image uploads, and descriptions. The feed mimics core social platform functionality and includes authentication, live data updates, and dynamic UI rendering.&lt;/p>
 &lt;h3 id="core-features">Core Features&lt;/h3>
 &lt;ul>
 &lt;li>Displays a real-time feed of posts from Firebase Firestore&lt;/li>
