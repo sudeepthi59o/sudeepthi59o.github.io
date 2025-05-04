@@ -1,10 +1,10 @@
 +++
 categories = ["app"]
-coders = ["sudeepthi59o"]
+coders = []
 date = 2025-04-12T23:00:00Z
-description = ""
+description = "An interactive Android app to design your perfect pizza with dynamic topping placement and live pricing"
 image = "https://ik.imagekit.io/ys4gkaixy/pizza-svgrepo-com.svg?updatedAt=1744747787693"
-title = "Android Pizza Ordering Interface"
+title = "Android Custom Pizza Builder"
 type = "androidapp"
 url = "/portfolio/android/pizzaapp/"
 [[tech]]
@@ -17,29 +17,30 @@ url = "https://kotlinlang.org"
 logo = "https://ik.imagekit.io/ys4gkaixy/Skills/Kotlin_Icon.svg?updatedAt=1744516638766"
 +++
 
-The Android Calculator app is designed to perform basic arithmetic operations while mimicking the functionality of the iPhone's default calculator. It supports both portrait and landscape modes, with landscape mode unlocking advanced trigonometric and logarithmic functions.
+A dynamic Android app that allows users to customize a pizza by selecting toppings and their placement—left, right, or across the whole pizza. As toppings are added or removed, the total price updates in real-time based on placement.
 
 ### Core Features
 
-- Basic arithmetic operations (addition, subtraction, multiplication, division)
-- Trigonometric functions (sin, cos, tan) and logarithmic functions (log10, ln) in landscape mode
-- User input persists across device rotations
-- Custom app icon and button layout
-- Log messages recorded for each button click
+- Interactive topping selection with three placement options: Left, Right, or All.
+- Real-time price calculation: $0.50 for left/right toppings, $1.00 for full-pizza toppings.
+- Modular architecture using Kotlin enum class and Parcelize for efficient state management.
+- Maintains state and updates the UI seamlessly using Jetpack Compose.
 
 ### Design
 
-The app features a simple and intuitive interface with a standard calculator layout. In landscape mode, the layout adjusts to provide additional scientific functions, while the UI remains clear and easy to navigate. The app dynamically adjusts to changes in orientation, ensuring users can continue their calculations without interruption.
+The app uses a modern, clean interface styled with Material 3 themes. Users are presented with a base pizza and a topping menu. Each topping has an associated image overlay and label, providing visual feedback as they are placed on the pizza. The UI responds instantly to user input, reflecting topping changes and updated pricing.
 
 ### Challenges and Solutions
 
-Managing chained operations with trigonometric and logarithmic functions required careful ordering of operations. A consistent operator precedence system was implemented to ensure accurate results.
+A major challenge was managing topping placement and ensuring UI consistency while keeping the state immutable. This was addressed by using Kotlin data classes and copy functions to reflect state updates without mutating the original data. Enums were used to cleanly map toppings and placement options with string and drawable resources, ensuring scalability.
 
 ### Technologies Used
 
 - **Kotlin** for Android app development
 - **Android Studio** as the IDE
-- **Android Lifecycle** to preserve user input during rotation
+- **Jetpack Compose** for declarative UI
+- **Material 3** for theming
+- **Parcelize** for passing complex data between screens
 
 
 ### Demo
@@ -49,6 +50,6 @@ Managing chained operations with trigonometric and logarithmic functions require
 
 ### Conclusion
 
-This project strengthened my Android development skills, particularly in managing orientation changes and enhancing user experience. Future improvements may include history tracking and additional scientific features.
+This project deepened my understanding of state handling and UI composition in Jetpack Compose. It also provided hands-on experience with structured enums, theming, and real-time price logic. Future improvements could include saving past pizza orders, integrating drag-and-drop topping placement, or animating topping overlays.
 
 > This app was completed as part of academic coursework and is hosted in a private repository and available upon request.  
