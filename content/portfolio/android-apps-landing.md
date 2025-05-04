@@ -38,8 +38,8 @@ A simple Android app that lets users draw and edit multiple boxes on a canvas in
 ### **6. [Posts App](/portfolio/android/postsapp/)**
 An Android app that allows users to log in with Firebase, select an image, create a post, and publish it. All data, including posts and images, are stored and retrieved in real time from Firebase, with seamless user authentication and efficient image loading.
 
-### **7. [Pizza Ordering App](/portfolio/android/pizzaapp/)**
-A UI-driven pizza ordering app built using Jetpack Compose. Users can select ingredients using checkboxes and see a visual update of their pizza.
+### **7. [Pizza Builder App](/portfolio/android/pizzaapp/)**
+A UI-driven pizza building app built using Jetpack Compose. Users can select ingredients using checkboxes and see a visual update of their pizza and price.
 
 ---
 

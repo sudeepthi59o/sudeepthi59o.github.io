@@ -47,7 +47,7 @@ Handling null or invalid image URLs required implementing exception-safe image l
 ### Screenshots
 
 
-| ![Login](/images/Login_Screen) | ![Posts View](/images/Posts_Screen) | ![Add Post](/images/Add_Post) |
+| ![Login](/Login_Screen.png) | ![Posts View](/Posts_Screen.png) | ![Add Post](/Add_Post.png) |
 |------------------------|------------------------|------------------------|
 
 ### Conclusion

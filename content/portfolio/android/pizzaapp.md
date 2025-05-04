@@ -16,9 +16,39 @@ name = "Kotlin"
 url = "https://kotlinlang.org"
 logo = "https://ik.imagekit.io/ys4gkaixy/Skills/Kotlin_Icon.svg?updatedAt=1744516638766"
 +++
-Coming soon
+
+The Android Calculator app is designed to perform basic arithmetic operations while mimicking the functionality of the iPhone's default calculator. It supports both portrait and landscape modes, with landscape mode unlocking advanced trigonometric and logarithmic functions.
+
+### Core Features
+
+- Basic arithmetic operations (addition, subtraction, multiplication, division)
+- Trigonometric functions (sin, cos, tan) and logarithmic functions (log10, ln) in landscape mode
+- User input persists across device rotations
+- Custom app icon and button layout
+- Log messages recorded for each button click
+
+### Design
+
+The app features a simple and intuitive interface with a standard calculator layout. In landscape mode, the layout adjusts to provide additional scientific functions, while the UI remains clear and easy to navigate. The app dynamically adjusts to changes in orientation, ensuring users can continue their calculations without interruption.
+
+### Challenges and Solutions
+
+Managing chained operations with trigonometric and logarithmic functions required careful ordering of operations. A consistent operator precedence system was implemented to ensure accurate results.
+
+### Technologies Used
+
+- **Kotlin** for Android app development
+- **Android Studio** as the IDE
+- **Android Lifecycle** to preserve user input during rotation
 
 
 ### Demo
 
 ![Pizza Ordering App Screenshot](/pizza_app.gif)
+
+
+### Conclusion
+
+This project strengthened my Android development skills, particularly in managing orientation changes and enhancing user experience. Future improvements may include history tracking and additional scientific features.
+
+> This app was completed as part of academic coursework and is hosted in a private repository and available upon request.  
