@@ -26,7 +26,7 @@ A simple calculator that mimics the functionality and design of the iPhone’s d
 ### **2. [Notes App](/portfolio/android/notesapp/)**
 A note-taking app with login functionality. Users can create, edit, and delete notes. Uses Firebase for authentication and Firestore for data storage.
 
-### **3. [Ticketing App](/portfolio/android/ticketingapp/)**
+### **3. [Ticketing Management App](/portfolio/android/ticketingapp/)**
 A ticket management tool where users can create and update tickets with descriptions, images, and due dates.
 
 ### **4. [Sunset Animation App](/portfolio/android/sunsetanimation/)**

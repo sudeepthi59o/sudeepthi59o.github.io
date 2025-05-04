@@ -2,9 +2,8 @@
 categories = ["app"]
 coders = []
 date = 2025-04-12T23:00:00Z
-description = "A user-friendly Android ticketing tracking app"
 image = "https://ik.imagekit.io/ys4gkaixy/ticket-svgrepo-com.svg?updatedAt=1744747787740"
-title = "Android Ticketing App"
+title = "Android Ticket Managment App"
 type = "androidapp"
 url = "/portfolio/android/ticketingapp/"
 [[tech]]
