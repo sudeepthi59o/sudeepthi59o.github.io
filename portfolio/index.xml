@@ -43,9 +43,17 @@
 &lt;h3 id="design">Design&lt;/h3>
 &lt;p>The app features a simple and intuitive interface with a standard calculator layout. In landscape mode, the layout adjusts to provide additional scientific functions, while the UI remains clear and easy to navigate. The app dynamically adjusts to changes in orientation, ensuring users can continue their calculations without interruption.&lt;/p></description></item><item><title>Android Notes App</title><link>https://sudeepthi59o.github.io/portfolio/android/notesapp/</link><pubDate>Sat, 12 Apr 2025 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/android/notesapp/</guid><description>&lt;p>Coming soon&lt;/p>
 &lt;h3 id="demo">Demo&lt;/h3>
-&lt;p>&lt;img src="https://sudeepthi59o.github.io/notes_app_demo.gif" alt="Notes App Screenshot">&lt;/p></description></item><item><title>Android Pizza Ordering Interface</title><link>https://sudeepthi59o.github.io/portfolio/android/pizzaapp/</link><pubDate>Sat, 12 Apr 2025 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/android/pizzaapp/</guid><description>&lt;p>Coming soon&lt;/p>
-&lt;h3 id="demo">Demo&lt;/h3>
-&lt;p>&lt;img src="https://sudeepthi59o.github.io/pizza_app.gif" alt="Pizza Ordering App Screenshot">&lt;/p></description></item><item><title>Android Posts App</title><link>https://sudeepthi59o.github.io/portfolio/android/postsapp/</link><pubDate>Sat, 12 Apr 2025 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/android/postsapp/</guid><description>&lt;p>The Android Posts app displays real-time posts submitted by users, including usernames, image uploads, and descriptions. The feed mimics core social platform functionality and includes authentication, live data updates, and dynamic UI rendering.&lt;/p>
+&lt;p>&lt;img src="https://sudeepthi59o.github.io/notes_app_demo.gif" alt="Notes App Screenshot">&lt;/p></description></item><item><title>Android Pizza Ordering Interface</title><link>https://sudeepthi59o.github.io/portfolio/android/pizzaapp/</link><pubDate>Sat, 12 Apr 2025 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/android/pizzaapp/</guid><description>&lt;p>The Android Calculator app is designed to perform basic arithmetic operations while mimicking the functionality of the iPhone&amp;rsquo;s default calculator. It supports both portrait and landscape modes, with landscape mode unlocking advanced trigonometric and logarithmic functions.&lt;/p>
+&lt;h3 id="core-features">Core Features&lt;/h3>
+&lt;ul>
+&lt;li>Basic arithmetic operations (addition, subtraction, multiplication, division)&lt;/li>
+&lt;li>Trigonometric functions (sin, cos, tan) and logarithmic functions (log10, ln) in landscape mode&lt;/li>
+&lt;li>User input persists across device rotations&lt;/li>
+&lt;li>Custom app icon and button layout&lt;/li>
+&lt;li>Log messages recorded for each button click&lt;/li>
+&lt;/ul>
+&lt;h3 id="design">Design&lt;/h3>
+&lt;p>The app features a simple and intuitive interface with a standard calculator layout. In landscape mode, the layout adjusts to provide additional scientific functions, while the UI remains clear and easy to navigate. The app dynamically adjusts to changes in orientation, ensuring users can continue their calculations without interruption.&lt;/p></description></item><item><title>Android Posts App</title><link>https://sudeepthi59o.github.io/portfolio/android/postsapp/</link><pubDate>Sat, 12 Apr 2025 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/android/postsapp/</guid><description>&lt;p>The Android Posts app displays real-time posts submitted by users, including usernames, image uploads, and descriptions. The feed mimics core social platform functionality and includes authentication, live data updates, and dynamic UI rendering.&lt;/p>
 &lt;h3 id="core-features">Core Features&lt;/h3>
 &lt;ul>
 &lt;li>Displays a real-time feed of posts from Firebase Firestore&lt;/li>
