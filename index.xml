@@ -55,8 +55,14 @@
 &lt;li>Uses Coil library for smooth and efficient image loading&lt;/li>
 &lt;/ul>
 &lt;h3 id="design">Design&lt;/h3>
-&lt;p>The app follows the Model-View-ViewModel (MVVM) architecture to maintain clean separation of concerns. Posts are observed using Kotlin StateFlow for real-time UI updates. A RecyclerView is used to display a scrollable list of posts with a custom layout per item. Relative timestamps (e.g., “2 hours ago”) are calculated using DateUtils. For development convenience, post images are hosted on GitHub and dynamically loaded using the Coil image loading library.&lt;/p></description></item><item><title>Android Sunset Animation App</title><link>https://sudeepthi59o.github.io/portfolio/android/sunsetanimation/</link><pubDate>Sat, 12 Apr 2025 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/android/sunsetanimation/</guid><description>&lt;p>Coming soon&lt;/p>
-&lt;h3 id="demo">Demo&lt;/h3>
-&lt;p>&lt;img src="https://sudeepthi59o.github.io/sunset_animation.gif" alt="Sunset Animation App Screenshot">&lt;/p></description></item><item><title>Android Ticketing App</title><link>https://sudeepthi59o.github.io/portfolio/android/ticketingapp/</link><pubDate>Sat, 12 Apr 2025 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/android/ticketingapp/</guid><description>&lt;p>Coming soon&lt;/p>
+&lt;p>The app follows the Model-View-ViewModel (MVVM) architecture to maintain clean separation of concerns. Posts are observed using Kotlin StateFlow for real-time UI updates. A RecyclerView is used to display a scrollable list of posts with a custom layout per item. Relative timestamps (e.g., “2 hours ago”) are calculated using DateUtils. For development convenience, post images are hosted on GitHub and dynamically loaded using the Coil image loading library.&lt;/p></description></item><item><title>Android Sunset Animation App</title><link>https://sudeepthi59o.github.io/portfolio/android/sunsetanimation/</link><pubDate>Sat, 12 Apr 2025 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/android/sunsetanimation/</guid><description>&lt;p>A simple Android app that simulates a sunset animation. Watch as the sun moves down the sky and the background color transitions from a blue sky to a beautiful sunset and eventually to a starry night.&lt;/p>
+&lt;h3 id="core-features">Core Features&lt;/h3>
+&lt;ul>
+&lt;li>Smooth animation of the sun setting across the sky.&lt;/li>
+&lt;li>Dynamic background color change from blue sky to sunset and night sky.&lt;/li>
+&lt;li>Interactive: Tap anywhere on the screen to trigger the animation.&lt;/li>
+&lt;/ul>
+&lt;h3 id="design">Design&lt;/h3>
+&lt;p>The app features a serene sky view, with a sun that moves down the screen to simulate the transition from day to night. The background color shifts from blue to sunset hues and then to a night sky, creating a peaceful, visually engaging experience.&lt;/p></description></item><item><title>Android Ticketing App</title><link>https://sudeepthi59o.github.io/portfolio/android/ticketingapp/</link><pubDate>Sat, 12 Apr 2025 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/android/ticketingapp/</guid><description>&lt;p>Coming soon&lt;/p>
 &lt;h3 id="demo">Demo&lt;/h3>
 &lt;p>&lt;img src="https://sudeepthi59o.github.io/ticket_app.gif" alt="Ticketing App Screenshot">&lt;/p></description></item></channel></rss>
