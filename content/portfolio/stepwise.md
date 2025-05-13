@@ -20,7 +20,7 @@ A lightweight and user-friendly iOS app designed to track and encourage daily wa
 
 ### Core Features
 
-- **Live Step Count Tracking:** Users can manually start and stop tracking; live data is displayed in the app using `CMPedometer`.
+- **Live Step Count Tracking:** Users can manually start and stop tracking; live data is displayed in the app using CMPedometer.
 - **Daily Step Goal:** Daily step goals between 1,000–15,000 steps can be set and tracked with visual feedback.
 - **Motivational Reminders:** Daily toggleable notifications remind users to stay active.
 - **Unit Preferences:** Users can switch between kilometers and miles, with seamless distance conversion and persistence.
@@ -34,7 +34,7 @@ The interface uses a friendly gradient background and intuitive navigation:
 - **Home View** shows steps, distance, calories, and goal status.
 - **History View** displays the daily, weekly and monthly historical step data as graphs.
 - **Settings View** includes goal customization, unit toggle, and notifications.
-- Reusability is built into views such as `MetricRow` and `ActionButton`.
+- Reusability is built into views such as MetricRow and ActionButton.
 
 ### Challenges and Solutions
 
