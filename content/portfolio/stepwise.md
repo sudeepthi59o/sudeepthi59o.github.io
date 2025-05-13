@@ -2,9 +2,9 @@
 categories = ["web-dev"]
 coders = []
 date = 2025-05-010T23:00:00Z
-description = "A lightweight iOS fitness tracker for daily step goals, built with SwiftUI and Core Motion"
+description = "A lightweight iOS fitness tracker for daily step goals built with SwiftUI and Core Motion"
 image = "https://ik.imagekit.io/ys4gkaixy/Skills/ios-svgrepo-com.svg?updatedAt=1747166062691"
-title = "StepWise – iOS Fitness Tracker"
+title = "StepWise - iOS Fitness Tracker"
 type = "post"
 [[tech]]
 name = "Swift"
