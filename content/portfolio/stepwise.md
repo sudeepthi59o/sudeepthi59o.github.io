@@ -18,7 +18,7 @@ logo = "https://ik.imagekit.io/ys4gkaixy/Skills/Xcode.svg?updatedAt=174451663830
 
 A lightweight and user-friendly iOS app designed to track and encourage daily walking goals. **StepWise** leverages the Core Motion framework to access step data and includes features like goal setting, reminders, and history tracking — all implemented using modern SwiftUI patterns.
 
-### Core Features
+## **Core Features**
 
 - **Live Step Count Tracking:** Users can manually start and stop tracking; live data is displayed in the app using CMPedometer.
 - **Daily Step Goal:** Daily step goals between 1,000–15,000 steps can be set and tracked with visual feedback.
@@ -27,7 +27,7 @@ A lightweight and user-friendly iOS app designed to track and encourage daily wa
 - **Historical Logs:** Step counts and goals are stored using Core Data and can be reviewed later as graphs.
 - **Clean UI:** Built with modular SwiftUI components using adaptive layouts and icon-based visuals for metrics.
 
-### Design
+## **Design**
 
 The interface uses a friendly gradient background and intuitive navigation:
 
@@ -36,13 +36,13 @@ The interface uses a friendly gradient background and intuitive navigation:
 - **Settings View** includes goal customization, unit toggle, and notifications.
 - Reusability is built into views such as MetricRow and ActionButton.
 
-### Challenges and Solutions
+## **Challenges and Solutions**
 
 - **Avoiding HealthKit:** StepWise tracks activity without relying on HealthKit, ensuring broader usability and simplified permissions.
 - **Live Step Updates:** Handled real-time updates using SwiftUI state management and reactive UI bindings.
 - **Persistent Settings:** Used @AppStorage, UserDefaults and Core Data for smooth user experience across app launches.
 
-### Technologies Used
+## **Technologies Used**
 
 - **SwiftUI** for building reactive and declarative UI
 - **Core Motion** for real-time step tracking
@@ -51,13 +51,13 @@ The interface uses a friendly gradient background and intuitive navigation:
 - **Core Data** for keeps records of user step data
 - **Xcode** for development and testing
 
-### Demo
+## **Demo**
 
 ![Step Counter App Screenshot](/stepwise_app2.gif)
 
-### Conclusion
+## **Conclusion**
 
-This project provided hands-on experience with real-time sensor data and reactive UI design. It also strengthened my familiarity with persistent local storage and iOS notification handling. Future improvements could include HealthKit integration, support for historical data, or an achievements system to motivate users.
+This project provided hands-on experience with real-time sensor data and reactive UI design. It also strengthened my familiarity with persistent local storage and iOS notification handling. Future improvements could include HealthKit integration or an achievements system to motivate users.
 
 
 > This app was developed as part of academic coursework and is hosted in a private repository. Access is available upon request.
