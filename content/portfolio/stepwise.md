@@ -55,9 +55,10 @@ The interface uses a friendly gradient background and intuitive navigation:
 
 ![Step Counter App Screenshot](/stepwise_app2.gif)
 
-## **Some Initial Design Documents**
+## **Initial Design Documents**
 
-This is just a reference
+A sample of our initial design plans
+
 - [Wirefame 1](/Wireframe1.png)
 - [Wirefame 2](/Wireframe2.png)
 - [Wirefame 3](/Wireframe3.png)
