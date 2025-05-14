@@ -31,7 +31,7 @@ A lightweight and user-friendly iOS app designed to track and encourage daily wa
 
 The interface uses a friendly gradient background and intuitive navigation:
 
-- **Home View** shows steps, distance, calories, and goal status.
+- **Home View** shows steps, distance and calories.
 - **History View** displays the daily, weekly and monthly historical step data as graphs.
 - **Settings View** includes goal customization, unit toggle, and notifications.
 - Reusability is built into views such as MetricRow and ActionButton.
