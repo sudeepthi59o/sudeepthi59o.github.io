@@ -11,7 +11,7 @@ social:
   gmail: sudeepthi59o
 about:
   enable: true
-  content: Graduate student in Computer Science at Indiana University Bloomington, with 2+ years of experience in software development, big data and AI/ML.
+  content: Recent Computer Science graduate from Indiana University Bloomington, with 2+ years of experience in software development, big data and AI/ML.
   button:
     btnText: Find out more about me
     URL: "/about"
