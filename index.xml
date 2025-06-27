@@ -94,11 +94,10 @@
 &lt;h3 id="core-features">Core Features&lt;/h3>
 &lt;ul>
 &lt;li>&lt;strong>Ticket Creation &amp;amp; Editing:&lt;/strong> Add or update task-related tickets with essential details.&lt;/li>
-&lt;li>**Room Database Integration: Tickets are stored locally with Room, supporting schema migrations and data persistence.&lt;/li>
+&lt;li>&lt;strong>Room Database Integration:&lt;/strong> Tickets are stored locally with Room, supporting schema migrations and data persistence.&lt;/li>
 &lt;li>&lt;strong>Live Data Updates:&lt;/strong> Uses Kotlin Flows and StateFlow to observe real-time ticket list updates.&lt;/li>
 &lt;li>&lt;strong>Date Picker Dialog:&lt;/strong> Pick a due date for a ticket using an intuitive calendar interface.&lt;/li>
 &lt;li>&lt;strong>Image Attachment (Planned/Partial):&lt;/strong> Schema supports photo file paths for ticket-related images (with potential to expand UI support).&lt;/li>
-&lt;li>&lt;strong>Scalable Bitmap Utility:&lt;/strong> Efficient image loading with dynamic scaling to reduce memory overhead.&lt;/li>
 &lt;/ul>
 &lt;h3 id="design">Design&lt;/h3>
 &lt;p>The app uses a ViewModel-driven architecture to separate UI and business logic, promoting maintainability and testability. A Repository pattern manages data access and abstracts Room operations. Tickets are presented in a list that updates automatically as data changes, creating a responsive experience.&lt;/p></description></item></channel></rss>
