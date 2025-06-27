@@ -21,11 +21,10 @@ A simple yet effective Android application for managing task or issue tickets. U
 ### Core Features
 
 - **Ticket Creation & Editing:** Add or update task-related tickets with essential details.
-- **Room Database Integration: Tickets are stored locally with Room, supporting schema migrations and data persistence.
+- **Room Database Integration:** Tickets are stored locally with Room, supporting schema migrations and data persistence.
 - **Live Data Updates:** Uses Kotlin Flows and StateFlow to observe real-time ticket list updates.
 - **Date Picker Dialog:** Pick a due date for a ticket using an intuitive calendar interface.
 - **Image Attachment (Planned/Partial):** Schema supports photo file paths for ticket-related images (with potential to expand UI support).
-- **Scalable Bitmap Utility:** Efficient image loading with dynamic scaling to reduce memory overhead.
 
 ### Design
 
