@@ -11,7 +11,7 @@ social:
   gmail: sudeepthi59o
 about:
   enable: true
-  content: Recent Computer Science graduate from Indiana University Bloomington, with 2+ years of experience in software development, big data and AI/ML.
+  content: Computer Science graduate with nearly 3 years of experience in software development and systems engineering. Skilled in building robust applications, optimizing processes, and writing high-quality code.
   button:
     btnText: Find out more about me
     URL: "/about"
@@ -23,95 +23,111 @@ skill:
   item:
     - title: JavaScript
       logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
-      description: Details coming soon, contact me if you want to know more
+      #description: Details coming soon, contact me if you want to know more
     - title: Python
       logo: https://ik.imagekit.io/ys4gkaixy/Skills/Python_logo_01.svg?updatedAt=1744511052787
-      description: Details coming soon, contact me if you want to know more
+      #description: Details coming soon, contact me if you want to know more
     - title: C
       logo: https://ik.imagekit.io/ys4gkaixy/Skills/C_Logo.png?updatedAt=1744511053296
-      description: Details coming soon, contact me if you want to know more
+      #description: Details coming soon, contact me if you want to know more
     - title: C++
       logo: https://ik.imagekit.io/ys4gkaixy/Skills/ISO_C++_Logo.svg?updatedAt=1744511053229
-      description: Details coming soon, contact me if you want to know more
+      #description: Details coming soon, contact me if you want to know more
     - title: Java
       logo: https://ik.imagekit.io/ys4gkaixy/Skills/java-14.svg?updatedAt=1744511053098
-      description: Details coming soon, contact me if you want to know more
+      #description: Details coming soon, contact me if you want to know more
     - title: SQL
       logo: https://ik.imagekit.io/ys4gkaixy/Skills/sql-database-generic-svgrepo-com.svg?updatedAt=1744515840267
-      description: Details coming soon, contact me if you want to know more
+      #description: Details coming soon, contact me if you want to know more
     - title: Shell Scripting
       logo: https://ik.imagekit.io/ys4gkaixy/Skills/bash-2.svg?updatedAt=1744515840208
-      description: Details coming soon, contact me if you want to know more
+      #description: Details coming soon, contact me if you want to know more
     - title: Hadoop
       logo: https://ik.imagekit.io/ys4gkaixy/Skills/Hadoop_logo.svg?updatedAt=1744515841004
-      description: Details coming soon, contact me if you want to know more
+      #description: Details coming soon, contact me if you want to know more
     - title: Hive
       logo: https://ik.imagekit.io/ys4gkaixy/Skills/Apache_Hive_logo.svg?updatedAt=1744515840837
-      description: Details coming soon, contact me if you want to know more
+      #description: Details coming soon, contact me if you want to know more
     - title: Sqoop
       logo: https://ik.imagekit.io/ys4gkaixy/Skills/Apache_Sqoop_logo.svg?updatedAt=1744516638076
-      description: Details coming soon, contact me if you want to know more
+      #description: Details coming soon, contact me if you want to know more
     - title: Spark
       logo: https://ik.imagekit.io/ys4gkaixy/Skills/Apache_Spark_logo.svg?updatedAt=1744515840188
-      description: Details coming soon, contact me if you want to know more
+      #description: Details coming soon, contact me if you want to know more
     - title: Linux
       logo: https://ik.imagekit.io/ys4gkaixy/Skills/Tux.svg?updatedAt=1744515840674
-      description: Details coming soon, contact me if you want to know more
+      #description: Details coming soon, contact me if you want to know more
     - title: Talend
       logo: https://ik.imagekit.io/ys4gkaixy/Skills/Talend_logo.svg?updatedAt=1744515840184
-      description: Details coming soon, contact me if you want to know more
+      #description: Details coming soon, contact me if you want to know more
     - title: Machine Learning
       logo: https://ik.imagekit.io/ys4gkaixy/Skills/machine-learning-06-svgrepo-com.svg?updatedAt=1744517329830
-      description: Details coming soon, contact me if you want to know more
+      #description: Details coming soon, contact me if you want to know more
     - title: Artificial Intelligence
       logo: https://ik.imagekit.io/ys4gkaixy/Skills/artificial-intelligence-ai-icon.svg?updatedAt=1744517766812
-      description: Details coming soon, contact me if you want to know more
+      #description: Details coming soon, contact me if you want to know more
     - title: Amazon Web Services
       logo: https://ik.imagekit.io/ys4gkaixy/Skills/Amazon_Web_Services_Logo.svg?updatedAt=1744515846258
-      description: Details coming soon, contact me if you want to know more
+      #description: Details coming soon, contact me if you want to know more
     - title: Google Cloud Platform
       logo: https://ik.imagekit.io/ys4gkaixy/Skills/google-cloud-svgrepo-com.svg?updatedAt=1744515840191
-      description: Details coming soon, contact me if you want to know more
+      #description: Details coming soon, contact me if you want to know more
     - title: Tableau
       logo: https://ik.imagekit.io/ys4gkaixy/Skills/tableau-svgrepo-com.svg?updatedAt=1744515840720
-      description: Details coming soon, contact me if you want to know more
+      #description: Details coming soon, contact me if you want to know more
     - title: Docker
       logo: https://ik.imagekit.io/ys4gkaixy/Skills/docker-svgrepo-com.svg?updatedAt=1744516637779
-      description: Details coming soon, contact me if you want to know more
+      #description: Details coming soon, contact me if you want to know more
     - title: Git
       logo: https://ik.imagekit.io/ys4gkaixy/Skills/Git_icon.svg?updatedAt=1744516639108
-      description: Details coming soon, contact me if you want to know more
+      #description: Details coming soon, contact me if you want to know more
     - title: Android Studio
       logo: https://ik.imagekit.io/ys4gkaixy/Skills/Android_Studio_Logo_2024.svg?updatedAt=1744516638440
-      description: Details coming soon, contact me if you want to know more
+      #description: Details coming soon, contact me if you want to know more
     - title: Kotlin
       logo: https://ik.imagekit.io/ys4gkaixy/Skills/Kotlin_Icon.svg?updatedAt=1744516638766
-      description: Details coming soon, contact me if you want to know more
+      #description: Details coming soon, contact me if you want to know more
     - title: Xcode
       logo: https://ik.imagekit.io/ys4gkaixy/Skills/Xcode.svg?updatedAt=1744516638307
-      description: Details coming soon, contact me if you want to know more
+      #description: Details coming soon, contact me if you want to know more
     - title: Swift
       logo: https://ik.imagekit.io/ys4gkaixy/Skills/swift-svgrepo-com.svg?updatedAt=1744516638040
-      description: Details coming soon, contact me if you want to know more
+      #description: Details coming soon, contact me if you want to know more
     - title: HTML
       logo: https://ik.imagekit.io/ys4gkaixy/Skills/HTML5_Badge.svg?updatedAt=1744516638340
-      description: Details coming soon, contact me if you want to know more
+      #description: Details coming soon, contact me if you want to know more
     - title: CSS
       logo: https://ik.imagekit.io/ys4gkaixy/Skills/CSS3_logo.svg?updatedAt=1744516637979
-      description: Details coming soon, contact me if you want to know more
+      #description: Details coming soon, contact me if you want to know more
     - title: Cybersecurity
       logo: https://ik.imagekit.io/ys4gkaixy/Skills/cybersecurity-two-tone-svgrepo-com.svg?updatedAt=1744517329796
-      description: Details coming soon, contact me if you want to know more
+      #description: Details coming soon, contact me if you want to know more
     - title: Testing
       logo: https://ik.imagekit.io/ys4gkaixy/Skills/bug-svgrepo-com.svg?updatedAt=1744517766340
-      description: Details coming soon, contact me if you want to know more
+      #description: Details coming soon, contact me if you want to know more
+    - title: React
+      logo: https://ik.imagekit.io/ys4gkaixy/React-icon.svg?updatedAt=1752785957314
+      #description: Details coming soon, contact me if you want to know more
+    - title: NodeJS
+      logo: https://ik.imagekit.io/ys4gkaixy/Node.js_logo.svg?updatedAt=1752785957256
+      #description: Details coming soon, contact me if you want to know more
+    - title: Express
+      logo: https://ik.imagekit.io/ys4gkaixy/Express.svg?updatedAt=1752785957265
+      #description: Details coming soon, contact me if you want to know more
+    - title: NoSQL
+      logo: https://ik.imagekit.io/ys4gkaixy/database-svgrepo-com.svg?updatedAt=1752785957256
+      #description: Details coming soon, contact me if you want to know more
 
 
 experience:
   enable: true
   item:
+    - logo: https://ik.imagekit.io/ys4gkaixy/heartland.png?updatedAt=1752785957186
+      title: Senior Consultant
+      company: Heartland Community Network
+      duration: June 2025 - Present
     - logo: https://ik.imagekit.io/ys4gkaixy/CAP.PA.svg?updatedAt=1744334791043
-      title: Associate Consultant
+      title: Software Engineer (Associate Consultant)
       company: Capgemini
       duration: June 2021 - July 2023
     - logo: https://ik.imagekit.io/ys4gkaixy/CAP.PA.svg?updatedAt=1744334791043
@@ -126,15 +142,15 @@ hackathons:
   enable: false
   item:
     - title: Hack Cambridge 2019
-      description: Climate change simulator
+      #description: Climate change simulator
       image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793405/stickers/Hack_Cambridge_101_ozoq5d.png
       url: none
 certifications:
-  enable: false
+  enable: true
   item:
-    - title: Microsoft Azure Fundamentals
-      image: https://res.cloudinary.com/samrobbins/image/upload/v1592501459/microsoft-certified-fundamentals-badge_cpcgyn.svg
-      url: https://www.youracclaim.com/badges/b4cf7a86-eb83-478e-bfd0-9f427c3474a0/public_url
+    - title: AWS Certified Cloud Practitioner
+      image: https://ik.imagekit.io/ys4gkaixy/aws-certified-cloud-practitioner-clf-c02-firebrand.png?updatedAt=1752785957187
+      url: https://www.credly.com/badges/febc94a4-c51f-419a-9c0e-8e5a820258c1/public_url
 education:
   enable: true
   item:
