@@ -7,7 +7,7 @@ authorImage : "images/sudeepthi.jpg"
 ---
 
 **Hi, I'm Sudeepthi.**  
-I'm a recent graduate with an MS in Computer Science from Indiana University, passionate about building intelligent and scalable systems. My experience spans software development, AI, machine learning, big data, and cloud technologies, where I focus on turning complex problems into practical solutions. Outside of tech, you can usually find me reading fiction, traveling or exploring new cuisines.
+I'm a recent graduate with an MS in Computer Science from Indiana University, passionate about building intelligent and scalable systems. My experience spans software development, full-stack, AI, machine learning, big data, and cloud technologies, where I focus on turning complex problems into practical solutions. Outside of tech, you can usually find me reading fiction, traveling or exploring new cuisines.
 
 Check out the Projects page to see what I’ve been working on.
 

@@ -11,7 +11,7 @@ social:
   gmail: sudeepthi59o
 about:
   enable: true
-  content: Computer Science graduate with nearly 3 years of experience in software development and systems engineering. Skilled in building robust applications, optimizing processes, and writing high-quality code.
+  content: Computer Science graduate with nearly 3 years of experience in software development and systems engineering, building web applications, databases, and automation workflows. Skilled in JavaScript, SQL, and cloud technologies, with experience delivering scalable and reliable solutions.
   button:
     btnText: Find out more about me
     URL: "/about"
@@ -42,23 +42,8 @@ skill:
     - title: Shell Scripting
       logo: https://ik.imagekit.io/ys4gkaixy/Skills/bash-2.svg?updatedAt=1744515840208
       #description: Details coming soon, contact me if you want to know more
-    - title: Hadoop
-      logo: https://ik.imagekit.io/ys4gkaixy/Skills/Hadoop_logo.svg?updatedAt=1744515841004
-      #description: Details coming soon, contact me if you want to know more
-    - title: Hive
-      logo: https://ik.imagekit.io/ys4gkaixy/Skills/Apache_Hive_logo.svg?updatedAt=1744515840837
-      #description: Details coming soon, contact me if you want to know more
-    - title: Sqoop
-      logo: https://ik.imagekit.io/ys4gkaixy/Skills/Apache_Sqoop_logo.svg?updatedAt=1744516638076
-      #description: Details coming soon, contact me if you want to know more
-    - title: Spark
-      logo: https://ik.imagekit.io/ys4gkaixy/Skills/Apache_Spark_logo.svg?updatedAt=1744515840188
-      #description: Details coming soon, contact me if you want to know more
     - title: Linux
       logo: https://ik.imagekit.io/ys4gkaixy/Skills/Tux.svg?updatedAt=1744515840674
-      #description: Details coming soon, contact me if you want to know more
-    - title: Talend
-      logo: https://ik.imagekit.io/ys4gkaixy/Skills/Talend_logo.svg?updatedAt=1744515840184
       #description: Details coming soon, contact me if you want to know more
     - title: Machine Learning
       logo: https://ik.imagekit.io/ys4gkaixy/Skills/machine-learning-06-svgrepo-com.svg?updatedAt=1744517329830
@@ -71,9 +56,6 @@ skill:
       #description: Details coming soon, contact me if you want to know more
     - title: Google Cloud Platform
       logo: https://ik.imagekit.io/ys4gkaixy/Skills/google-cloud-svgrepo-com.svg?updatedAt=1744515840191
-      #description: Details coming soon, contact me if you want to know more
-    - title: Tableau
-      logo: https://ik.imagekit.io/ys4gkaixy/Skills/tableau-svgrepo-com.svg?updatedAt=1744515840720
       #description: Details coming soon, contact me if you want to know more
     - title: Docker
       logo: https://ik.imagekit.io/ys4gkaixy/Skills/docker-svgrepo-com.svg?updatedAt=1744516637779
@@ -116,6 +98,30 @@ skill:
       #description: Details coming soon, contact me if you want to know more
     - title: NoSQL
       logo: https://ik.imagekit.io/ys4gkaixy/database-svgrepo-com.svg?updatedAt=1752785957256
+      #description: Details coming soon, contact me if you want to know more
+    - title: GitHub
+      logo: https://ik.imagekit.io/ys4gkaixy/Octicons-mark-github.svg?updatedAt=1757549837946
+      #description: Details coming soon, contact me if you want to know more
+    - title: Spring Boot
+      logo: https://ik.imagekit.io/ys4gkaixy/Spring_Boot.svg?updatedAt=1757549837981
+      #description: Details coming soon, contact me if you want to know more
+    - title: Hadoop
+      logo: https://ik.imagekit.io/ys4gkaixy/Skills/Hadoop_logo.svg?updatedAt=1744515841004
+      #description: Details coming soon, contact me if you want to know more
+    - title: Hive
+      logo: https://ik.imagekit.io/ys4gkaixy/Skills/Apache_Hive_logo.svg?updatedAt=1744515840837
+      #description: Details coming soon, contact me if you want to know more
+    - title: Sqoop
+      logo: https://ik.imagekit.io/ys4gkaixy/Skills/Apache_Sqoop_logo.svg?updatedAt=1744516638076
+      #description: Details coming soon, contact me if you want to know more
+    - title: Spark
+      logo: https://ik.imagekit.io/ys4gkaixy/Skills/Apache_Spark_logo.svg?updatedAt=1744515840188
+      #description: Details coming soon, contact me if you want to know more
+    - title: Tableau
+      logo: https://ik.imagekit.io/ys4gkaixy/Skills/tableau-svgrepo-com.svg?updatedAt=1744515840720
+      #description: Details coming soon, contact me if you want to know more
+    - title: Talend
+      logo: https://ik.imagekit.io/ys4gkaixy/Skills/Talend_logo.svg?updatedAt=1744515840184
       #description: Details coming soon, contact me if you want to know more
 
 
