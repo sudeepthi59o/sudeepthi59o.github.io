@@ -6,4 +6,3 @@ author: "Sudeepthi Rebbalapalli"
 type: "post"
 ---
 
-[Download my Resume](/Sudeepthi_Rebbalapalli_resume_master.pdf)
