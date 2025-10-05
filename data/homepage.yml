@@ -11,7 +11,7 @@ social:
   gmail: sudeepthi59o
 about:
   enable: true
-  content: Computer Science graduate with nearly 3 years of experience in software development and systems engineering, building web applications, databases, and automation workflows. Skilled in Java, JavaScript, SQL, and cloud technologies, with experience delivering scalable and reliable solutions.
+  content: Computer Science graduate with 3 years of experience in software development and systems engineering, building web applications, databases, and automation workflows. Skilled in Java, JavaScript, SQL, microservices and cloud technologies, with experience delivering scalable and reliable solutions.
   button:
     btnText: Find out more about me
     URL: "/about"
@@ -132,6 +132,10 @@ experience:
       title: Senior Consultant
       company: Heartland Community Network
       duration: June 2025 - Present
+    - logo: https://ik.imagekit.io/ys4gkaixy/Cyient_logo.jpg?updatedAt=1744745473448
+      title: Software Development Intern
+      company: Cyient
+      duration: April 2024 - August 2024
     - logo: https://ik.imagekit.io/ys4gkaixy/CAP.PA.svg?updatedAt=1744334791043
       title: Software Engineer (Associate Consultant)
       company: Capgemini
@@ -140,10 +144,7 @@ experience:
       title: Intern
       company: Capgemini
       duration: Jan 2021 - May 2021
-    - logo: https://ik.imagekit.io/ys4gkaixy/Cyient_logo.jpg?updatedAt=1744745473448
-      title: Data Science Intern
-      company: Cyient
-      duration: May 2020 - July 2020
+  
 hackathons:
   enable: false
   item:
