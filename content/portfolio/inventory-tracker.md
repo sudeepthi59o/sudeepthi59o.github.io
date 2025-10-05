@@ -3,7 +3,7 @@ categories = ["web-dev"]
 coders = []
 date = 2025-09-12T23:00:00Z
 description = "A full stack Inventory Tracker built with Spring Boot and React, deployed on AWS to manage product stock, suppliers, and categories"
-image = "https://ik.imagekit.io/ys4gkaixy/economy-games-svgrepo-com.svg?updatedAt=1744655154207"
+image = "https://ik.imagekit.io/ys4gkaixy/warehouse-inventory-stock-merchandise-svgrepo-com.svg?updatedAt=1759688272720"
 title = "Inventory Tracker Application"
 type = "post"
 weight = 1

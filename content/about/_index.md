@@ -11,4 +11,4 @@ I'm a recent graduate with an MS in Computer Science from Indiana University, pa
 
 Check out the Projects page to see what I’ve been working on.
 
-I'm actively seeking full-time opportunities starting **June 2025**.
+I'm actively seeking full-time opportunities starting **July 2025**.
