@@ -8,13 +8,17 @@ title = "Inventory Tracker Application"
 type = "post"
 weight = 1
 [[tech]]
-logo = "https://ik.imagekit.io/ys4gkaixy/Skills/java-14.svg?updatedAt=1744511053098"
-name = "Java"
-url = "https://www.java.com/en/"
-[[tech]]
 name = "Spring Boot"
 url = "https://spring.io/projects/spring-boot"
 logo = "https://ik.imagekit.io/ys4gkaixy/Spring_Boot.svg?updatedAt=1757549837981"
+[[tech]]
+logo = "https://ik.imagekit.io/ys4gkaixy/Postgresql_elephant.svg?updatedAt=1760063146108"
+name = "PostgreSQL"
+url = "https://www.postgresql.org"
+[[tech]]
+logo = "https://ik.imagekit.io/ys4gkaixy/React-icon.svg?updatedAt=1752785957314"
+name = "React"
+url = "https://react.dev"
 [[tech]]
 name = "AWS"
 url = "https://aws.amazon.com"
