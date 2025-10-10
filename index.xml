@@ -1,27 +1,93 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sudeepthi Rebbalapalli's Website on Sudeepthi Rebbalapalli</title><link>https://sudeepthi59o.github.io/</link><description>Recent content in Sudeepthi Rebbalapalli's Website on Sudeepthi Rebbalapalli</description><generator>Hugo</generator><language>en-gb</language><lastBuildDate>Fri, 12 Sep 2025 23:00:00 +0000</lastBuildDate><atom:link href="https://sudeepthi59o.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Inventory Tracker Application</title><link>https://sudeepthi59o.github.io/portfolio/inventory-tracker/</link><pubDate>Fri, 12 Sep 2025 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/inventory-tracker/</guid><description>&lt;h2 id="inventory-tracker---full-stack-web-application">Inventory Tracker - Full Stack Web Application&lt;/h2>
-&lt;h3 id="project-overview">Project Overview:&lt;/h3>
-&lt;p>The &lt;strong>Inventory Tracker&lt;/strong> is a full-stack web application designed to help businesses manage their product inventory, suppliers, and product categories with ease. The app allows users to view and update product stock, track supplier details, and organize products by categories, all through an intuitive interface.&lt;/p>
-&lt;h3 id="project-link">Project Link:&lt;/h3>
-&lt;p>&lt;a href="http://inventory-tracker-frontend-react.s3-website-us-east-1.amazonaws.com">Visit the application&lt;/a>
-&lt;a href="https://github.com/sudeepthi59o/InventoryTracker-SpringBoot-Backend">Spring Boot Backend Code&lt;/a>
-&lt;a href="https://github.com/sudeepthi59o/InventoryTracker-SpringBoot-Frontend">React Frontend Code&lt;/a>&lt;/p>
-&lt;h3 id="key-features">Key Features:&lt;/h3>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sudeepthi Rebbalapalli's Website on Sudeepthi Rebbalapalli</title><link>https://sudeepthi59o.github.io/</link><description>Recent content in Sudeepthi Rebbalapalli's Website on Sudeepthi Rebbalapalli</description><generator>Hugo</generator><language>en-gb</language><lastBuildDate>Fri, 12 Sep 2025 23:00:00 +0000</lastBuildDate><atom:link href="https://sudeepthi59o.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Inventory Tracker Application</title><link>https://sudeepthi59o.github.io/portfolio/inventory-tracker/</link><pubDate>Fri, 12 Sep 2025 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/inventory-tracker/</guid><description>&lt;h2 id="project-overview">Project Overview&lt;/h2>
+&lt;p>A full-stack inventory tracking system built with a Spring Boot backend and React frontend. The application allows users to view products, categories, and suppliers, while admins have full CRUD access. The project features secure JWT-based authentication and role-based access control.&lt;/p>
+&lt;hr>
+&lt;h2 id="project-links">Project Links&lt;/h2>
 &lt;ul>
-&lt;li>Manage products, including price, quantity, and category.&lt;/li>
-&lt;li>Add and edit suppliers, including contact information.&lt;/li>
-&lt;li>Easy-to-use web interface for seamless interaction with the database.&lt;/li>
-&lt;li>Role-based authentication for secure access.&lt;/li>
-&lt;li>Responsive design for both desktop and mobile users.&lt;/li>
+&lt;li>&lt;strong>Live Application&lt;/strong>: &lt;a href="http://inventory-tracker-frontend-react.s3-website-us-east-1.amazonaws.com/">View App&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Frontend Repository&lt;/strong>: &lt;a href="https://github.com/sudeepthi59o/InventoryTracker-SpringBoot-Frontend">GitHub - Frontend&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Backend Repository&lt;/strong>: &lt;a href="https://github.com/sudeepthi59o/InventoryTracker-SpringBoot-Backend">GitHub - Backend&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;h3 id="tech-stack">Tech Stack:&lt;/h3>
+&lt;hr>
+&lt;h2 id="tech-stack">Tech Stack:&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Layer&lt;/th>
+ &lt;th style="text-align: left">Technology&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;strong>Frontend&lt;/strong>&lt;/td>
+ &lt;td style="text-align: left">React, HTML/CSS, JavaScript (Fetch API)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;strong>Backend&lt;/strong>&lt;/td>
+ &lt;td style="text-align: left">Spring Boot, Spring MVC, Spring Security (JWT), Spring Data JPA&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;strong>Database&lt;/strong>&lt;/td>
+ &lt;td style="text-align: left">PostgreSQL (hosted on AWS RDS)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;strong>DevOps&lt;/strong>&lt;/td>
+ &lt;td style="text-align: left">GitHub Actions (CI/CD), AWS EC2 (backend), AWS S3 (frontend)&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2 id="features">Features&lt;/h2>
+&lt;h3 id="authentication--authorization">Authentication &amp;amp; Authorization&lt;/h3>
 &lt;ul>
-&lt;li>&lt;strong>Frontend&lt;/strong>: React.js (with hooks, context API) for a dynamic and responsive UI.&lt;/li>
-&lt;li>&lt;strong>Backend&lt;/strong>: Spring Boot (Java) for RESTful APIs and business logic.&lt;/li>
-&lt;li>&lt;strong>Database&lt;/strong>: PostgreSQL for reliable and scalable data storage.&lt;/li>
-&lt;li>&lt;strong>Deployment&lt;/strong>: Hosted on AWS for the server and RDS for database management.&lt;/li>
+&lt;li>Secure login using JWT (JSON Web Tokens) with Spring Security&lt;/li>
+&lt;li>Role-based access control:
+&lt;ul>
+&lt;li>&lt;strong>Admins&lt;/strong> can create, update, and delete products, categories, and suppliers&lt;/li>
+&lt;li>&lt;strong>All users&lt;/strong> can view products, categories, and suppliers&lt;/li>
 &lt;/ul>
-&lt;h3 id="github-actions-cicd">GitHub Actions (CI/CD):&lt;/h3>
-&lt;p>This project uses &lt;strong>GitHub Actions&lt;/strong> to automate the Continuous Integration and Continuous Deployment (CI/CD) pipeline. The workflow includes:&lt;/p></description></item><item><title>Automated Acquire Game</title><link>https://sudeepthi59o.github.io/portfolio/automated-acquire-game/</link><pubDate>Sat, 12 Apr 2025 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/automated-acquire-game/</guid><description>&lt;p>The Automated Acquire Game project is a Python-based implementation of the classic board game &lt;a href="https://en.wikipedia.org/wiki/Acquire">Acquire&lt;/a>, designed to simulate and automate gameplay. It includes intelligent decision-making algorithms to simulate player behavior and strategic gameplay. The project is structured with a modular object-oriented architecture, handling different components such as gameplay flow, board state management, and AI-driven player logic.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="product-category-and-supplier-management">Product, Category, and Supplier Management&lt;/h3>
+&lt;ul>
+&lt;li>Dedicated pages for browsing all categories and all suppliers&lt;/li>
+&lt;li>Users can view all products or filter by category and/or supplier&lt;/li>
+&lt;li>Admins can add, edit, and delete entries&lt;/li>
+&lt;/ul>
+&lt;h3 id="frontend-functionality-react">Frontend Functionality (React)&lt;/h3>
+&lt;ul>
+&lt;li>Login functionality to authenticate users&lt;/li>
+&lt;li>View all products or filter by supplier and/or category&lt;/li>
+&lt;li>Navigation to category and supplier pages&lt;/li>
+&lt;li>Logout functionality for authenticated users&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="backend-architecture">Backend Architecture&lt;/h2>
+&lt;ul>
+&lt;li>Built with &lt;strong>Spring Boot&lt;/strong>&lt;/li>
+&lt;li>RESTful API endpoints using Spring Web&lt;/li>
+&lt;li>Data persistence with &lt;strong>Spring Data JPA&lt;/strong> and &lt;strong>PostgreSQL&lt;/strong> (hosted on AWS RDS)&lt;/li>
+&lt;li>Authentication and authorization with &lt;strong>Spring Security&lt;/strong> and &lt;strong>JWT&lt;/strong>&lt;/li>
+&lt;li>Clean relational data model:
+&lt;ul>
+&lt;li>One-to-many: Category → Products&lt;/li>
+&lt;li>One-to-many: Supplier → Products&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="devops--deployment">DevOps &amp;amp; Deployment&lt;/h2>
+&lt;ul>
+&lt;li>Continuous Integration and Deployment to AWS using &lt;strong>GitHub Actions&lt;/strong>&lt;/li>
+&lt;li>Backend deployed to &lt;strong>AWS EC2&lt;/strong>&lt;/li>
+&lt;li>Frontend hosted via &lt;strong>AWS S3&lt;/strong> static website hosting&lt;/li>
+&lt;li>PostgreSQL database hosted on &lt;strong>AWS RDS&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;hr>
+&lt;h2 id="future-improvements">Future Improvements&lt;/h2>
+&lt;ul>
+&lt;li>Full CRUD for categories and suppliers&lt;/li>
+&lt;/ul></description></item><item><title>Automated Acquire Game</title><link>https://sudeepthi59o.github.io/portfolio/automated-acquire-game/</link><pubDate>Sat, 12 Apr 2025 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/automated-acquire-game/</guid><description>&lt;p>The Automated Acquire Game project is a Python-based implementation of the classic board game &lt;a href="https://en.wikipedia.org/wiki/Acquire">Acquire&lt;/a>, designed to simulate and automate gameplay. It includes intelligent decision-making algorithms to simulate player behavior and strategic gameplay. The project is structured with a modular object-oriented architecture, handling different components such as gameplay flow, board state management, and AI-driven player logic.&lt;/p>
 &lt;hr>
 &lt;h2 id="key-features">&lt;strong>Key Features&lt;/strong>&lt;/h2>
 &lt;ul>
