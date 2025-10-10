@@ -2,8 +2,26 @@
 &lt;h3 id="project-overview">Project Overview:&lt;/h3>
 &lt;p>The &lt;strong>Inventory Tracker&lt;/strong> is a full-stack web application designed to help businesses manage their product inventory, suppliers, and product categories with ease. The app allows users to view and update product stock, track supplier details, and organize products by categories, all through an intuitive interface.&lt;/p>
 &lt;h3 id="project-link">Project Link:&lt;/h3>
-&lt;p>&lt;a href="#">Link to the live project&lt;/a> (add your live URL here)
-&lt;a href="#">Link to the GitHub code&lt;/a> (add your live URL here)&lt;/p></description></item><item><title>StepWise - iOS Fitness Tracker</title><link>https://sudeepthi59o.github.io/portfolio/stepwise/</link><pubDate>Sat, 10 May 2025 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/stepwise/</guid><description>&lt;p>A lightweight and user-friendly iOS app designed to track and encourage daily walking goals. &lt;strong>StepWise&lt;/strong> leverages the Core Motion framework to access step data and includes features like goal setting, reminders, and history tracking — all implemented using modern SwiftUI patterns.&lt;/p>
+&lt;p>&lt;a href="http://inventory-tracker-frontend-react.s3-website-us-east-1.amazonaws.com">Visit the application&lt;/a>
+&lt;a href="https://github.com/sudeepthi59o/InventoryTracker-SpringBoot-Backend">Spring Boot Backend Code&lt;/a>
+&lt;a href="https://github.com/sudeepthi59o/InventoryTracker-SpringBoot-Frontend">React Frontend Code&lt;/a>&lt;/p>
+&lt;h3 id="key-features">Key Features:&lt;/h3>
+&lt;ul>
+&lt;li>Manage products, including price, quantity, and category.&lt;/li>
+&lt;li>Add and edit suppliers, including contact information.&lt;/li>
+&lt;li>Easy-to-use web interface for seamless interaction with the database.&lt;/li>
+&lt;li>Role-based authentication for secure access.&lt;/li>
+&lt;li>Responsive design for both desktop and mobile users.&lt;/li>
+&lt;/ul>
+&lt;h3 id="tech-stack">Tech Stack:&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Frontend&lt;/strong>: React.js (with hooks, context API) for a dynamic and responsive UI.&lt;/li>
+&lt;li>&lt;strong>Backend&lt;/strong>: Spring Boot (Java) for RESTful APIs and business logic.&lt;/li>
+&lt;li>&lt;strong>Database&lt;/strong>: PostgreSQL for reliable and scalable data storage.&lt;/li>
+&lt;li>&lt;strong>Deployment&lt;/strong>: Hosted on AWS for the server and RDS for database management.&lt;/li>
+&lt;/ul>
+&lt;h3 id="github-actions-cicd">GitHub Actions (CI/CD):&lt;/h3>
+&lt;p>This project uses &lt;strong>GitHub Actions&lt;/strong> to automate the Continuous Integration and Continuous Deployment (CI/CD) pipeline. The workflow includes:&lt;/p></description></item><item><title>StepWise - iOS Fitness Tracker</title><link>https://sudeepthi59o.github.io/portfolio/stepwise/</link><pubDate>Sat, 10 May 2025 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/stepwise/</guid><description>&lt;p>A lightweight and user-friendly iOS app designed to track and encourage daily walking goals. &lt;strong>StepWise&lt;/strong> leverages the Core Motion framework to access step data and includes features like goal setting, reminders, and history tracking — all implemented using modern SwiftUI patterns.&lt;/p>
 &lt;h2 id="core-features">&lt;strong>Core Features&lt;/strong>&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>Live Step Count Tracking:&lt;/strong> Users can manually start and stop tracking; live data is displayed in the app using CMPedometer.&lt;/li>
