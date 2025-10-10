@@ -7,87 +7,12 @@
 &lt;li>&lt;strong>Frontend Repository&lt;/strong>: &lt;a href="https://github.com/sudeepthi59o/InventoryTracker-SpringBoot-Frontend">GitHub - Frontend&lt;/a>&lt;/li>
 &lt;li>&lt;strong>Backend Repository&lt;/strong>: &lt;a href="https://github.com/sudeepthi59o/InventoryTracker-SpringBoot-Backend">GitHub - Backend&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;hr>
-&lt;h2 id="tech-stack">Tech Stack:&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th style="text-align: left">Layer&lt;/th>
- &lt;th style="text-align: left">Technology&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td style="text-align: left">&lt;strong>Frontend&lt;/strong>&lt;/td>
- &lt;td style="text-align: left">React, HTML/CSS, JavaScript (Fetch API)&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;strong>Backend&lt;/strong>&lt;/td>
- &lt;td style="text-align: left">Spring Boot, Spring MVC, Spring Security (JWT), Spring Data JPA&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;strong>Database&lt;/strong>&lt;/td>
- &lt;td style="text-align: left">PostgreSQL (hosted on AWS RDS)&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: left">&lt;strong>DevOps&lt;/strong>&lt;/td>
- &lt;td style="text-align: left">GitHub Actions (CI/CD), AWS EC2 (backend), AWS S3 (frontend)&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;hr>
-&lt;h2 id="features">Features&lt;/h2>
-&lt;h3 id="authentication--authorization">Authentication &amp;amp; Authorization&lt;/h3>
+&lt;p>If you&amp;rsquo;d like to explore the app with different access levels:&lt;/p>
 &lt;ul>
-&lt;li>Secure login using JWT (JSON Web Tokens) with Spring Security&lt;/li>
-&lt;li>Role-based access control:
-&lt;ul>
-&lt;li>&lt;strong>Admins&lt;/strong> can create, update, and delete products, categories, and suppliers&lt;/li>
-&lt;li>&lt;strong>All users&lt;/strong> can view products, categories, and suppliers&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h3 id="product-category-and-supplier-management">Product, Category, and Supplier Management&lt;/h3>
-&lt;ul>
-&lt;li>Dedicated pages for browsing all categories and all suppliers&lt;/li>
-&lt;li>Users can view all products or filter by category and/or supplier&lt;/li>
-&lt;li>Admins can add, edit, and delete entries&lt;/li>
-&lt;/ul>
-&lt;h3 id="frontend-functionality-react">Frontend Functionality (React)&lt;/h3>
-&lt;ul>
-&lt;li>Login functionality to authenticate users&lt;/li>
-&lt;li>View all products or filter by supplier and/or category&lt;/li>
-&lt;li>Navigation to category and supplier pages&lt;/li>
-&lt;li>Logout functionality for authenticated users&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h2 id="backend-architecture">Backend Architecture&lt;/h2>
-&lt;ul>
-&lt;li>Built with &lt;strong>Spring Boot&lt;/strong>&lt;/li>
-&lt;li>RESTful API endpoints using Spring Web&lt;/li>
-&lt;li>Data persistence with &lt;strong>Spring Data JPA&lt;/strong> and &lt;strong>PostgreSQL&lt;/strong> (hosted on AWS RDS)&lt;/li>
-&lt;li>Authentication and authorization with &lt;strong>Spring Security&lt;/strong> and &lt;strong>JWT&lt;/strong>&lt;/li>
-&lt;li>Clean relational data model:
-&lt;ul>
-&lt;li>One-to-many: Category → Products&lt;/li>
-&lt;li>One-to-many: Supplier → Products&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h2 id="devops--deployment">DevOps &amp;amp; Deployment&lt;/h2>
-&lt;ul>
-&lt;li>Continuous Integration and Deployment to AWS using &lt;strong>GitHub Actions&lt;/strong>&lt;/li>
-&lt;li>Backend deployed to &lt;strong>AWS EC2&lt;/strong>&lt;/li>
-&lt;li>Frontend hosted via &lt;strong>AWS S3&lt;/strong> static website hosting&lt;/li>
-&lt;li>PostgreSQL database hosted on &lt;strong>AWS RDS&lt;/strong>&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;hr>
-&lt;h2 id="future-improvements">Future Improvements&lt;/h2>
-&lt;ul>
-&lt;li>Full CRUD for categories and suppliers&lt;/li>
-&lt;/ul></description></item><item><title>Automated Acquire Game</title><link>https://sudeepthi59o.github.io/portfolio/automated-acquire-game/</link><pubDate>Sat, 12 Apr 2025 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/automated-acquire-game/</guid><description>&lt;p>The Automated Acquire Game project is a Python-based implementation of the classic board game &lt;a href="https://en.wikipedia.org/wiki/Acquire">Acquire&lt;/a>, designed to simulate and automate gameplay. It includes intelligent decision-making algorithms to simulate player behavior and strategic gameplay. The project is structured with a modular object-oriented architecture, handling different components such as gameplay flow, board state management, and AI-driven player logic.&lt;/p>
+&lt;li>
+&lt;p>To try the &lt;strong>admin login&lt;/strong>, use:&lt;br>
+&lt;code>Username: alice_smith&lt;/code>&lt;br>
+&lt;code>Password: alice_smith&lt;/code>&lt;/p></description></item><item><title>Automated Acquire Game</title><link>https://sudeepthi59o.github.io/portfolio/automated-acquire-game/</link><pubDate>Sat, 12 Apr 2025 23:00:00 +0000</pubDate><guid>https://sudeepthi59o.github.io/portfolio/automated-acquire-game/</guid><description>&lt;p>The Automated Acquire Game project is a Python-based implementation of the classic board game &lt;a href="https://en.wikipedia.org/wiki/Acquire">Acquire&lt;/a>, designed to simulate and automate gameplay. It includes intelligent decision-making algorithms to simulate player behavior and strategic gameplay. The project is structured with a modular object-oriented architecture, handling different components such as gameplay flow, board state management, and AI-driven player logic.&lt;/p>
 &lt;hr>
 &lt;h2 id="key-features">&lt;strong>Key Features&lt;/strong>&lt;/h2>
 &lt;ul>
