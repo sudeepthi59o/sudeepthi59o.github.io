@@ -37,16 +37,24 @@ A full-stack inventory tracking system built with a Spring Boot backend and Reac
 - **Frontend Repository**: [GitHub - Frontend](https://github.com/sudeepthi59o/InventoryTracker-SpringBoot-Frontend)
 - **Backend Repository**: [GitHub - Backend](https://github.com/sudeepthi59o/InventoryTracker-SpringBoot-Backend)
 
----
+If you'd like to explore the app with different access levels:
+
+- To try the **admin login**, use:  
+  `Username: alice_smith`  
+  `Password: alice_smith`
+
+- To try the **user login**, use:  
+  `Username: carol_brown`  
+  `Password: carol_brown`
 
 ## Tech Stack:
 
-| Layer        | Technology                                                      |
-| ------------ | --------------------------------------------------------------- |
-| **Frontend** | React, HTML/CSS, JavaScript (Fetch API)                         |
-| **Backend**  | Spring Boot, Spring MVC, Spring Security (JWT), Spring Data JPA |
-| **Database** | PostgreSQL (hosted on AWS RDS)                                  |
-| **DevOps**   | GitHub Actions (CI/CD), AWS EC2 (backend), AWS S3 (frontend)    |
+- Spring Boot (Spring REST, Spring Security (JWT), Spring Data JPA)
+- React
+- JavaScript (Axios)
+- PostgreSQL
+- GitHub Actions
+- AWS (EC2, S3, RDS)
 
 ---
 
@@ -92,8 +100,6 @@ A full-stack inventory tracking system built with a Spring Boot backend and Reac
 - Backend deployed to **AWS EC2**
 - Frontend hosted via **AWS S3** static website hosting
 - PostgreSQL database hosted on **AWS RDS**
-
----
 
 ---
 
