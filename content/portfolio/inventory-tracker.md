@@ -21,61 +21,78 @@ url = "https://aws.amazon.com"
 logo = "https://ik.imagekit.io/ys4gkaixy/Skills/Amazon_Web_Services_Logo.svg?updatedAt=1744515846258"
 +++
 
-## Inventory Tracker - Full Stack Web Application
+## Project Overview
 
-### Project Overview:
+A full-stack inventory tracking system built with a Spring Boot backend and React frontend. The application allows users to view products, categories, and suppliers, while admins have full CRUD access. The project features secure JWT-based authentication and role-based access control.
 
-The **Inventory Tracker** is a full-stack web application designed to help businesses manage their product inventory, suppliers, and product categories with ease. The app allows users to view and update product stock, track supplier details, and organize products by categories, all through an intuitive interface.
+---
 
-### Project Link:
+## Project Links
 
-[Visit the application](http://inventory-tracker-frontend-react.s3-website-us-east-1.amazonaws.com)
-[Spring Boot Backend Code](https://github.com/sudeepthi59o/InventoryTracker-SpringBoot-Backend)
-[React Frontend Code](https://github.com/sudeepthi59o/InventoryTracker-SpringBoot-Frontend)
+- **Live Application**: [View App](http://inventory-tracker-frontend-react.s3-website-us-east-1.amazonaws.com/)
+- **Frontend Repository**: [GitHub - Frontend](https://github.com/sudeepthi59o/InventoryTracker-SpringBoot-Frontend)
+- **Backend Repository**: [GitHub - Backend](https://github.com/sudeepthi59o/InventoryTracker-SpringBoot-Backend)
 
-### Key Features:
+---
 
-- Manage products, including price, quantity, and category.
-- Add and edit suppliers, including contact information.
-- Easy-to-use web interface for seamless interaction with the database.
-- Role-based authentication for secure access.
-- Responsive design for both desktop and mobile users.
+## Tech Stack:
 
-### Tech Stack:
+| Layer        | Technology                                                      |
+| ------------ | --------------------------------------------------------------- |
+| **Frontend** | React, HTML/CSS, JavaScript (Fetch API)                         |
+| **Backend**  | Spring Boot, Spring MVC, Spring Security (JWT), Spring Data JPA |
+| **Database** | PostgreSQL (hosted on AWS RDS)                                  |
+| **DevOps**   | GitHub Actions (CI/CD), AWS EC2 (backend), AWS S3 (frontend)    |
 
-- **Frontend**: React.js (with hooks, context API) for a dynamic and responsive UI.
-- **Backend**: Spring Boot (Java) for RESTful APIs and business logic.
-- **Database**: PostgreSQL for reliable and scalable data storage.
-- **Deployment**: Hosted on AWS for the server and RDS for database management.
+---
 
-### GitHub Actions (CI/CD):
+## Features
 
-This project uses **GitHub Actions** to automate the Continuous Integration and Continuous Deployment (CI/CD) pipeline. The workflow includes:
+### Authentication & Authorization
 
-- Running tests on every push and pull request.
-- Building and packaging the Spring Boot application.
+- Secure login using JWT (JSON Web Tokens) with Spring Security
+- Role-based access control:
+  - **Admins** can create, update, and delete products, categories, and suppliers
+  - **All users** can view products, categories, and suppliers
 
-The `.github/workflows` directory contains the CI/CD configuration that ensures the project is always up to date and deployed after successful testing.
+### Product, Category, and Supplier Management
 
-### Spring Libraries Used:
+- Dedicated pages for browsing all categories and all suppliers
+- Users can view all products or filter by category and/or supplier
+- Admins can add, edit, and delete entries
 
-The Spring Boot backend leverages several powerful libraries and tools to provide a seamless experience for the application. Some key libraries include:
+### Frontend Functionality (React)
 
-- **Spring Web**: For building RESTful APIs and handling HTTP requests.
-- **Spring Data JPA**: For interacting with the PostgreSQL database using JPA (Java Persistence API).
-- **Spring Security**: To handle user authentication and authorization. (JWT)
-- **Spring Boot Actuator**: For production-ready monitoring and management.
-- **Spring Validation**: For validating user input and ensuring data integrity.
-- **Hibernate**: For ORM (Object-Relational Mapping) and managing database entities.
+- Login functionality to authenticate users
+- View all products or filter by supplier and/or category
+- Navigation to category and supplier pages
+- Logout functionality for authenticated users
 
-### Purpose:
+---
 
-This project was built to showcase the capabilities of integrating modern web technologies for real-world applications. The goal is to provide a scalable, secure, and easy-to-use inventory management solution for small to medium-sized businesses.
+## Backend Architecture
 
-### Technologies Used:
+- Built with **Spring Boot**
+- RESTful API endpoints using Spring Web
+- Data persistence with **Spring Data JPA** and **PostgreSQL** (hosted on AWS RDS)
+- Authentication and authorization with **Spring Security** and **JWT**
+- Clean relational data model:
+  - One-to-many: Category → Products
+  - One-to-many: Supplier → Products
 
-- **Frontend**: React.js
-- **Backend**: Spring Boot, Hibernate, Java
-- **Database**: PostgreSQL
-- **Cloud**: AWS
-- **CI/CD**: GitHub Actions
+---
+
+## DevOps & Deployment
+
+- Continuous Integration and Deployment to AWS using **GitHub Actions**
+- Backend deployed to **AWS EC2**
+- Frontend hosted via **AWS S3** static website hosting
+- PostgreSQL database hosted on **AWS RDS**
+
+---
+
+---
+
+## Future Improvements
+
+- Full CRUD for categories and suppliers
