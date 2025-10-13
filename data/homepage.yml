@@ -11,7 +11,7 @@ social:
   gmail: sudeepthi59o
 about:
   enable: true
-  content: Computer Science graduate with 3 years of experience in software development and systems engineering, building web applications, databases, and automation workflows. Skilled in Java, JavaScript, SQL, microservices and cloud technologies, with experience delivering scalable and reliable solutions.
+  content: Computer Science graduate with 3 years of experience in software development and systems engineering, building web applications, databases, and automation workflows. Skilled in Java, Python, JavaScript, SQL, microservices and cloud technologies, with experience delivering scalable and reliable solutions.
   button:
     btnText: Find out more about me
     URL: "/about"
