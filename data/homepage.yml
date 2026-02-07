@@ -135,18 +135,10 @@ experience:
       title: Senior Consultant
       company: Heartland Community Network
       duration: June 2025 - Present
-    - logo: https://ik.imagekit.io/ys4gkaixy/Cyient_logo.jpg?updatedAt=1744745473448
-      title: Software Development Intern
-      company: Cyient
-      duration: April 2024 - August 2024
     - logo: https://ik.imagekit.io/ys4gkaixy/CAP.PA.svg?updatedAt=1744334791043
       title: Software Engineer (Associate Consultant)
       company: Capgemini
-      duration: June 2021 - July 2023
-    - logo: https://ik.imagekit.io/ys4gkaixy/CAP.PA.svg?updatedAt=1744334791043
-      title: Intern
-      company: Capgemini
-      duration: Jan 2021 - May 2021
+      duration: January 2021 - July 2023
   
 hackathons:
   enable: false
